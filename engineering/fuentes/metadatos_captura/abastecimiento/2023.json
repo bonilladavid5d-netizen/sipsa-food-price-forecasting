@@ -1,0 +1,17 @@
+{
+  "tipo": "abastecimiento",
+  "etiqueta": "Microdatos anonimizados año 2023",
+  "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2023.xlsx",
+  "portal": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/componente-abastecimientos-1",
+  "portal_sha256": "941cfaa221497dadbc7c5d1654ac8457637b29de61d4f3caae431d3dab435791",
+  "retrieved_at": "2026-11-11T15:02:12.238405+00:00",
+  "year": 2023,
+  "local_path": "raw/abastecimiento/2023.xlsx",
+  "resolved_url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2023.xlsx",
+  "sha256": "98f42cd3cc618b9413e5485a180b1c85a8477d69b9657d613da2e499a9f24d1a",
+  "bytes": 84759159,
+  "http_last_modified": null,
+  "http_content_type": null,
+  "historical_release_at": null,
+  "vintage_status": "current_snapshot_not_historical_vintage"
+}

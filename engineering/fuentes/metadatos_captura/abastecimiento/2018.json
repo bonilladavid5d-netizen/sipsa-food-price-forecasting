@@ -1,0 +1,17 @@
+{
+  "tipo": "abastecimiento",
+  "etiqueta": "Consulte Microdatos anonimizados año 2018",
+  "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2018.xlsx",
+  "portal": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/componente-abastecimientos-1",
+  "portal_sha256": "941cfaa221497dadbc7c5d1654ac8457637b29de61d4f3caae431d3dab435791",
+  "retrieved_at": "2026-11-11T15:02:39.886490+00:00",
+  "year": 2018,
+  "local_path": "raw/abastecimiento/2018.xlsx",
+  "resolved_url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2018.xlsx",
+  "sha256": "805d3de754da104813b6a717a6464dfb8ed0ff2a1b11ec0e6ffaa6137209a583",
+  "bytes": 90323508,
+  "http_last_modified": null,
+  "http_content_type": null,
+  "historical_release_at": null,
+  "vintage_status": "current_snapshot_not_historical_vintage"
+}

@@ -1,0 +1,17 @@
+{
+  "tipo": "abastecimiento",
+  "etiqueta": "Microdatos anonimizados año 2024",
+  "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-Microdato-abastecimiento-2024.xlsx",
+  "portal": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/componente-abastecimientos-1",
+  "portal_sha256": "941cfaa221497dadbc7c5d1654ac8457637b29de61d4f3caae431d3dab435791",
+  "retrieved_at": "2026-11-11T15:02:12.040290+00:00",
+  "year": 2024,
+  "local_path": "raw/abastecimiento/2024.xlsx",
+  "resolved_url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-Microdato-abastecimiento-2024.xlsx",
+  "sha256": "a498a8fd80c4b0e0305f95aac301983ef3b7e8dcbc2c24517f26f0c427ef4354",
+  "bytes": 109416241,
+  "http_last_modified": null,
+  "http_content_type": null,
+  "historical_release_at": null,
+  "vintage_status": "current_snapshot_not_historical_vintage"
+}

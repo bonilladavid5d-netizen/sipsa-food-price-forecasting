@@ -1,0 +1,793 @@
+escenario,modelo,corte,valor,series,filas,mase_medio,mase_mediana,error_firmado_pct_medio,prop_series_mejor_que_referente
+retro_p1_a2,estacional,global,todos,30,718,1.297408376,1.247447889,4.160832854,0.4
+retro_p1_a2,ingenuo,global,todos,30,718,1.070018109,0.9822760996,5.368125759,
+retro_p1_a2,rf_abast,global,todos,30,718,0.9373056177,0.8902412422,7.31964899,0.7
+retro_p1_a2,rf_abast_ctrl,global,todos,30,718,0.9373056177,0.8902412422,7.31964899,0.7
+retro_p1_a2,rf_precio,global,todos,30,718,0.9331900368,0.8770443977,7.208427505,0.7
+retro_p1_a2,ridge_abast,global,todos,30,718,0.9648504614,0.9414927809,7.466498107,0.6333333333
+retro_p1_a2,ridge_abast_ctrl,global,todos,30,718,0.9648504614,0.9414927809,7.466498107,0.6333333333
+retro_p1_a2,ridge_precio,global,todos,30,718,0.9618863748,0.9409079316,7.502139894,0.6333333333
+retro_r1,estacional,global,todos,30,718,1.297408376,1.247447889,4.160832854,0.4
+retro_r1,ingenuo,global,todos,30,718,1.070018109,0.9822760996,5.368125759,
+retro_r1,rf_abast,global,todos,30,718,0.938912354,0.8869375044,7.233313061,0.7
+retro_r1,rf_abast_ctrl,global,todos,30,718,0.938912354,0.8869375044,7.233313061,0.7
+retro_r1,rf_precio,global,todos,30,718,0.9344972827,0.8795164037,6.924314557,0.7
+retro_r1,ridge_abast,global,todos,30,718,0.9643108174,0.9387719581,7.284509628,0.6333333333
+retro_r1,ridge_abast_ctrl,global,todos,30,718,0.9643108174,0.9387719581,7.284509628,0.6333333333
+retro_r1,ridge_precio,global,todos,30,718,0.9613701025,0.9334304767,7.20038798,0.6333333333
+retro_r2,estacional,global,todos,30,718,1.30995584,1.258438528,4.160832854,0.5
+retro_r2,ingenuo,global,todos,30,718,1.26183664,1.187545985,7.694346456,
+retro_r2,rf_abast,global,todos,30,718,1.06952493,1.015244256,9.237499005,0.6666666667
+retro_r2,rf_abast_ctrl,global,todos,30,718,1.06952493,1.015244256,9.237499005,0.6666666667
+retro_r2,rf_precio,global,todos,30,718,1.0721988,1.008302229,8.969253442,0.6666666667
+retro_r2,ridge_abast,global,todos,30,718,1.124713061,1.091286425,9.820798702,0.6333333333
+retro_r2,ridge_abast_ctrl,global,todos,30,718,1.124713061,1.091286425,9.820798702,0.6333333333
+retro_r2,ridge_precio,global,todos,30,718,1.119815925,1.088743575,9.808047442,0.6333333333
+retro_p1_a2,estacional,anio,2024,30,360,1.422029526,1.314745382,6.447628779,0.3666666667
+retro_p1_a2,ingenuo,anio,2024,30,360,1.121250708,0.9661948231,5.227198814,
+retro_p1_a2,rf_abast,anio,2024,30,360,0.9607352332,0.8790489353,8.148927089,0.7
+retro_p1_a2,rf_abast_ctrl,anio,2024,30,360,0.9607352332,0.8790489353,8.148927089,0.7
+retro_p1_a2,rf_precio,anio,2024,30,360,0.9509613828,0.841763574,7.845144823,0.7
+retro_p1_a2,ridge_abast,anio,2024,30,360,0.9878655339,0.9108344666,8.61082523,0.6666666667
+retro_p1_a2,ridge_abast_ctrl,anio,2024,30,360,0.9878655339,0.9108344666,8.61082523,0.6666666667
+retro_p1_a2,ridge_precio,anio,2024,30,360,0.9846772262,0.9138870347,8.732079759,0.6666666667
+retro_r1,estacional,anio,2024,30,360,1.422029526,1.314745382,6.447628779,0.3666666667
+retro_r1,ingenuo,anio,2024,30,360,1.121250708,0.9661948231,5.227198814,
+retro_r1,rf_abast,anio,2024,30,360,0.9645808666,0.8683844452,8.173644405,0.6666666667
+retro_r1,rf_abast_ctrl,anio,2024,30,360,0.9645808666,0.8683844452,8.173644405,0.6666666667
+retro_r1,rf_precio,anio,2024,30,360,0.9534490005,0.8526068435,7.521704978,0.7
+retro_r1,ridge_abast,anio,2024,30,360,0.9898834004,0.9195217447,8.537662176,0.6666666667
+retro_r1,ridge_abast_ctrl,anio,2024,30,360,0.9898834004,0.9195217447,8.537662176,0.6666666667
+retro_r1,ridge_precio,anio,2024,30,360,0.9860535627,0.913017211,8.383981326,0.6666666667
+retro_r2,estacional,anio,2024,30,360,1.441270045,1.326489021,6.447628779,0.4666666667
+retro_r2,ingenuo,anio,2024,30,360,1.308804951,1.22042694,7.96531543,
+retro_r2,rf_abast,anio,2024,30,360,1.118785741,1.03719906,11.3912075,0.7
+retro_r2,rf_abast_ctrl,anio,2024,30,360,1.118785741,1.03719906,11.3912075,0.7
+retro_r2,rf_precio,anio,2024,30,360,1.116144744,0.9899774456,10.88848967,0.7
+retro_r2,ridge_abast,anio,2024,30,360,1.167090406,1.114455914,11.85512631,0.6666666667
+retro_r2,ridge_abast_ctrl,anio,2024,30,360,1.167090406,1.114455914,11.85512631,0.6666666667
+retro_r2,ridge_precio,anio,2024,30,360,1.162644714,1.103568224,11.86276531,0.6666666667
+retro_p1_a2,estacional,anio,2025,30,358,1.170278006,1.136566896,1.682181096,0.3666666667
+retro_p1_a2,ingenuo,anio,2025,30,358,1.017171491,0.9912982354,5.489527402,
+retro_p1_a2,rf_abast,anio,2025,30,358,0.913666353,0.8967162833,6.434305379,0.5666666667
+retro_p1_a2,rf_abast_ctrl,anio,2025,30,358,0.913666353,0.8967162833,6.434305379,0.5666666667
+retro_p1_a2,rf_precio,anio,2025,30,358,0.9153365365,0.8794438168,6.526292628,0.5666666667
+retro_p1_a2,ridge_abast,anio,2025,30,358,0.9428510009,0.8932827672,6.269958029,0.5
+retro_p1_a2,ridge_abast_ctrl,anio,2025,30,358,0.9428510009,0.8932827672,6.269958029,0.5
+retro_p1_a2,ridge_precio,anio,2025,30,358,0.9401083798,0.8909034618,6.217285851,0.5
+retro_r1,estacional,anio,2025,30,358,1.170278006,1.136566896,1.682181096,0.3666666667
+retro_r1,ingenuo,anio,2025,30,358,1.017171491,0.9912982354,5.489527402,
+retro_r1,rf_abast,anio,2025,30,358,0.9130817214,0.8880642325,6.235419863,0.5666666667
+retro_r1,rf_abast_ctrl,anio,2025,30,358,0.9130817214,0.8880642325,6.235419863,0.5666666667
+retro_r1,rf_precio,anio,2025,30,358,0.9154456329,0.88205185,6.285297065,0.5666666667
+retro_r1,ridge_abast,anio,2025,30,358,0.9397053141,0.8887168285,5.975409139,0.5
+retro_r1,ridge_abast_ctrl,anio,2025,30,358,0.9397053141,0.8887168285,5.975409139,0.5
+retro_r1,ridge_precio,anio,2025,30,358,0.9376977897,0.8775749207,5.964348929,0.5
+retro_r2,estacional,anio,2025,30,358,1.176039951,1.143281386,1.682181096,0.6
+retro_r2,ingenuo,anio,2025,30,358,1.212634792,1.148903731,7.367464009,
+retro_r2,rf_abast,anio,2025,30,358,1.019439756,1.037482992,6.950506142,0.7666666667
+retro_r2,rf_abast_ctrl,anio,2025,30,358,1.019439756,1.037482992,6.950506142,0.7666666667
+retro_r2,rf_precio,anio,2025,30,358,1.027506178,1.045747697,6.921628316,0.7666666667
+retro_r2,ridge_abast,anio,2025,30,358,1.082984594,1.032979816,7.708894917,0.6666666667
+retro_r2,ridge_abast_ctrl,anio,2025,30,358,1.082984594,1.032979816,7.708894917,0.6666666667
+retro_r2,ridge_precio,anio,2025,30,358,1.077604973,1.026826877,7.673185008,0.6666666667
+retro_p1_a2,estacional,producto,Ahuyama,3,72,1.364018894,1.288688457,-3.953895538,0
+retro_p1_a2,ingenuo,producto,Ahuyama,3,72,0.8291600047,0.8901550492,2.609267136,
+retro_p1_a2,rf_abast,producto,Ahuyama,3,72,0.8398711111,0.8328541391,2.988984474,0.6666666667
+retro_p1_a2,rf_abast_ctrl,producto,Ahuyama,3,72,0.8398711111,0.8328541391,2.988984474,0.6666666667
+retro_p1_a2,rf_precio,producto,Ahuyama,3,72,0.838513127,0.8350585832,2.961761101,0.6666666667
+retro_p1_a2,ridge_abast,producto,Ahuyama,3,72,0.9148698008,0.8420656814,2.500821961,0.3333333333
+retro_p1_a2,ridge_abast_ctrl,producto,Ahuyama,3,72,0.9148698008,0.8420656814,2.500821961,0.3333333333
+retro_p1_a2,ridge_precio,producto,Ahuyama,3,72,0.9125444838,0.8346951021,2.533427207,0.3333333333
+retro_r1,estacional,producto,Ahuyama,3,72,1.364018894,1.288688457,-3.953895538,0
+retro_r1,ingenuo,producto,Ahuyama,3,72,0.8291600047,0.8901550492,2.609267136,
+retro_r1,rf_abast,producto,Ahuyama,3,72,0.835259863,0.8489326145,2.955871976,0.6666666667
+retro_r1,rf_abast_ctrl,producto,Ahuyama,3,72,0.835259863,0.8489326145,2.955871976,0.6666666667
+retro_r1,rf_precio,producto,Ahuyama,3,72,0.8352410248,0.8355216774,2.799207035,0.6666666667
+retro_r1,ridge_abast,producto,Ahuyama,3,72,0.9250428332,0.8571128858,2.553248507,0.3333333333
+retro_r1,ridge_abast_ctrl,producto,Ahuyama,3,72,0.9250428332,0.8571128858,2.553248507,0.3333333333
+retro_r1,ridge_precio,producto,Ahuyama,3,72,0.9167446916,0.840286805,2.390648106,0.3333333333
+retro_r2,estacional,producto,Ahuyama,3,72,1.374153948,1.300829153,-3.953895538,0
+retro_r2,ingenuo,producto,Ahuyama,3,72,1.069989191,1.131949797,3.159706941,
+retro_r2,rf_abast,producto,Ahuyama,3,72,1.006863114,0.996041338,3.475640636,0.6666666667
+retro_r2,rf_abast_ctrl,producto,Ahuyama,3,72,1.006863114,0.996041338,3.475640636,0.6666666667
+retro_r2,rf_precio,producto,Ahuyama,3,72,1.020798499,1.011657731,3.277024853,0.6666666667
+retro_r2,ridge_abast,producto,Ahuyama,3,72,1.139880634,1.126777606,3.157851248,0.3333333333
+retro_r2,ridge_abast_ctrl,producto,Ahuyama,3,72,1.139880634,1.126777606,3.157851248,0.3333333333
+retro_r2,ridge_precio,producto,Ahuyama,3,72,1.132214054,1.116531326,3.079473512,0.3333333333
+retro_p1_a2,estacional,producto,Arveja verde en vaina,3,72,0.8267460282,0.8311450893,0.04235035384,1
+retro_p1_a2,ingenuo,producto,Arveja verde en vaina,3,72,1.110879681,1.170193012,3.013964175,
+retro_p1_a2,rf_abast,producto,Arveja verde en vaina,3,72,0.8513081938,0.8574459792,7.304075739,1
+retro_p1_a2,rf_abast_ctrl,producto,Arveja verde en vaina,3,72,0.8513081938,0.8574459792,7.304075739,1
+retro_p1_a2,rf_precio,producto,Arveja verde en vaina,3,72,0.8370510781,0.8436105513,7.339076391,1
+retro_p1_a2,ridge_abast,producto,Arveja verde en vaina,3,72,0.7746720575,0.7712808163,5.05285638,1
+retro_p1_a2,ridge_abast_ctrl,producto,Arveja verde en vaina,3,72,0.7746720575,0.7712808163,5.05285638,1
+retro_p1_a2,ridge_precio,producto,Arveja verde en vaina,3,72,0.7735471322,0.7663485289,5.06493804,1
+retro_r1,estacional,producto,Arveja verde en vaina,3,72,0.8267460282,0.8311450893,0.04235035384,1
+retro_r1,ingenuo,producto,Arveja verde en vaina,3,72,1.110879681,1.170193012,3.013964175,
+retro_r1,rf_abast,producto,Arveja verde en vaina,3,72,0.8441778126,0.851682938,6.715527247,1
+retro_r1,rf_abast_ctrl,producto,Arveja verde en vaina,3,72,0.8441778126,0.851682938,6.715527247,1
+retro_r1,rf_precio,producto,Arveja verde en vaina,3,72,0.8445189674,0.8487824973,6.978216099,1
+retro_r1,ridge_abast,producto,Arveja verde en vaina,3,72,0.7820463994,0.7754579209,4.686743956,1
+retro_r1,ridge_abast_ctrl,producto,Arveja verde en vaina,3,72,0.7820463994,0.7754579209,4.686743956,1
+retro_r1,ridge_precio,producto,Arveja verde en vaina,3,72,0.7826893397,0.7694321506,4.724145194,1
+retro_r2,estacional,producto,Arveja verde en vaina,3,72,0.8265725483,0.8289595088,0.04235035384,1
+retro_r2,ingenuo,producto,Arveja verde en vaina,3,72,1.354370957,1.430906551,4.993138723,
+retro_r2,rf_abast,producto,Arveja verde en vaina,3,72,0.9859659229,1.012126893,9.71846862,1
+retro_r2,rf_abast_ctrl,producto,Arveja verde en vaina,3,72,0.9859659229,1.012126893,9.71846862,1
+retro_r2,rf_precio,producto,Arveja verde en vaina,3,72,0.9777311694,0.9963232304,9.8129132,1
+retro_r2,ridge_abast,producto,Arveja verde en vaina,3,72,0.917833745,0.9097507271,6.667576797,1
+retro_r2,ridge_abast_ctrl,producto,Arveja verde en vaina,3,72,0.917833745,0.9097507271,6.667576797,1
+retro_r2,ridge_precio,producto,Arveja verde en vaina,3,72,0.9138168397,0.9052148249,6.663637786,1
+retro_p1_a2,estacional,producto,Banano criollo,3,72,2.311206152,1.951147342,-9.403744611,0
+retro_p1_a2,ingenuo,producto,Banano criollo,3,72,0.8147241778,0.7350183183,-0.7079012846,
+retro_p1_a2,rf_abast,producto,Banano criollo,3,72,1.103645165,0.937535803,0.1139368697,0
+retro_p1_a2,rf_abast_ctrl,producto,Banano criollo,3,72,1.103645165,0.937535803,0.1139368697,0
+retro_p1_a2,rf_precio,producto,Banano criollo,3,72,1.090738514,0.915126818,0.1078437637,0
+retro_p1_a2,ridge_abast,producto,Banano criollo,3,72,1.43018259,1.338116367,2.198033274,0
+retro_p1_a2,ridge_abast_ctrl,producto,Banano criollo,3,72,1.43018259,1.338116367,2.198033274,0
+retro_p1_a2,ridge_precio,producto,Banano criollo,3,72,1.404160032,1.306297277,1.982805773,0
+retro_r1,estacional,producto,Banano criollo,3,72,2.311206152,1.951147342,-9.403744611,0
+retro_r1,ingenuo,producto,Banano criollo,3,72,0.8147241778,0.7350183183,-0.7079012846,
+retro_r1,rf_abast,producto,Banano criollo,3,72,1.079043231,0.9139165218,0.1810448298,0
+retro_r1,rf_abast_ctrl,producto,Banano criollo,3,72,1.079043231,0.9139165218,0.1810448298,0
+retro_r1,rf_precio,producto,Banano criollo,3,72,1.101407339,0.9330448986,0.003378166852,0
+retro_r1,ridge_abast,producto,Banano criollo,3,72,1.415897864,1.313842539,1.912614813,0
+retro_r1,ridge_abast_ctrl,producto,Banano criollo,3,72,1.415897864,1.313842539,1.912614813,0
+retro_r1,ridge_precio,producto,Banano criollo,3,72,1.405966487,1.303867719,1.786543749,0
+retro_r2,estacional,producto,Banano criollo,3,72,2.385762836,1.982102713,-9.403744611,0
+retro_r2,ingenuo,producto,Banano criollo,3,72,1.005660746,0.8782971888,-1.18606665,
+retro_r2,rf_abast,producto,Banano criollo,3,72,1.385799314,1.220321802,0.1440792704,0
+retro_r2,rf_abast_ctrl,producto,Banano criollo,3,72,1.385799314,1.220321802,0.1440792704,0
+retro_r2,rf_precio,producto,Banano criollo,3,72,1.423786372,1.243269811,-0.08894051396,0
+retro_r2,ridge_abast,producto,Banano criollo,3,72,1.788955983,1.654217079,2.984533132,0
+retro_r2,ridge_abast_ctrl,producto,Banano criollo,3,72,1.788955983,1.654217079,2.984533132,0
+retro_r2,ridge_precio,producto,Banano criollo,3,72,1.763946628,1.626043731,2.77747465,0
+retro_p1_a2,estacional,producto,Chócolo mazorca,3,72,1.121300096,1.040733661,0.03730572236,0.3333333333
+retro_p1_a2,ingenuo,producto,Chócolo mazorca,3,72,1.137375942,0.9389536492,0.2508830923,
+retro_p1_a2,rf_abast,producto,Chócolo mazorca,3,72,0.9292616002,0.7654243713,3.330243324,1
+retro_p1_a2,rf_abast_ctrl,producto,Chócolo mazorca,3,72,0.9292616002,0.7654243713,3.330243324,1
+retro_p1_a2,rf_precio,producto,Chócolo mazorca,3,72,0.9192000095,0.7616942613,3.454316401,1
+retro_p1_a2,ridge_abast,producto,Chócolo mazorca,3,72,0.8618165504,0.6768621766,2.383686714,1
+retro_p1_a2,ridge_abast_ctrl,producto,Chócolo mazorca,3,72,0.8618165504,0.6768621766,2.383686714,1
+retro_p1_a2,ridge_precio,producto,Chócolo mazorca,3,72,0.8569170801,0.6820999173,2.297075182,1
+retro_r1,estacional,producto,Chócolo mazorca,3,72,1.121300096,1.040733661,0.03730572236,0.3333333333
+retro_r1,ingenuo,producto,Chócolo mazorca,3,72,1.137375942,0.9389536492,0.2508830923,
+retro_r1,rf_abast,producto,Chócolo mazorca,3,72,0.9360274649,0.780181884,3.218263598,1
+retro_r1,rf_abast_ctrl,producto,Chócolo mazorca,3,72,0.9360274649,0.780181884,3.218263598,1
+retro_r1,rf_precio,producto,Chócolo mazorca,3,72,0.9150120206,0.7438696286,2.828800293,1
+retro_r1,ridge_abast,producto,Chócolo mazorca,3,72,0.8597668257,0.6900466914,1.90152959,1
+retro_r1,ridge_abast_ctrl,producto,Chócolo mazorca,3,72,0.8597668257,0.6900466914,1.90152959,1
+retro_r1,ridge_precio,producto,Chócolo mazorca,3,72,0.8583217586,0.6912733737,1.923234452,1
+retro_r2,estacional,producto,Chócolo mazorca,3,72,1.121340283,1.040271845,0.03730572236,0.6666666667
+retro_r2,ingenuo,producto,Chócolo mazorca,3,72,1.317358464,1.028922166,-0.2675011084,
+retro_r2,rf_abast,producto,Chócolo mazorca,3,72,1.070936152,0.957770231,5.578018147,0.6666666667
+retro_r2,rf_abast_ctrl,producto,Chócolo mazorca,3,72,1.070936152,0.957770231,5.578018147,0.6666666667
+retro_r2,rf_precio,producto,Chócolo mazorca,3,72,1.065327676,0.9014341099,5.222457891,0.6666666667
+retro_r2,ridge_abast,producto,Chócolo mazorca,3,72,0.9716604529,0.7562301858,3.375120964,1
+retro_r2,ridge_abast_ctrl,producto,Chócolo mazorca,3,72,0.9716604529,0.7562301858,3.375120964,1
+retro_r2,ridge_precio,producto,Chócolo mazorca,3,72,0.9681544054,0.764122592,3.369006636,1
+retro_p1_a2,estacional,producto,Guayaba pera,3,72,1.379636013,1.408230952,-4.789299643,0.6666666667
+retro_p1_a2,ingenuo,producto,Guayaba pera,3,72,1.773812227,2.137301492,4.088601121,
+retro_p1_a2,rf_abast,producto,Guayaba pera,3,72,1.281807442,1.400064534,2.232709773,1
+retro_p1_a2,rf_abast_ctrl,producto,Guayaba pera,3,72,1.281807442,1.400064534,2.232709773,1
+retro_p1_a2,rf_precio,producto,Guayaba pera,3,72,1.291954271,1.44043741,2.404197274,1
+retro_p1_a2,ridge_abast,producto,Guayaba pera,3,72,1.192567934,1.202143761,3.426357986,1
+retro_p1_a2,ridge_abast_ctrl,producto,Guayaba pera,3,72,1.192567934,1.202143761,3.426357986,1
+retro_p1_a2,ridge_precio,producto,Guayaba pera,3,72,1.183349096,1.194086962,3.394593589,1
+retro_r1,estacional,producto,Guayaba pera,3,72,1.379636013,1.408230952,-4.789299643,0.6666666667
+retro_r1,ingenuo,producto,Guayaba pera,3,72,1.773812227,2.137301492,4.088601121,
+retro_r1,rf_abast,producto,Guayaba pera,3,72,1.287391239,1.434723777,2.141040475,1
+retro_r1,rf_abast_ctrl,producto,Guayaba pera,3,72,1.287391239,1.434723777,2.141040475,1
+retro_r1,rf_precio,producto,Guayaba pera,3,72,1.275726055,1.402520816,1.994711911,1
+retro_r1,ridge_abast,producto,Guayaba pera,3,72,1.172710626,1.204218804,3.448457469,1
+retro_r1,ridge_abast_ctrl,producto,Guayaba pera,3,72,1.172710626,1.204218804,3.448457469,1
+retro_r1,ridge_precio,producto,Guayaba pera,3,72,1.18127763,1.191889357,3.30107183,1
+retro_r2,estacional,producto,Guayaba pera,3,72,1.382923806,1.40781116,-4.789299643,1
+retro_r2,ingenuo,producto,Guayaba pera,3,72,1.934669245,2.058470962,3.081327567,
+retro_r2,rf_abast,producto,Guayaba pera,3,72,1.358405658,1.372138387,2.862747483,1
+retro_r2,rf_abast_ctrl,producto,Guayaba pera,3,72,1.358405658,1.372138387,2.862747483,1
+retro_r2,rf_precio,producto,Guayaba pera,3,72,1.379870598,1.426185447,2.868231885,1
+retro_r2,ridge_abast,producto,Guayaba pera,3,72,1.269408617,1.370849232,3.584975211,1
+retro_r2,ridge_abast_ctrl,producto,Guayaba pera,3,72,1.269408617,1.370849232,3.584975211,1
+retro_r2,ridge_precio,producto,Guayaba pera,3,72,1.262869445,1.342596576,3.475463164,1
+retro_p1_a2,estacional,producto,Habichuela,3,72,1.17215533,1.246959923,0.06331682076,0.6666666667
+retro_p1_a2,ingenuo,producto,Habichuela,3,72,1.266328574,1.209407098,8.232167814,
+retro_p1_a2,rf_abast,producto,Habichuela,3,72,1.039624973,1.064648627,8.50076556,1
+retro_p1_a2,rf_abast_ctrl,producto,Habichuela,3,72,1.039624973,1.064648627,8.50076556,1
+retro_p1_a2,rf_precio,producto,Habichuela,3,72,1.038447814,1.069226632,8.674116237,1
+retro_p1_a2,ridge_abast,producto,Habichuela,3,72,1.056473799,1.074172328,8.915324569,1
+retro_p1_a2,ridge_abast_ctrl,producto,Habichuela,3,72,1.056473799,1.074172328,8.915324569,1
+retro_p1_a2,ridge_precio,producto,Habichuela,3,72,1.057760326,1.067323735,8.922945949,1
+retro_r1,estacional,producto,Habichuela,3,72,1.17215533,1.246959923,0.06331682076,0.6666666667
+retro_r1,ingenuo,producto,Habichuela,3,72,1.266328574,1.209407098,8.232167814,
+retro_r1,rf_abast,producto,Habichuela,3,72,1.057816113,1.107426095,8.411190137,1
+retro_r1,rf_abast_ctrl,producto,Habichuela,3,72,1.057816113,1.107426095,8.411190137,1
+retro_r1,rf_precio,producto,Habichuela,3,72,1.062298642,1.092706412,8.547005466,1
+retro_r1,ridge_abast,producto,Habichuela,3,72,1.053001598,1.059350781,8.111976645,1
+retro_r1,ridge_abast_ctrl,producto,Habichuela,3,72,1.053001598,1.059350781,8.111976645,1
+retro_r1,ridge_precio,producto,Habichuela,3,72,1.053739085,1.057876062,8.298574091,1
+retro_r2,estacional,producto,Habichuela,3,72,1.174010496,1.250260125,0.06331682076,0.6666666667
+retro_r2,ingenuo,producto,Habichuela,3,72,1.416949433,1.465926719,13.44368754,
+retro_r2,rf_abast,producto,Habichuela,3,72,1.022241287,1.030274514,8.73357516,1
+retro_r2,rf_abast_ctrl,producto,Habichuela,3,72,1.022241287,1.030274514,8.73357516,1
+retro_r2,rf_precio,producto,Habichuela,3,72,1.01750145,1.024544844,8.431342627,1
+retro_r2,ridge_abast,producto,Habichuela,3,72,1.053316434,1.053956405,10.43974877,1
+retro_r2,ridge_abast_ctrl,producto,Habichuela,3,72,1.053316434,1.053956405,10.43974877,1
+retro_r2,ridge_precio,producto,Habichuela,3,72,1.053562637,1.050040825,10.5109266,1
+retro_p1_a2,estacional,producto,Lechuga Batavia,3,72,0.9362716591,1.005517177,-3.649138054,0.6666666667
+retro_p1_a2,ingenuo,producto,Lechuga Batavia,3,72,1.031355797,1.008197021,7.893563249,
+retro_p1_a2,rf_abast,producto,Lechuga Batavia,3,72,0.8471288651,0.7866451926,7.830763771,1
+retro_p1_a2,rf_abast_ctrl,producto,Lechuga Batavia,3,72,0.8471288651,0.7866451926,7.830763771,1
+retro_p1_a2,rf_precio,producto,Lechuga Batavia,3,72,0.861529035,0.8079759935,7.625041812,1
+retro_p1_a2,ridge_abast,producto,Lechuga Batavia,3,72,0.8240765192,0.7652582182,6.501586362,1
+retro_p1_a2,ridge_abast_ctrl,producto,Lechuga Batavia,3,72,0.8240765192,0.7652582182,6.501586362,1
+retro_p1_a2,ridge_precio,producto,Lechuga Batavia,3,72,0.8284307494,0.7615867382,6.610135015,1
+retro_r1,estacional,producto,Lechuga Batavia,3,72,0.9362716591,1.005517177,-3.649138054,0.6666666667
+retro_r1,ingenuo,producto,Lechuga Batavia,3,72,1.031355797,1.008197021,7.893563249,
+retro_r1,rf_abast,producto,Lechuga Batavia,3,72,0.8608149371,0.8169504097,8.199204319,1
+retro_r1,rf_abast_ctrl,producto,Lechuga Batavia,3,72,0.8608149371,0.8169504097,8.199204319,1
+retro_r1,rf_precio,producto,Lechuga Batavia,3,72,0.8653368143,0.8276959109,7.468140866,1
+retro_r1,ridge_abast,producto,Lechuga Batavia,3,72,0.8285772324,0.7625327924,6.6053806,1
+retro_r1,ridge_abast_ctrl,producto,Lechuga Batavia,3,72,0.8285772324,0.7625327924,6.6053806,1
+retro_r1,ridge_precio,producto,Lechuga Batavia,3,72,0.8326185022,0.7609735255,6.466306615,1
+retro_r2,estacional,producto,Lechuga Batavia,3,72,0.9356128833,1.004716239,-3.649138054,0.6666666667
+retro_r2,ingenuo,producto,Lechuga Batavia,3,72,1.235081365,1.188083069,11.55514712,
+retro_r2,rf_abast,producto,Lechuga Batavia,3,72,0.8753507368,0.8437050313,6.956846521,1
+retro_r2,rf_abast_ctrl,producto,Lechuga Batavia,3,72,0.8753507368,0.8437050313,6.956846521,1
+retro_r2,rf_precio,producto,Lechuga Batavia,3,72,0.8926920839,0.8494776212,6.1599367,1
+retro_r2,ridge_abast,producto,Lechuga Batavia,3,72,0.9385065729,0.8532209285,8.29317538,1
+retro_r2,ridge_abast_ctrl,producto,Lechuga Batavia,3,72,0.9385065729,0.8532209285,8.29317538,1
+retro_r2,ridge_precio,producto,Lechuga Batavia,3,72,0.9401225776,0.845811437,8.305296861,1
+retro_p1_a2,estacional,producto,Limón Tahití,3,70,1.346255411,1.375945304,28.91014796,0.6666666667
+retro_p1_a2,ingenuo,producto,Limón Tahití,3,70,1.399062336,1.419182748,23.72166025,
+retro_p1_a2,rf_abast,producto,Limón Tahití,3,70,0.9930629529,1.027003299,19.01404243,1
+retro_p1_a2,rf_abast_ctrl,producto,Limón Tahití,3,70,0.9930629529,1.027003299,19.01404243,1
+retro_p1_a2,rf_precio,producto,Limón Tahití,3,70,0.9962748728,1.030038046,18.39974941,1
+retro_p1_a2,ridge_abast,producto,Limón Tahití,3,70,0.9681829767,0.9514471958,18.28178543,1
+retro_p1_a2,ridge_abast_ctrl,producto,Limón Tahití,3,70,0.9681829767,0.9514471958,18.28178543,1
+retro_p1_a2,ridge_precio,producto,Limón Tahití,3,70,0.9688280595,0.9515153114,18.32162865,1
+retro_r1,estacional,producto,Limón Tahití,3,70,1.346255411,1.375945304,28.91014796,0.6666666667
+retro_r1,ingenuo,producto,Limón Tahití,3,70,1.399062336,1.419182748,23.72166025,
+retro_r1,rf_abast,producto,Limón Tahití,3,70,1.00520569,1.026939727,18.57496441,1
+retro_r1,rf_abast_ctrl,producto,Limón Tahití,3,70,1.00520569,1.026939727,18.57496441,1
+retro_r1,rf_precio,producto,Limón Tahití,3,70,0.9955706698,1.027439544,17.96065185,1
+retro_r1,ridge_abast,producto,Limón Tahití,3,70,0.9675528119,0.9502298803,17.5345914,1
+retro_r1,ridge_abast_ctrl,producto,Limón Tahití,3,70,0.9675528119,0.9502298803,17.5345914,1
+retro_r1,ridge_precio,producto,Limón Tahití,3,70,0.9603442357,0.9393583223,17.3229293,1
+retro_r2,estacional,producto,Limón Tahití,3,70,1.355868783,1.38528573,28.91014796,1
+retro_r2,ingenuo,producto,Limón Tahití,3,70,1.674452095,1.669795566,34.03115904,
+retro_r2,rf_abast,producto,Limón Tahití,3,70,1.210827041,1.167718375,25.13912054,1
+retro_r2,rf_abast_ctrl,producto,Limón Tahití,3,70,1.210827041,1.167718375,25.13912054,1
+retro_r2,rf_precio,producto,Limón Tahití,3,70,1.209662329,1.17497047,25.25070252,1
+retro_r2,ridge_abast,producto,Limón Tahití,3,70,1.149643121,1.119316489,23.69805736,1
+retro_r2,ridge_abast_ctrl,producto,Limón Tahití,3,70,1.149643121,1.119316489,23.69805736,1
+retro_r2,ridge_precio,producto,Limón Tahití,3,70,1.147467444,1.119779443,23.6965522,1
+retro_p1_a2,estacional,producto,Piña gold,3,72,1.383082967,1.349519446,20.56613583,0
+retro_p1_a2,ingenuo,producto,Piña gold,3,72,0.7972430859,0.7975208479,5.528966756,
+retro_p1_a2,rf_abast,producto,Piña gold,3,72,0.8256020768,0.8214859165,13.43868378,0.3333333333
+retro_p1_a2,rf_abast_ctrl,producto,Piña gold,3,72,0.8256020768,0.8214859165,13.43868378,0.3333333333
+retro_p1_a2,rf_precio,producto,Piña gold,3,72,0.8161478102,0.8241297211,13.5932643,0.3333333333
+retro_p1_a2,ridge_abast,producto,Piña gold,3,72,0.9470311951,0.9458549691,18.27825748,0
+retro_p1_a2,ridge_abast_ctrl,producto,Piña gold,3,72,0.9470311951,0.9458549691,18.27825748,0
+retro_p1_a2,ridge_precio,producto,Piña gold,3,72,0.9515964634,0.9494018124,18.60613406,0
+retro_r1,estacional,producto,Piña gold,3,72,1.383082967,1.349519446,20.56613583,0
+retro_r1,ingenuo,producto,Piña gold,3,72,0.7972430859,0.7975208479,5.528966756,
+retro_r1,rf_abast,producto,Piña gold,3,72,0.8167758126,0.8332785611,13.54098095,0.3333333333
+retro_r1,rf_abast_ctrl,producto,Piña gold,3,72,0.8167758126,0.8332785611,13.54098095,0.3333333333
+retro_r1,rf_precio,producto,Piña gold,3,72,0.8071202352,0.8099810189,13.33039405,0.3333333333
+retro_r1,ridge_abast,producto,Piña gold,3,72,0.9503611478,0.947599077,18.48785029,0
+retro_r1,ridge_abast_ctrl,producto,Piña gold,3,72,0.9503611478,0.947599077,18.48785029,0
+retro_r1,ridge_precio,producto,Piña gold,3,72,0.9452385371,0.942377906,18.43544084,0
+retro_r2,estacional,producto,Piña gold,3,72,1.398359652,1.362794981,20.56613583,0
+retro_r2,ingenuo,producto,Piña gold,3,72,0.9836424091,0.9991883569,9.395810193,
+retro_r2,rf_abast,producto,Piña gold,3,72,0.9920684101,1.015147861,19.06496822,0.3333333333
+retro_r2,rf_abast_ctrl,producto,Piña gold,3,72,0.9920684101,1.015147861,19.06496822,0.3333333333
+retro_r2,rf_precio,producto,Piña gold,3,72,0.9675284311,0.9719137702,18.908283,0.3333333333
+retro_r2,ridge_abast,producto,Piña gold,3,72,1.153653035,1.12615467,24.66296061,0
+retro_r2,ridge_abast_ctrl,producto,Piña gold,3,72,1.153653035,1.12615467,24.66296061,0
+retro_r2,ridge_precio,producto,Piña gold,3,72,1.156425213,1.140289033,24.86304579,0
+retro_p1_a2,estacional,producto,Plátano hartón verde,3,72,1.133411207,1.176364337,13.78514969,0
+retro_p1_a2,ingenuo,producto,Plátano hartón verde,3,72,0.5402392617,0.5061774697,-0.9499147153,
+retro_p1_a2,rf_abast,producto,Plátano hartón verde,3,72,0.6617437982,0.655159256,8.442284179,0
+retro_p1_a2,rf_abast_ctrl,producto,Plátano hartón verde,3,72,0.6617437982,0.655159256,8.442284179,0
+retro_p1_a2,rf_precio,producto,Plátano hartón verde,3,72,0.6420438363,0.642560078,7.524908359,0
+retro_p1_a2,ridge_abast,producto,Plátano hartón verde,3,72,0.6786311914,0.6698394558,7.126270921,0
+retro_p1_a2,ridge_abast_ctrl,producto,Plátano hartón verde,3,72,0.6786311914,0.6698394558,7.126270921,0
+retro_p1_a2,ridge_precio,producto,Plátano hartón verde,3,72,0.6817303256,0.6739769857,7.28771548,0
+retro_r1,estacional,producto,Plátano hartón verde,3,72,1.133411207,1.176364337,13.78514969,0
+retro_r1,ingenuo,producto,Plátano hartón verde,3,72,0.5402392617,0.5061774697,-0.9499147153,
+retro_r1,rf_abast,producto,Plátano hartón verde,3,72,0.6666113772,0.6666707859,8.395042663,0
+retro_r1,rf_abast_ctrl,producto,Plátano hartón verde,3,72,0.6666113772,0.6666707859,8.395042663,0
+retro_r1,rf_precio,producto,Plátano hartón verde,3,72,0.642741059,0.6384824286,7.332639835,0
+retro_r1,ridge_abast,producto,Plátano hartón verde,3,72,0.6881508353,0.685355488,7.602703005,0
+retro_r1,ridge_abast_ctrl,producto,Plátano hartón verde,3,72,0.6881508353,0.685355488,7.602703005,0
+retro_r1,ridge_precio,producto,Plátano hartón verde,3,72,0.6767607582,0.6727064912,7.354985616,0
+retro_r2,estacional,producto,Plátano hartón verde,3,72,1.144953164,1.193674245,13.78514969,0
+retro_r2,ingenuo,producto,Plátano hartón verde,3,72,0.6261924987,0.5595287368,-1.26294481,
+retro_r2,rf_abast,producto,Plátano hartón verde,3,72,0.7867916626,0.7817096807,10.70152544,0
+retro_r2,rf_abast_ctrl,producto,Plátano hartón verde,3,72,0.7867916626,0.7817096807,10.70152544,0
+retro_r2,rf_precio,producto,Plátano hartón verde,3,72,0.7670893964,0.7545138409,9.850582263,0
+retro_r2,ridge_abast,producto,Plátano hartón verde,3,72,0.8642720111,0.8922220878,11.34398756,0
+retro_r2,ridge_abast_ctrl,producto,Plátano hartón verde,3,72,0.8642720111,0.8922220878,11.34398756,0
+retro_r2,ridge_precio,producto,Plátano hartón verde,3,72,0.8595800097,0.8889989625,11.33959722,0
+retro_p1_a2,estacional,mercado,"Bogotá, D.C., Corabastos",10,240,1.278233103,1.279265218,2.784438334,0.5
+retro_p1_a2,ingenuo,mercado,"Bogotá, D.C., Corabastos",10,240,1.16466594,1.183951412,5.021542302,
+retro_p1_a2,rf_abast,mercado,"Bogotá, D.C., Corabastos",10,240,0.9830769512,0.9151475175,6.785475876,0.7
+retro_p1_a2,rf_abast_ctrl,mercado,"Bogotá, D.C., Corabastos",10,240,0.9830769512,0.9151475175,6.785475876,0.7
+retro_p1_a2,rf_precio,mercado,"Bogotá, D.C., Corabastos",10,240,0.9779806937,0.914017718,6.716117457,0.7
+retro_p1_a2,ridge_abast,mercado,"Bogotá, D.C., Corabastos",10,240,0.9710087787,0.9523571901,6.123427742,0.7
+retro_p1_a2,ridge_abast_ctrl,mercado,"Bogotá, D.C., Corabastos",10,240,0.9710087787,0.9523571901,6.123427742,0.7
+retro_p1_a2,ridge_precio,mercado,"Bogotá, D.C., Corabastos",10,240,0.9667798962,0.9516491624,6.120673957,0.7
+retro_r1,estacional,mercado,"Bogotá, D.C., Corabastos",10,240,1.278233103,1.279265218,2.784438334,0.5
+retro_r1,ingenuo,mercado,"Bogotá, D.C., Corabastos",10,240,1.16466594,1.183951412,5.021542302,
+retro_r1,rf_abast,mercado,"Bogotá, D.C., Corabastos",10,240,0.9875886722,0.9152935558,6.851732394,0.7
+retro_r1,rf_abast_ctrl,mercado,"Bogotá, D.C., Corabastos",10,240,0.9875886722,0.9152935558,6.851732394,0.7
+retro_r1,rf_precio,mercado,"Bogotá, D.C., Corabastos",10,240,0.9819986718,0.9209947702,6.486590907,0.7
+retro_r1,ridge_abast,mercado,"Bogotá, D.C., Corabastos",10,240,0.9723539967,0.9546261082,5.890637561,0.7
+retro_r1,ridge_abast_ctrl,mercado,"Bogotá, D.C., Corabastos",10,240,0.9723539967,0.9546261082,5.890637561,0.7
+retro_r1,ridge_precio,mercado,"Bogotá, D.C., Corabastos",10,240,0.9680226522,0.9533337098,5.880214864,0.7
+retro_r2,estacional,mercado,"Bogotá, D.C., Corabastos",10,240,1.285738446,1.284080205,2.784438334,0.5
+retro_r2,ingenuo,mercado,"Bogotá, D.C., Corabastos",10,240,1.430969076,1.369087441,7.582449884,
+retro_r2,rf_abast,mercado,"Bogotá, D.C., Corabastos",10,240,1.103875553,1.023251044,8.615947606,0.7
+retro_r2,rf_abast_ctrl,mercado,"Bogotá, D.C., Corabastos",10,240,1.103875553,1.023251044,8.615947606,0.7
+retro_r2,rf_precio,mercado,"Bogotá, D.C., Corabastos",10,240,1.108772641,1.020065249,8.209217022,0.7
+retro_r2,ridge_abast,mercado,"Bogotá, D.C., Corabastos",10,240,1.141096506,1.126125448,8.151813409,0.7
+retro_r2,ridge_abast_ctrl,mercado,"Bogotá, D.C., Corabastos",10,240,1.141096506,1.126125448,8.151813409,0.7
+retro_r2,ridge_precio,mercado,"Bogotá, D.C., Corabastos",10,240,1.134422667,1.130468574,8.158385181,0.7
+retro_p1_a2,estacional,mercado,"Bucaramanga, Centroabastos",10,238,1.442200273,1.311452614,6.820062226,0.3
+retro_p1_a2,ingenuo,mercado,"Bucaramanga, Centroabastos",10,238,1.091110278,1.01803748,6.877659683,
+retro_p1_a2,rf_abast,mercado,"Bucaramanga, Centroabastos",10,238,0.9675823128,0.8649008584,8.976907474,0.8
+retro_p1_a2,rf_abast_ctrl,mercado,"Bucaramanga, Centroabastos",10,238,0.9675823128,0.8649008584,8.976907474,0.8
+retro_p1_a2,rf_precio,mercado,"Bucaramanga, Centroabastos",10,238,0.9638968513,0.8574745957,8.881259366,0.8
+retro_p1_a2,ridge_abast,mercado,"Bucaramanga, Centroabastos",10,238,1.023171489,0.8939603252,9.201282555,0.6
+retro_p1_a2,ridge_abast_ctrl,mercado,"Bucaramanga, Centroabastos",10,238,1.023171489,0.8939603252,9.201282555,0.6
+retro_p1_a2,ridge_precio,mercado,"Bucaramanga, Centroabastos",10,238,1.020272233,0.8906503442,9.266298269,0.6
+retro_r1,estacional,mercado,"Bucaramanga, Centroabastos",10,238,1.442200273,1.311452614,6.820062226,0.3
+retro_r1,ingenuo,mercado,"Bucaramanga, Centroabastos",10,238,1.091110278,1.01803748,6.877659683,
+retro_r1,rf_abast,mercado,"Bucaramanga, Centroabastos",10,238,0.9677727335,0.8647787025,8.644911237,0.8
+retro_r1,rf_abast_ctrl,mercado,"Bucaramanga, Centroabastos",10,238,0.9677727335,0.8647787025,8.644911237,0.8
+retro_r1,rf_precio,mercado,"Bucaramanga, Centroabastos",10,238,0.9626088663,0.8536707837,8.549386931,0.8
+retro_r1,ridge_abast,mercado,"Bucaramanga, Centroabastos",10,238,1.02418771,0.9023559814,8.883067874,0.6
+retro_r1,ridge_abast_ctrl,mercado,"Bucaramanga, Centroabastos",10,238,1.02418771,0.9023559814,8.883067874,0.6
+retro_r1,ridge_precio,mercado,"Bucaramanga, Centroabastos",10,238,1.019342191,0.8909499676,8.86874182,0.6
+retro_r2,estacional,mercado,"Bucaramanga, Centroabastos",10,238,1.46468478,1.32115284,6.820062226,0.5
+retro_r2,ingenuo,mercado,"Bucaramanga, Centroabastos",10,238,1.234214757,1.216628011,8.984910987,
+retro_r2,rf_abast,mercado,"Bucaramanga, Centroabastos",10,238,1.095692661,1.00206096,10.90913179,0.8
+retro_r2,rf_abast_ctrl,mercado,"Bucaramanga, Centroabastos",10,238,1.095692661,1.00206096,10.90913179,0.8
+retro_r2,rf_precio,mercado,"Bucaramanga, Centroabastos",10,238,1.1000022,0.9780510213,10.97168467,0.8
+retro_r2,ridge_abast,mercado,"Bucaramanga, Centroabastos",10,238,1.185265704,1.090367006,11.76486508,0.6
+retro_r2,ridge_abast_ctrl,mercado,"Bucaramanga, Centroabastos",10,238,1.185265704,1.090367006,11.76486508,0.6
+retro_r2,ridge_precio,mercado,"Bucaramanga, Centroabastos",10,238,1.180835671,1.083286076,11.75377783,0.6
+retro_p1_a2,estacional,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.171791751,1.125224969,2.877998001,0.4
+retro_p1_a2,ingenuo,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.9542781074,0.9349418775,4.205175293,
+retro_p1_a2,rf_abast,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8612575892,0.8711702287,6.19656362,0.6
+retro_p1_a2,rf_abast_ctrl,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8612575892,0.8711702287,6.19656362,0.6
+retro_p1_a2,rf_precio,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8576925654,0.8673039826,6.027905692,0.6
+retro_p1_a2,ridge_abast,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.9003711169,0.921325769,7.074784025,0.6
+retro_p1_a2,ridge_abast_ctrl,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.9003711169,0.921325769,7.074784025,0.6
+retro_p1_a2,ridge_precio,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8986069949,0.916780456,7.119447457,0.6
+retro_r1,estacional,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.171791751,1.125224969,2.877998001,0.4
+retro_r1,ingenuo,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.9542781074,0.9349418775,4.205175293,
+retro_r1,rf_abast,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8613756564,0.8735975415,6.20329555,0.6
+retro_r1,rf_abast_ctrl,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8613756564,0.8735975415,6.20329555,0.6
+retro_r1,rf_precio,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.85888431,0.8689731105,5.736965834,0.6
+retro_r1,ridge_abast,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8963907449,0.8957876012,7.079823448,0.6
+retro_r1,ridge_abast_ctrl,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8963907449,0.8957876012,7.079823448,0.6
+retro_r1,ridge_precio,mercado,"Medellín, Central Mayorista de Antioquia",10,240,0.8967454643,0.9102343903,6.852207255,0.6
+retro_r2,estacional,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.179444293,1.127128881,2.877998001,0.5
+retro_r2,ingenuo,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.120326088,1.154169602,6.515678496,
+retro_r2,rf_abast,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.009006574,1.001112275,8.187417618,0.5
+retro_r2,rf_abast_ctrl,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.009006574,1.001112275,8.187417618,0.5
+retro_r2,rf_precio,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.00782156,0.9878473919,7.726858637,0.5
+retro_r2,ridge_abast,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.047776973,1.006632375,9.545717613,0.6
+retro_r2,ridge_abast_ctrl,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.047776973,1.006632375,9.545717613,0.6
+retro_r2,ridge_precio,mercado,"Medellín, Central Mayorista de Antioquia",10,240,1.044189438,1.008374851,9.511979314,0.6
+retro_p1_a2,estacional,mes_calendario,01,30,60,1.468906985,1.460009601,8.412115714,0.3333333333
+retro_p1_a2,ingenuo,mes_calendario,01,30,60,0.9901591484,0.8028423052,-0.682693293,
+retro_p1_a2,rf_abast,mes_calendario,01,30,60,1.047112995,0.8692204962,8.277738523,0.4666666667
+retro_p1_a2,rf_abast_ctrl,mes_calendario,01,30,60,1.047112995,0.8692204962,8.277738523,0.4666666667
+retro_p1_a2,rf_precio,mes_calendario,01,30,60,1.032568719,0.8991715887,7.868695942,0.4666666667
+retro_p1_a2,ridge_abast,mes_calendario,01,30,60,1.030267251,1.04285668,10.20147327,0.3666666667
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,01,30,60,1.030267251,1.04285668,10.20147327,0.3666666667
+retro_p1_a2,ridge_precio,mes_calendario,01,30,60,1.027050355,1.014952938,10.2092839,0.4
+retro_r1,estacional,mes_calendario,01,30,60,1.468906985,1.460009601,8.412115714,0.3333333333
+retro_r1,ingenuo,mes_calendario,01,30,60,0.9901591484,0.8028423052,-0.682693293,
+retro_r1,rf_abast,mes_calendario,01,30,60,1.061475042,0.8621047664,7.515220102,0.4333333333
+retro_r1,rf_abast_ctrl,mes_calendario,01,30,60,1.061475042,0.8621047664,7.515220102,0.4333333333
+retro_r1,rf_precio,mes_calendario,01,30,60,1.027952057,0.8528325336,7.449979046,0.4333333333
+retro_r1,ridge_abast,mes_calendario,01,30,60,1.037335601,1.063750227,10.29406024,0.4
+retro_r1,ridge_abast_ctrl,mes_calendario,01,30,60,1.037335601,1.063750227,10.29406024,0.4
+retro_r1,ridge_precio,mes_calendario,01,30,60,1.025360411,1.013661471,10.12511353,0.4
+retro_r2,estacional,mes_calendario,01,30,60,1.476606303,1.475823764,8.412115714,0.3666666667
+retro_r2,ingenuo,mes_calendario,01,30,60,1.257045498,0.8464185708,4.265102204,
+retro_r2,rf_abast,mes_calendario,01,30,60,1.193058143,0.9865402117,11.05204664,0.4333333333
+retro_r2,rf_abast_ctrl,mes_calendario,01,30,60,1.193058143,0.9865402117,11.05204664,0.4333333333
+retro_r2,rf_precio,mes_calendario,01,30,60,1.157012455,1.004513143,10.91661323,0.4666666667
+retro_r2,ridge_abast,mes_calendario,01,30,60,1.138341158,1.226056543,14.14314639,0.4
+retro_r2,ridge_abast_ctrl,mes_calendario,01,30,60,1.138341158,1.226056543,14.14314639,0.4
+retro_r2,ridge_precio,mes_calendario,01,30,60,1.135164233,1.257019442,14.21053513,0.4
+retro_p1_a2,estacional,mes_calendario,02,30,60,1.389756389,1.387520036,11.61648379,0.4333333333
+retro_p1_a2,ingenuo,mes_calendario,02,30,60,0.9273780596,0.8186094072,-0.8663181785,
+retro_p1_a2,rf_abast,mes_calendario,02,30,60,0.9457697529,0.8133793539,10.10190771,0.5666666667
+retro_p1_a2,rf_abast_ctrl,mes_calendario,02,30,60,0.9457697529,0.8133793539,10.10190771,0.5666666667
+retro_p1_a2,rf_precio,mes_calendario,02,30,60,0.9377284283,0.8384963252,10.08380153,0.5333333333
+retro_p1_a2,ridge_abast,mes_calendario,02,30,60,0.9676783991,0.9671206118,11.09398076,0.5
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,02,30,60,0.9676783991,0.9671206118,11.09398076,0.5
+retro_p1_a2,ridge_precio,mes_calendario,02,30,60,0.9669173841,0.9713122987,11.2751292,0.5
+retro_r1,estacional,mes_calendario,02,30,60,1.389756389,1.387520036,11.61648379,0.4333333333
+retro_r1,ingenuo,mes_calendario,02,30,60,0.9273780596,0.8186094072,-0.8663181785,
+retro_r1,rf_abast,mes_calendario,02,30,60,0.9617634253,0.8343865926,9.961208487,0.5666666667
+retro_r1,rf_abast_ctrl,mes_calendario,02,30,60,0.9617634253,0.8343865926,9.961208487,0.5666666667
+retro_r1,rf_precio,mes_calendario,02,30,60,0.9364106188,0.8385238211,9.429525728,0.5333333333
+retro_r1,ridge_abast,mes_calendario,02,30,60,0.9656644008,0.9831365354,11.12763419,0.4666666667
+retro_r1,ridge_abast_ctrl,mes_calendario,02,30,60,0.9656644008,0.9831365354,11.12763419,0.4666666667
+retro_r1,ridge_precio,mes_calendario,02,30,60,0.9602667578,0.9654018192,10.88604006,0.5
+retro_r2,estacional,mes_calendario,02,30,60,1.397253402,1.409785725,11.61648379,0.4666666667
+retro_r2,ingenuo,mes_calendario,02,30,60,1.133318943,0.9659544566,1.907344617,
+retro_r2,rf_abast,mes_calendario,02,30,60,1.167488658,1.076718995,15.35774003,0.4666666667
+retro_r2,rf_abast_ctrl,mes_calendario,02,30,60,1.167488658,1.076718995,15.35774003,0.4666666667
+retro_r2,rf_precio,mes_calendario,02,30,60,1.175945897,1.092953198,15.75682344,0.4666666667
+retro_r2,ridge_abast,mes_calendario,02,30,60,1.154384568,1.110236501,16.54140264,0.4333333333
+retro_r2,ridge_abast_ctrl,mes_calendario,02,30,60,1.154384568,1.110236501,16.54140264,0.4333333333
+retro_r2,ridge_precio,mes_calendario,02,30,60,1.149924628,1.081759422,16.51519175,0.4333333333
+retro_p1_a2,estacional,mes_calendario,03,30,60,1.765979132,1.86299315,12.35036316,0.2666666667
+retro_p1_a2,ingenuo,mes_calendario,03,30,60,1.067554126,0.9210619818,-4.318104053,
+retro_p1_a2,rf_abast,mes_calendario,03,30,60,1.02681382,0.9083422658,4.208244289,0.5666666667
+retro_p1_a2,rf_abast_ctrl,mes_calendario,03,30,60,1.02681382,0.9083422658,4.208244289,0.5666666667
+retro_p1_a2,rf_precio,mes_calendario,03,30,60,1.014232515,0.8328222843,4.257671732,0.5666666667
+retro_p1_a2,ridge_abast,mes_calendario,03,30,60,1.079635437,1.052551701,6.314985711,0.4
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,03,30,60,1.079635437,1.052551701,6.314985711,0.4
+retro_p1_a2,ridge_precio,mes_calendario,03,30,60,1.079813132,1.010230919,6.469268666,0.4333333333
+retro_r1,estacional,mes_calendario,03,30,60,1.765979132,1.86299315,12.35036316,0.2666666667
+retro_r1,ingenuo,mes_calendario,03,30,60,1.067554126,0.9210619818,-4.318104053,
+retro_r1,rf_abast,mes_calendario,03,30,60,1.029852797,0.9518093636,4.627317268,0.5666666667
+retro_r1,rf_abast_ctrl,mes_calendario,03,30,60,1.029852797,0.9518093636,4.627317268,0.5666666667
+retro_r1,rf_precio,mes_calendario,03,30,60,1.022354935,0.8758324301,4.360358144,0.5333333333
+retro_r1,ridge_abast,mes_calendario,03,30,60,1.067627969,1.012353959,5.748393316,0.4
+retro_r1,ridge_abast_ctrl,mes_calendario,03,30,60,1.067627969,1.012353959,5.748393316,0.4
+retro_r1,ridge_precio,mes_calendario,03,30,60,1.072522692,1.003619975,5.778387558,0.4
+retro_r2,estacional,mes_calendario,03,30,60,1.786803091,1.864072129,12.35036316,0.3333333333
+retro_r2,ingenuo,mes_calendario,03,30,60,1.182433803,1.095433986,-8.70488101,
+retro_r2,rf_abast,mes_calendario,03,30,60,1.250465598,1.363053806,7.718983731,0.5
+retro_r2,rf_abast_ctrl,mes_calendario,03,30,60,1.250465598,1.363053806,7.718983731,0.5
+retro_r2,rf_precio,mes_calendario,03,30,60,1.24609311,1.331845523,7.738106932,0.4666666667
+retro_r2,ridge_abast,mes_calendario,03,30,60,1.283381777,1.466693213,9.418907361,0.4
+retro_r2,ridge_abast_ctrl,mes_calendario,03,30,60,1.283381777,1.466693213,9.418907361,0.4
+retro_r2,ridge_precio,mes_calendario,03,30,60,1.271583731,1.447625453,9.270437088,0.4
+retro_p1_a2,estacional,mes_calendario,04,30,59,1.425733139,1.284838549,10.92610702,0.2
+retro_p1_a2,ingenuo,mes_calendario,04,30,59,1.082320029,0.7955678401,0.6943824543,
+retro_p1_a2,rf_abast,mes_calendario,04,30,59,0.8812622018,0.743266321,5.599078024,0.5333333333
+retro_p1_a2,rf_abast_ctrl,mes_calendario,04,30,59,0.8812622018,0.743266321,5.599078024,0.5333333333
+retro_p1_a2,rf_precio,mes_calendario,04,30,59,0.8738348559,0.710454085,5.345844788,0.5
+retro_p1_a2,ridge_abast,mes_calendario,04,30,59,0.9697349644,0.7535475906,6.413435688,0.5
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,04,30,59,0.9697349644,0.7535475906,6.413435688,0.5
+retro_p1_a2,ridge_precio,mes_calendario,04,30,59,0.9742498247,0.721622955,6.527044351,0.4666666667
+retro_r1,estacional,mes_calendario,04,30,59,1.425733139,1.284838549,10.92610702,0.2
+retro_r1,ingenuo,mes_calendario,04,30,59,1.082320029,0.7955678401,0.6943824543,
+retro_r1,rf_abast,mes_calendario,04,30,59,0.8736415877,0.6907864315,5.38562365,0.5333333333
+retro_r1,rf_abast_ctrl,mes_calendario,04,30,59,0.8736415877,0.6907864315,5.38562365,0.5333333333
+retro_r1,rf_precio,mes_calendario,04,30,59,0.8761212801,0.6900870894,5.151853873,0.5333333333
+retro_r1,ridge_abast,mes_calendario,04,30,59,0.9707956939,0.7307507922,5.734855858,0.5
+retro_r1,ridge_abast_ctrl,mes_calendario,04,30,59,0.9707956939,0.7307507922,5.734855858,0.5
+retro_r1,ridge_precio,mes_calendario,04,30,59,0.9769765139,0.7466670115,5.769878563,0.5
+retro_r2,estacional,mes_calendario,04,30,59,1.439078797,1.283921543,10.92610702,0.3333333333
+retro_r2,ingenuo,mes_calendario,04,30,59,1.384510603,1.145442644,4.608694581,
+retro_r2,rf_abast,mes_calendario,04,30,59,1.152638384,1.03042601,10.40717523,0.5666666667
+retro_r2,rf_abast_ctrl,mes_calendario,04,30,59,1.152638384,1.03042601,10.40717523,0.5666666667
+retro_r2,rf_precio,mes_calendario,04,30,59,1.163086811,1.093843536,9.924542897,0.5
+retro_r2,ridge_abast,mes_calendario,04,30,59,1.155136734,1.022100199,11.09476409,0.5333333333
+retro_r2,ridge_abast_ctrl,mes_calendario,04,30,59,1.155136734,1.022100199,11.09476409,0.5333333333
+retro_r2,ridge_precio,mes_calendario,04,30,59,1.160966535,1.005015676,11.32686459,0.5333333333
+retro_p1_a2,estacional,mes_calendario,05,30,60,1.213850483,1.088270516,2.396599749,0.5
+retro_p1_a2,ingenuo,mes_calendario,05,30,60,1.198959141,1.038083541,9.342955156,
+retro_p1_a2,rf_abast,mes_calendario,05,30,60,0.9802035386,1.008476194,8.179497361,0.7333333333
+retro_p1_a2,rf_abast_ctrl,mes_calendario,05,30,60,0.9802035386,1.008476194,8.179497361,0.7333333333
+retro_p1_a2,rf_precio,mes_calendario,05,30,60,0.9951761718,1.03830694,8.183672311,0.7666666667
+retro_p1_a2,ridge_abast,mes_calendario,05,30,60,1.036915949,0.9131913032,5.893875742,0.6
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,05,30,60,1.036915949,0.9131913032,5.893875742,0.6
+retro_p1_a2,ridge_precio,mes_calendario,05,30,60,1.028577118,0.8787490181,6.082025676,0.6333333333
+retro_r1,estacional,mes_calendario,05,30,60,1.213850483,1.088270516,2.396599749,0.5
+retro_r1,ingenuo,mes_calendario,05,30,60,1.198959141,1.038083541,9.342955156,
+retro_r1,rf_abast,mes_calendario,05,30,60,1.009699898,1.049411816,7.886720058,0.6666666667
+retro_r1,rf_abast_ctrl,mes_calendario,05,30,60,1.009699898,1.049411816,7.886720058,0.6666666667
+retro_r1,rf_precio,mes_calendario,05,30,60,0.9920486743,1.036890125,7.243729557,0.7333333333
+retro_r1,ridge_abast,mes_calendario,05,30,60,1.036624188,0.8762590615,5.087995733,0.6333333333
+retro_r1,ridge_abast_ctrl,mes_calendario,05,30,60,1.036624188,0.8762590615,5.087995733,0.6333333333
+retro_r1,ridge_precio,mes_calendario,05,30,60,1.031467259,0.8776614482,5.194670262,0.6333333333
+retro_r2,estacional,mes_calendario,05,30,60,1.231899778,1.102842606,2.396599749,0.3666666667
+retro_r2,ingenuo,mes_calendario,05,30,60,1.152340923,0.818102701,0.4856441388,
+retro_r2,rf_abast,mes_calendario,05,30,60,0.9590402021,0.8191160705,5.371874605,0.5666666667
+retro_r2,rf_abast_ctrl,mes_calendario,05,30,60,0.9590402021,0.8191160705,5.371874605,0.5666666667
+retro_r2,rf_precio,mes_calendario,05,30,60,0.9805635779,0.8346078688,5.370943972,0.6
+retro_r2,ridge_abast,mes_calendario,05,30,60,1.162695389,0.9032017931,4.207450965,0.4333333333
+retro_r2,ridge_abast_ctrl,mes_calendario,05,30,60,1.162695389,0.9032017931,4.207450965,0.4333333333
+retro_r2,ridge_precio,mes_calendario,05,30,60,1.154620717,0.8890543044,4.239056904,0.4333333333
+retro_p1_a2,estacional,mes_calendario,06,30,60,1.059728978,0.8599397549,-1.816323224,0.4666666667
+retro_p1_a2,ingenuo,mes_calendario,06,30,60,1.206803431,0.9973863977,21.0086912,
+retro_p1_a2,rf_abast,mes_calendario,06,30,60,0.9219240196,0.8505256562,7.600290452,0.7
+retro_p1_a2,rf_abast_ctrl,mes_calendario,06,30,60,0.9219240196,0.8505256562,7.600290452,0.7
+retro_p1_a2,rf_precio,mes_calendario,06,30,60,0.9133818828,0.7663841839,7.483765543,0.7333333333
+retro_p1_a2,ridge_abast,mes_calendario,06,30,60,0.8936530427,0.6236131989,5.433577185,0.7666666667
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,06,30,60,0.8936530427,0.6236131989,5.433577185,0.7666666667
+retro_p1_a2,ridge_precio,mes_calendario,06,30,60,0.885212421,0.6523450871,5.405042872,0.7333333333
+retro_r1,estacional,mes_calendario,06,30,60,1.059728978,0.8599397549,-1.816323224,0.4666666667
+retro_r1,ingenuo,mes_calendario,06,30,60,1.206803431,0.9973863977,21.0086912,
+retro_r1,rf_abast,mes_calendario,06,30,60,0.8955686256,0.7972926973,7.255609018,0.7
+retro_r1,rf_abast_ctrl,mes_calendario,06,30,60,0.8955686256,0.7972926973,7.255609018,0.7
+retro_r1,rf_precio,mes_calendario,06,30,60,0.9210800254,0.7914016575,7.272292737,0.7
+retro_r1,ridge_abast,mes_calendario,06,30,60,0.8886911147,0.6557396089,5.06724953,0.7
+retro_r1,ridge_abast_ctrl,mes_calendario,06,30,60,0.8886911147,0.6557396089,5.06724953,0.7
+retro_r1,ridge_precio,mes_calendario,06,30,60,0.8846970617,0.6463718129,4.739970063,0.7
+retro_r2,estacional,mes_calendario,06,30,60,1.07212789,0.8581468653,-1.816323224,0.7333333333
+retro_r2,ingenuo,mes_calendario,06,30,60,1.5306492,1.567733065,27.47781471,
+retro_r2,rf_abast,mes_calendario,06,30,60,1.020193956,0.9659364573,11.60146232,0.8333333333
+retro_r2,rf_abast_ctrl,mes_calendario,06,30,60,1.020193956,0.9659364573,11.60146232,0.8333333333
+retro_r2,rf_precio,mes_calendario,06,30,60,1.007679121,0.8867480368,10.90351143,0.8333333333
+retro_r2,ridge_abast,mes_calendario,06,30,60,1.034984837,0.8472243754,9.070612137,0.7666666667
+retro_r2,ridge_abast_ctrl,mes_calendario,06,30,60,1.034984837,0.8472243754,9.070612137,0.7666666667
+retro_r2,ridge_precio,mes_calendario,06,30,60,1.029887431,0.8480960693,9.36077967,0.8
+retro_p1_a2,estacional,mes_calendario,07,30,60,1.128587895,1.000577351,-3.6357753,0.5333333333
+retro_p1_a2,ingenuo,mes_calendario,07,30,60,1.097729662,0.9041083788,13.72527289,
+retro_p1_a2,rf_abast,mes_calendario,07,30,60,0.9402938886,0.8580038516,7.193022742,0.5333333333
+retro_p1_a2,rf_abast_ctrl,mes_calendario,07,30,60,0.9402938886,0.8580038516,7.193022742,0.5333333333
+retro_p1_a2,rf_precio,mes_calendario,07,30,60,0.9509614862,0.8338927568,6.117900454,0.5333333333
+retro_p1_a2,ridge_abast,mes_calendario,07,30,60,0.9519407987,0.8521437212,5.429560655,0.6666666667
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,07,30,60,0.9519407987,0.8521437212,5.429560655,0.6666666667
+retro_p1_a2,ridge_precio,mes_calendario,07,30,60,0.9465600674,0.8343266923,5.003075699,0.6666666667
+retro_r1,estacional,mes_calendario,07,30,60,1.128587895,1.000577351,-3.6357753,0.5333333333
+retro_r1,ingenuo,mes_calendario,07,30,60,1.097729662,0.9041083788,13.72527289,
+retro_r1,rf_abast,mes_calendario,07,30,60,0.9252572764,0.8401033038,6.327992227,0.5333333333
+retro_r1,rf_abast_ctrl,mes_calendario,07,30,60,0.9252572764,0.8401033038,6.327992227,0.5333333333
+retro_r1,rf_precio,mes_calendario,07,30,60,0.9397014122,0.8380688371,5.561789745,0.5333333333
+retro_r1,ridge_abast,mes_calendario,07,30,60,0.9541825297,0.849794346,4.699743258,0.6666666667
+retro_r1,ridge_abast_ctrl,mes_calendario,07,30,60,0.9541825297,0.849794346,4.699743258,0.6666666667
+retro_r1,ridge_precio,mes_calendario,07,30,60,0.9485143444,0.8378790235,4.435887664,0.6666666667
+retro_r2,estacional,mes_calendario,07,30,60,1.145751855,0.9966837472,-3.6357753,0.6
+retro_r2,ingenuo,mes_calendario,07,30,60,1.336026242,1.174602325,20.29596573,
+retro_r2,rf_abast,mes_calendario,07,30,60,0.9570100347,0.8102645646,3.564071078,0.7666666667
+retro_r2,rf_abast_ctrl,mes_calendario,07,30,60,0.9570100347,0.8102645646,3.564071078,0.7666666667
+retro_r2,rf_precio,mes_calendario,07,30,60,0.9772161269,0.8501117575,3.099159519,0.8
+retro_r2,ridge_abast,mes_calendario,07,30,60,1.042139737,0.7827088417,3.219807877,0.7
+retro_r2,ridge_abast_ctrl,mes_calendario,07,30,60,1.042139737,0.7827088417,3.219807877,0.7
+retro_r2,ridge_precio,mes_calendario,07,30,60,1.041188639,0.7762072069,2.887080267,0.7
+retro_p1_a2,estacional,mes_calendario,08,30,60,1.246833858,1.134946029,1.734078747,0.3333333333
+retro_p1_a2,ingenuo,mes_calendario,08,30,60,1.01301016,0.8327810367,3.601736578,
+retro_p1_a2,rf_abast,mes_calendario,08,30,60,0.9625764021,0.8383193431,8.472131804,0.4
+retro_p1_a2,rf_abast_ctrl,mes_calendario,08,30,60,0.9625764021,0.8383193431,8.472131804,0.4
+retro_p1_a2,rf_precio,mes_calendario,08,30,60,0.9609438205,0.8526085866,8.010222383,0.4333333333
+retro_p1_a2,ridge_abast,mes_calendario,08,30,60,0.9515577037,0.9264964377,4.440544952,0.5666666667
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,08,30,60,0.9515577037,0.9264964377,4.440544952,0.5666666667
+retro_p1_a2,ridge_precio,mes_calendario,08,30,60,0.9438020617,0.9239973807,4.316430657,0.5666666667
+retro_r1,estacional,mes_calendario,08,30,60,1.246833858,1.134946029,1.734078747,0.3333333333
+retro_r1,ingenuo,mes_calendario,08,30,60,1.01301016,0.8327810367,3.601736578,
+retro_r1,rf_abast,mes_calendario,08,30,60,0.9696478653,0.8658182186,8.552373621,0.4333333333
+retro_r1,rf_abast_ctrl,mes_calendario,08,30,60,0.9696478653,0.8658182186,8.552373621,0.4333333333
+retro_r1,rf_precio,mes_calendario,08,30,60,0.9629020493,0.8506777035,8.13714883,0.4333333333
+retro_r1,ridge_abast,mes_calendario,08,30,60,0.9449664759,0.9363419822,4.367865188,0.5666666667
+retro_r1,ridge_abast_ctrl,mes_calendario,08,30,60,0.9449664759,0.9363419822,4.367865188,0.5666666667
+retro_r1,ridge_precio,mes_calendario,08,30,60,0.9437751744,0.9203364626,4.192418711,0.5666666667
+retro_r2,estacional,mes_calendario,08,30,60,1.257863431,1.127033669,1.734078747,0.5333333333
+retro_r2,ingenuo,mes_calendario,08,30,60,1.376588211,1.03078684,18.86176158,
+retro_r2,rf_abast,mes_calendario,08,30,60,1.143390328,1.004590291,12.89897891,0.4666666667
+retro_r2,rf_abast_ctrl,mes_calendario,08,30,60,1.143390328,1.004590291,12.89897891,0.4666666667
+retro_r2,rf_precio,mes_calendario,08,30,60,1.149710217,1.056633956,11.87138408,0.5
+retro_r2,ridge_abast,mes_calendario,08,30,60,1.148634808,1.116353284,9.411611102,0.5666666667
+retro_r2,ridge_abast_ctrl,mes_calendario,08,30,60,1.148634808,1.116353284,9.411611102,0.5666666667
+retro_r2,ridge_precio,mes_calendario,08,30,60,1.140996182,1.126654749,9.305369089,0.5666666667
+retro_p1_a2,estacional,mes_calendario,09,30,59,1.281154481,1.16795548,1.563232804,0.5
+retro_p1_a2,ingenuo,mes_calendario,09,30,59,1.231731057,1.050118474,5.87770832,
+retro_p1_a2,rf_abast,mes_calendario,09,30,59,1.040048003,0.9801619939,6.663805635,0.5666666667
+retro_p1_a2,rf_abast_ctrl,mes_calendario,09,30,59,1.040048003,0.9801619939,6.663805635,0.5666666667
+retro_p1_a2,rf_precio,mes_calendario,09,30,59,1.026986276,0.9645172473,7.217630884,0.6
+retro_p1_a2,ridge_abast,mes_calendario,09,30,59,1.046076913,1.024037579,7.171685756,0.6333333333
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,09,30,59,1.046076913,1.024037579,7.171685756,0.6333333333
+retro_p1_a2,ridge_precio,mes_calendario,09,30,59,1.042709961,1.022318288,7.49794877,0.6333333333
+retro_r1,estacional,mes_calendario,09,30,59,1.281154481,1.16795548,1.563232804,0.5
+retro_r1,ingenuo,mes_calendario,09,30,59,1.231731057,1.050118474,5.87770832,
+retro_r1,rf_abast,mes_calendario,09,30,59,1.029027651,0.9470784219,7.720490196,0.6666666667
+retro_r1,rf_abast_ctrl,mes_calendario,09,30,59,1.029027651,0.9470784219,7.720490196,0.6666666667
+retro_r1,rf_precio,mes_calendario,09,30,59,1.024486697,0.9438543134,6.984554216,0.6333333333
+retro_r1,ridge_abast,mes_calendario,09,30,59,1.042750914,1.016259164,7.363778869,0.6333333333
+retro_r1,ridge_abast_ctrl,mes_calendario,09,30,59,1.042750914,1.016259164,7.363778869,0.6333333333
+retro_r1,ridge_precio,mes_calendario,09,30,59,1.040433577,1.010261815,7.428568,0.6333333333
+retro_r2,estacional,mes_calendario,09,30,59,1.293879855,1.168244969,1.563232804,0.4
+retro_r2,ingenuo,mes_calendario,09,30,59,1.189172926,1.074197101,0.2446987291,
+retro_r2,rf_abast,mes_calendario,09,30,59,1.041226021,1.091329439,5.604166598,0.5333333333
+retro_r2,rf_abast_ctrl,mes_calendario,09,30,59,1.041226021,1.091329439,5.604166598,0.5333333333
+retro_r2,rf_precio,mes_calendario,09,30,59,1.043911381,1.07306206,5.367264019,0.5666666667
+retro_r2,ridge_abast,mes_calendario,09,30,59,1.118042159,0.9943295921,5.499326598,0.5333333333
+retro_r2,ridge_abast_ctrl,mes_calendario,09,30,59,1.118042159,0.9943295921,5.499326598,0.5333333333
+retro_r2,ridge_precio,mes_calendario,09,30,59,1.111143759,1.002309528,5.30549946,0.5333333333
+retro_p1_a2,estacional,mes_calendario,10,30,60,1.173229736,0.9966143429,3.370132855,0.4666666667
+retro_p1_a2,ingenuo,mes_calendario,10,30,60,1.050510866,0.7853428389,2.898062253,
+retro_p1_a2,rf_abast,mes_calendario,10,30,60,0.8818094874,0.8030998501,6.781685954,0.5666666667
+retro_p1_a2,rf_abast_ctrl,mes_calendario,10,30,60,0.8818094874,0.8030998501,6.781685954,0.5666666667
+retro_p1_a2,rf_precio,mes_calendario,10,30,60,0.8829222525,0.7782819552,6.645488868,0.5666666667
+retro_p1_a2,ridge_abast,mes_calendario,10,30,60,0.9654633068,0.8864019215,8.448134166,0.5666666667
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,10,30,60,0.9654633068,0.8864019215,8.448134166,0.5666666667
+retro_p1_a2,ridge_precio,mes_calendario,10,30,60,0.965068931,0.8739334285,8.38372074,0.5333333333
+retro_r1,estacional,mes_calendario,10,30,60,1.173229736,0.9966143429,3.370132855,0.4666666667
+retro_r1,ingenuo,mes_calendario,10,30,60,1.050510866,0.7853428389,2.898062253,
+retro_r1,rf_abast,mes_calendario,10,30,60,0.8857985633,0.80276333,6.738045188,0.5666666667
+retro_r1,rf_abast_ctrl,mes_calendario,10,30,60,0.8857985633,0.80276333,6.738045188,0.5666666667
+retro_r1,rf_precio,mes_calendario,10,30,60,0.88367739,0.7948361106,6.903450255,0.6
+retro_r1,ridge_abast,mes_calendario,10,30,60,0.9745655972,0.8855837046,8.704094223,0.4666666667
+retro_r1,ridge_abast_ctrl,mes_calendario,10,30,60,0.9745655972,0.8855837046,8.704094223,0.4666666667
+retro_r1,ridge_precio,mes_calendario,10,30,60,0.9694017028,0.8725965229,8.64767326,0.5
+retro_r2,estacional,mes_calendario,10,30,60,1.184304933,0.9983688114,3.370132855,0.5333333333
+retro_r2,ingenuo,mes_calendario,10,30,60,1.516186755,1.367841656,13.05109336,
+retro_r2,rf_abast,mes_calendario,10,30,60,1.090492477,1.167934044,10.60437174,0.7
+retro_r2,rf_abast_ctrl,mes_calendario,10,30,60,1.090492477,1.167934044,10.60437174,0.7
+retro_r2,rf_precio,mes_calendario,10,30,60,1.103941949,1.221856382,9.884354183,0.7
+retro_r2,ridge_abast,mes_calendario,10,30,60,1.161473097,1.216200449,11.13555171,0.6333333333
+retro_r2,ridge_abast_ctrl,mes_calendario,10,30,60,1.161473097,1.216200449,11.13555171,0.6333333333
+retro_r2,ridge_precio,mes_calendario,10,30,60,1.159854821,1.207780035,11.3877744,0.6333333333
+retro_p1_a2,estacional,mes_calendario,11,30,60,1.330290031,1.106120368,4.645219327,0.4
+retro_p1_a2,ingenuo,mes_calendario,11,30,60,0.9325075075,0.8410125574,6.030434748,
+retro_p1_a2,rf_abast,mes_calendario,11,30,60,0.9325842914,0.7900829993,10.7418673,0.4
+retro_p1_a2,rf_abast_ctrl,mes_calendario,11,30,60,0.9325842914,0.7900829993,10.7418673,0.4
+retro_p1_a2,rf_precio,mes_calendario,11,30,60,0.9276800084,0.7955263787,10.73299208,0.4333333333
+retro_p1_a2,ridge_abast,mes_calendario,11,30,60,0.9814846108,0.9358909057,11.23586557,0.4
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,11,30,60,0.9814846108,0.9358909057,11.23586557,0.4
+retro_p1_a2,ridge_precio,mes_calendario,11,30,60,0.9768781892,0.9425831797,11.24500762,0.4333333333
+retro_r1,estacional,mes_calendario,11,30,60,1.330290031,1.106120368,4.645219327,0.4
+retro_r1,ingenuo,mes_calendario,11,30,60,0.9325075075,0.8410125574,6.030434748,
+retro_r1,rf_abast,mes_calendario,11,30,60,0.9304002177,0.8199282621,10.67640535,0.4
+retro_r1,rf_abast_ctrl,mes_calendario,11,30,60,0.9304002177,0.8199282621,10.67640535,0.4
+retro_r1,rf_precio,mes_calendario,11,30,60,0.9314883865,0.7835889683,10.74062931,0.4333333333
+retro_r1,ridge_abast,mes_calendario,11,30,60,0.9825579394,0.9339046628,11.44128192,0.4
+retro_r1,ridge_abast_ctrl,mes_calendario,11,30,60,0.9825579394,0.9339046628,11.44128192,0.4
+retro_r1,ridge_precio,mes_calendario,11,30,60,0.9803029475,0.9448093227,11.42815717,0.4333333333
+retro_r2,estacional,mes_calendario,11,30,60,1.339865437,1.104071819,4.645219327,0.5
+retro_r2,ingenuo,mes_calendario,11,30,60,1.116477933,0.8323641128,2.170832825,
+retro_r2,rf_abast,mes_calendario,11,30,60,1.067720169,0.9576996001,9.838265897,0.5333333333
+retro_r2,rf_abast_ctrl,mes_calendario,11,30,60,1.067720169,0.9576996001,9.838265897,0.5333333333
+retro_r2,rf_precio,mes_calendario,11,30,60,1.068948864,0.9482645292,10.12920663,0.5333333333
+retro_r2,ridge_abast,mes_calendario,11,30,60,1.196170335,1.007538098,14.38552598,0.4333333333
+retro_r2,ridge_abast_ctrl,mes_calendario,11,30,60,1.196170335,1.007538098,14.38552598,0.4333333333
+retro_r2,ridge_precio,mes_calendario,11,30,60,1.18715216,0.9889983534,14.35620148,0.4
+retro_p1_a2,estacional,mes_calendario,12,30,60,1.110737163,1.099114492,-0.6443391836,0.5
+retro_p1_a2,ingenuo,mes_calendario,12,30,60,1.066149531,0.8561964548,4.109707749,
+retro_p1_a2,rf_abast,mes_calendario,12,30,60,0.6766756915,0.6272996223,2.560973354,0.7
+retro_p1_a2,rf_abast_ctrl,mes_calendario,12,30,60,0.6766756915,0.6272996223,2.560973354,0.7
+retro_p1_a2,rf_precio,mes_calendario,12,30,60,0.6738003739,0.5991898266,3.079875454,0.7
+retro_p1_a2,ridge_abast,mes_calendario,12,30,60,0.6837624625,0.608522437,6.30102725,0.7
+retro_p1_a2,ridge_abast_ctrl,mes_calendario,12,30,60,0.6837624625,0.608522437,6.30102725,0.7
+retro_p1_a2,ridge_precio,mes_calendario,12,30,60,0.6850313349,0.6235382094,6.404143598,0.6333333333
+retro_r1,estacional,mes_calendario,12,30,60,1.110737163,1.099114492,-0.6443391836,0.5
+retro_r1,ingenuo,mes_calendario,12,30,60,1.066149531,0.8561964548,4.109707749,
+retro_r1,rf_abast,mes_calendario,12,30,60,0.6843275568,0.6214696687,2.726404112,0.7333333333
+retro_r1,rf_abast_ctrl,mes_calendario,12,30,60,0.6843275568,0.6214696687,2.726404112,0.7333333333
+retro_r1,rf_precio,mes_calendario,12,30,60,0.6876630382,0.6082300829,2.409382821,0.7333333333
+retro_r1,ridge_abast,mes_calendario,12,30,60,0.6860226437,0.6111090294,6.562809461,0.6666666667
+retro_r1,ridge_abast_ctrl,mes_calendario,12,30,60,0.6860226437,0.6111090294,6.562809461,0.6666666667
+retro_r1,ridge_precio,mes_calendario,12,30,60,0.6835837486,0.6209046399,6.56800851,0.6333333333
+retro_r2,estacional,mes_calendario,12,30,60,1.121376496,1.113924685,-0.6443391836,0.4666666667
+retro_r2,ingenuo,mes_calendario,12,30,60,0.979216266,0.9394437117,4.406512643,
+retro_r2,rf_abast,mes_calendario,12,30,60,0.7621797142,0.7398181458,5.817568033,0.6
+retro_r2,rf_abast_ctrl,mes_calendario,12,30,60,0.7621797142,0.7398181458,5.817568033,0.6
+retro_r2,rf_precio,mes_calendario,12,30,60,0.7618386224,0.7659864301,5.593711576,0.5666666667
+retro_r2,ridge_abast,mes_calendario,12,30,60,0.8735989728,0.8070007625,9.077585079,0.6
+retro_r2,ridge_abast_ctrl,mes_calendario,12,30,60,0.8735989728,0.8070007625,9.077585079,0.6
+retro_r2,ridge_precio,mes_calendario,12,30,60,0.8675027069,0.8117752986,8.889971412,0.6
+retro_p1_a2,estacional,aviso_objetivo,False,30,668,1.276253844,1.248559461,4.230595841,0.3666666667
+retro_p1_a2,ingenuo,aviso_objetivo,False,30,668,1.061664787,0.9874124467,5.844133417,
+retro_p1_a2,rf_abast,aviso_objetivo,False,30,668,0.9419660548,0.9082892283,7.888792768,0.6333333333
+retro_p1_a2,rf_abast_ctrl,aviso_objetivo,False,30,668,0.9419660548,0.9082892283,7.888792768,0.6333333333
+retro_p1_a2,rf_precio,aviso_objetivo,False,30,668,0.9392029025,0.8893386462,7.786256763,0.6333333333
+retro_p1_a2,ridge_abast,aviso_objetivo,False,30,668,0.9691399605,0.9466932134,7.826647677,0.6333333333
+retro_p1_a2,ridge_abast_ctrl,aviso_objetivo,False,30,668,0.9691399605,0.9466932134,7.826647677,0.6333333333
+retro_p1_a2,ridge_precio,aviso_objetivo,False,30,668,0.9658938391,0.9443346646,7.844909165,0.6333333333
+retro_r1,estacional,aviso_objetivo,False,30,668,1.276253844,1.248559461,4.230595841,0.3666666667
+retro_r1,ingenuo,aviso_objetivo,False,30,668,1.061664787,0.9874124467,5.844133417,
+retro_r1,rf_abast,aviso_objetivo,False,30,668,0.9440400337,0.8919501966,7.81930383,0.6333333333
+retro_r1,rf_abast_ctrl,aviso_objetivo,False,30,668,0.9440400337,0.8919501966,7.81930383,0.6333333333
+retro_r1,rf_precio,aviso_objetivo,False,30,668,0.9390632648,0.8947543863,7.489116135,0.7
+retro_r1,ridge_abast,aviso_objetivo,False,30,668,0.9681339811,0.9407497332,7.638801749,0.6333333333
+retro_r1,ridge_abast_ctrl,aviso_objetivo,False,30,668,0.9681339811,0.9407497332,7.638801749,0.6333333333
+retro_r1,ridge_precio,aviso_objetivo,False,30,668,0.9649382418,0.938353305,7.558219648,0.6333333333
+retro_r2,estacional,aviso_objetivo,False,30,668,1.288438338,1.258613849,4.230595841,0.5333333333
+retro_r2,ingenuo,aviso_objetivo,False,30,668,1.25193328,1.183747338,8.704424278,
+retro_r2,rf_abast,aviso_objetivo,False,30,668,1.062486295,1.020388055,9.742453061,0.6666666667
+retro_r2,rf_abast_ctrl,aviso_objetivo,False,30,668,1.062486295,1.020388055,9.742453061,0.6666666667
+retro_r2,rf_precio,aviso_objetivo,False,30,668,1.065805492,1.012636849,9.447424527,0.6333333333
+retro_r2,ridge_abast,aviso_objetivo,False,30,668,1.129961879,1.100102121,10.30190095,0.6333333333
+retro_r2,ridge_abast_ctrl,aviso_objetivo,False,30,668,1.129961879,1.100102121,10.30190095,0.6333333333
+retro_r2,ridge_precio,aviso_objetivo,False,30,668,1.124170281,1.105343614,10.27287864,0.6333333333
+retro_p1_a2,estacional,aviso_objetivo,True,30,50,1.578210999,1.376101672,4.183728646,0.3
+retro_p1_a2,ingenuo,aviso_objetivo,True,30,50,1.216959681,0.986142384,-2.859451535,
+retro_p1_a2,rf_abast,aviso_objetivo,True,30,50,0.8902966124,0.5913413892,-0.3273706334,0.6666666667
+retro_p1_a2,rf_abast_ctrl,aviso_objetivo,True,30,50,0.8902966124,0.5913413892,-0.3273706334,0.6666666667
+retro_p1_a2,rf_precio,aviso_objetivo,True,30,50,0.8659576444,0.6305601454,-0.6518338377,0.7
+retro_p1_a2,ridge_abast,aviso_objetivo,True,30,50,0.942372845,0.5322255274,2.076948813,0.6333333333
+retro_p1_a2,ridge_abast_ctrl,aviso_objetivo,True,30,50,0.942372845,0.5322255274,2.076948813,0.6333333333
+retro_p1_a2,ridge_precio,aviso_objetivo,True,30,50,0.9413116647,0.5556278019,2.345718581,0.6666666667
+retro_r1,estacional,aviso_objetivo,True,30,50,1.578210999,1.376101672,4.183728646,0.3
+retro_r1,ingenuo,aviso_objetivo,True,30,50,1.216959681,0.986142384,-2.859451535,
+retro_r1,rf_abast,aviso_objetivo,True,30,50,0.882961497,0.6340920696,-0.5968131505,0.7
+retro_r1,rf_abast_ctrl,aviso_objetivo,True,30,50,0.882961497,0.6340920696,-0.5968131505,0.7
+retro_r1,rf_precio,aviso_objetivo,True,30,50,0.8854388666,0.632474279,-0.7993244981,0.6666666667
+retro_r1,ridge_abast,aviso_objetivo,True,30,50,0.9470941248,0.5474465021,1.949758854,0.6666666667
+retro_r1,ridge_abast_ctrl,aviso_objetivo,True,30,50,0.9470941248,0.5474465021,1.949758854,0.6666666667
+retro_r1,ridge_precio,aviso_objetivo,True,30,50,0.9467666196,0.5449253287,1.78813866,0.6333333333
+retro_r2,estacional,aviso_objetivo,True,30,50,1.596167953,1.378458459,4.183728646,0.4666666667
+retro_r2,ingenuo,aviso_objetivo,True,30,50,1.393140055,1.371286399,-6.994583397,
+retro_r2,rf_abast,aviso_objetivo,True,30,50,1.185038563,0.9913794481,2.867325302,0.6666666667
+retro_r2,rf_abast_ctrl,aviso_objetivo,True,30,50,1.185038563,0.9913794481,2.867325302,0.6666666667
+retro_r2,rf_precio,aviso_objetivo,True,30,50,1.182604007,1.014481169,3.073472705,0.7
+retro_r2,ridge_abast,aviso_objetivo,True,30,50,1.069469714,0.8421874689,3.216973104,0.7666666667
+retro_r2,ridge_abast_ctrl,aviso_objetivo,True,30,50,1.069469714,0.8421874689,3.216973104,0.7666666667
+retro_r2,ridge_precio,aviso_objetivo,True,30,50,1.076839137,0.8671614953,3.478141312,0.7666666667
+retro_p1_a2,estacional,aviso_en_ventana_abast,False,20,150,1.752643395,1.742467479,3.30989107,0.4
+retro_p1_a2,ingenuo,aviso_en_ventana_abast,False,20,150,1.319160676,1.183290741,4.679499573,
+retro_p1_a2,rf_abast,aviso_en_ventana_abast,False,20,150,1.116753755,0.9866377935,5.060808087,0.75
+retro_p1_a2,rf_abast_ctrl,aviso_en_ventana_abast,False,20,150,1.116753755,0.9866377935,5.060808087,0.75
+retro_p1_a2,rf_precio,aviso_en_ventana_abast,False,20,150,1.104721836,0.9407360278,4.910800138,0.75
+retro_p1_a2,ridge_abast,aviso_en_ventana_abast,False,20,150,1.190913605,1.033438737,5.264125973,0.7
+retro_p1_a2,ridge_abast_ctrl,aviso_en_ventana_abast,False,20,150,1.190913605,1.033438737,5.264125973,0.7
+retro_p1_a2,ridge_precio,aviso_en_ventana_abast,False,20,150,1.185271345,1.038656426,5.544108931,0.7
+retro_r1,estacional,aviso_en_ventana_abast,False,20,140,1.810387746,1.707774644,5.374355646,0.3
+retro_r1,ingenuo,aviso_en_ventana_abast,False,20,140,1.279756804,1.134871746,1.717700712,
+retro_r1,rf_abast,aviso_en_ventana_abast,False,20,140,1.160019139,1.023002012,5.83194337,0.7
+retro_r1,rf_abast_ctrl,aviso_en_ventana_abast,False,20,140,1.160019139,1.023002012,5.83194337,0.7
+retro_r1,rf_precio,aviso_en_ventana_abast,False,20,140,1.151266775,1.02746563,5.45365674,0.65
+retro_r1,ridge_abast,aviso_en_ventana_abast,False,20,140,1.223598177,1.098519603,5.669593865,0.65
+retro_r1,ridge_abast_ctrl,aviso_en_ventana_abast,False,20,140,1.223598177,1.098519603,5.669593865,0.65
+retro_r1,ridge_precio,aviso_en_ventana_abast,False,20,140,1.214743246,1.096518655,5.653410986,0.65
+retro_r2,estacional,aviso_en_ventana_abast,False,20,150,1.77502802,1.749546711,3.30989107,0.4
+retro_r2,ingenuo,aviso_en_ventana_abast,False,20,150,1.558787722,1.384646109,4.938518121,
+retro_r2,rf_abast,aviso_en_ventana_abast,False,20,150,1.341147897,1.19749585,8.254919339,0.65
+retro_r2,rf_abast_ctrl,aviso_en_ventana_abast,False,20,150,1.341147897,1.19749585,8.254919339,0.65
+retro_r2,rf_precio,aviso_en_ventana_abast,False,20,150,1.331550907,1.182858943,7.941172012,0.65
+retro_r2,ridge_abast,aviso_en_ventana_abast,False,20,150,1.37865501,1.323599909,7.879520339,0.7
+retro_r2,ridge_abast_ctrl,aviso_en_ventana_abast,False,20,150,1.37865501,1.323599909,7.879520339,0.7
+retro_r2,ridge_precio,aviso_en_ventana_abast,False,20,150,1.368934191,1.313790387,8.039254865,0.7
+retro_p1_a2,estacional,aviso_en_ventana_abast,True,30,568,1.188389542,1.03117151,4.385072883,0.5
+retro_p1_a2,ingenuo,aviso_en_ventana_abast,True,30,568,1.018910566,0.9428025662,5.707200383,
+retro_p1_a2,rf_abast,aviso_en_ventana_abast,True,30,568,0.8967865106,0.9269690222,7.923051104,0.6333333333
+retro_p1_a2,rf_abast_ctrl,aviso_en_ventana_abast,True,30,568,0.8967865106,0.9269690222,7.923051104,0.6333333333
+retro_p1_a2,rf_precio,aviso_en_ventana_abast,True,30,568,0.8950939293,0.912802531,7.849529059,0.6333333333
+retro_p1_a2,ridge_abast,aviso_en_ventana_abast,True,30,568,0.9101692196,0.9136623403,7.985509973,0.6333333333
+retro_p1_a2,ridge_abast_ctrl,aviso_en_ventana_abast,True,30,568,0.9101692196,0.9136623403,7.985509973,0.6333333333
+retro_p1_a2,ridge_precio,aviso_en_ventana_abast,True,30,568,0.9078896224,0.9084927542,7.961015036,0.6333333333
+retro_r1,estacional,aviso_en_ventana_abast,True,30,578,1.184922339,1.037910184,3.860872349,0.4666666667
+retro_r1,ingenuo,aviso_en_ventana_abast,True,30,578,1.034625119,0.9402655349,6.433914246,
+retro_r1,rf_abast,aviso_en_ventana_abast,True,30,578,0.8913298982,0.9072887528,7.501041775,0.6333333333
+retro_r1,rf_abast_ctrl,aviso_en_ventana_abast,True,30,578,0.8913298982,0.9072887528,7.501041775,0.6333333333
+retro_r1,rf_precio,aviso_en_ventana_abast,True,30,578,0.888078523,0.9070416432,7.23069825,0.6333333333
+retro_r1,ridge_abast,aviso_en_ventana_abast,True,30,578,0.9034026355,0.9045922546,7.543075533,0.6333333333
+retro_r1,ridge_abast_ctrl,aviso_en_ventana_abast,True,30,578,0.9034026355,0.9045922546,7.543075533,0.6333333333
+retro_r1,ridge_precio,aviso_en_ventana_abast,True,30,578,0.9013500128,0.8994066512,7.458230066,0.6333333333
+retro_r2,estacional,aviso_en_ventana_abast,True,30,568,1.198793985,1.031064544,4.385072883,0.5666666667
+retro_r2,ingenuo,aviso_en_ventana_abast,True,30,568,1.204596932,1.154169602,8.633499226,
+retro_r2,rf_abast,aviso_en_ventana_abast,True,30,568,1.000670283,1.012635534,9.470902306,0.6333333333
+retro_r2,rf_abast_ctrl,aviso_en_ventana_abast,True,30,568,1.000670283,1.012635534,9.470902306,0.6333333333
+retro_r2,rf_precio,aviso_en_ventana_abast,True,30,568,1.007079165,0.9942102885,9.217783559,0.6333333333
+retro_r2,ridge_abast,aviso_en_ventana_abast,True,30,568,1.061905977,1.058660083,10.21569351,0.6333333333
+retro_r2,ridge_abast_ctrl,aviso_en_ventana_abast,True,30,568,1.061905977,1.058660083,10.21569351,0.6333333333
+retro_r2,ridge_precio,aviso_en_ventana_abast,True,30,568,1.058184191,1.056853337,10.16183715,0.6333333333
+retro_p1_a2,estacional,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.752643395,1.742467479,3.30989107,
+retro_p1_a2,ingenuo,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.319160676,1.183290741,4.679499573,
+retro_p1_a2,rf_abast,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.116753755,0.9866377935,5.060808087,
+retro_p1_a2,rf_abast_ctrl,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.116753755,0.9866377935,5.060808087,
+retro_p1_a2,rf_precio,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.104721836,0.9407360278,4.910800138,
+retro_p1_a2,ridge_abast,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.190913605,1.033438737,5.264125973,
+retro_p1_a2,ridge_abast_ctrl,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.190913605,1.033438737,5.264125973,
+retro_p1_a2,ridge_precio,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.185271345,1.038656426,5.544108931,
+retro_r1,estacional,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.810387746,1.707774644,5.374355646,
+retro_r1,ingenuo,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.279756804,1.134871746,1.717700712,
+retro_r1,rf_abast,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.160019139,1.023002012,5.83194337,
+retro_r1,rf_abast_ctrl,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.160019139,1.023002012,5.83194337,
+retro_r1,rf_precio,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.151266775,1.02746563,5.45365674,
+retro_r1,ridge_abast,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.223598177,1.098519603,5.669593865,
+retro_r1,ridge_abast_ctrl,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.223598177,1.098519603,5.669593865,
+retro_r1,ridge_precio,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,140,1.214743246,1.096518655,5.653410986,
+retro_r2,estacional,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.77502802,1.749546711,3.30989107,
+retro_r2,ingenuo,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.558787722,1.384646109,4.938518121,
+retro_r2,rf_abast,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.341147897,1.19749585,8.254919339,
+retro_r2,rf_abast_ctrl,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.341147897,1.19749585,8.254919339,
+retro_r2,rf_precio,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.331550907,1.182858943,7.941172012,
+retro_r2,ridge_abast,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.37865501,1.323599909,7.879520339,
+retro_r2,ridge_abast_ctrl,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.37865501,1.323599909,7.879520339,
+retro_r2,ridge_precio,sensibilidad_sin_aviso_en_ventana_abast,excluidas,20,150,1.368934191,1.313790387,8.039254865,

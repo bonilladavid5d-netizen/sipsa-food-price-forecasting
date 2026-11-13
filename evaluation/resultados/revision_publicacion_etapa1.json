@@ -1,0 +1,52 @@
+{
+  "revision": "publicacion-etapa1",
+  "creado_utc": "2026-11-12T05:54:02+00:00",
+  "naturaleza": "Revisión de publicación posterior a los resultados y a las revisiones independientes; no es un congelamiento previo. No cambia datos, código de cálculo ni resultados.",
+  "padre": {
+    "revision": "mantenimiento-v2",
+    "revision_mantenimiento_v2_sha256": "7e9f0776f01f5f73091c59599331576a4e88a5787c5dbd531cb56e22e78fcfd9",
+    "registro_protocolo_original_sha256": "4815272dc780f913a87a0df76342c5f10c1ed0a4ac71b8e130f7ed160e267a56",
+    "zip_v2_sha256": "63745a0c0376c120a22d542699887ff0cb4b72c749edac259be60cfdb2bc712a"
+  },
+  "derivados": [
+    {
+      "archivo": "resultados/registro_protocolo.json",
+      "protegido": true,
+      "nota": "registro protegido: debe conservar la huella publicada",
+      "sha256_origen": "4815272dc780f913a87a0df76342c5f10c1ed0a4ac71b8e130f7ed160e267a56",
+      "sha256_publicado": "96e0a865b699bbaf62c971f5c7d2c51e31c63f8ca045079f81f53347577dc55d",
+      "transformacion": "entrada.proyecto_ingenieria: ruta absoluta local -> \"<PROYECTO_INGENIERIA>\"; resto del archivo idéntico byte a byte",
+      "original_conservado_en": "sipsa_evaluacion_v2/resultados/registro_protocolo.json y SIPSA_EVALUACION_PREDICTIVA_REVISION_v2.zip (expediente de revisión)"
+    },
+    {
+      "archivo": "resultados/ejecucion.json",
+      "protegido": false,
+      "nota": "salida de ejecución: declarada por procedencia; `reproducir.sh` la regenera",
+      "sha256_origen": "910d4d697f8cd17a79739f46af0a5a0acd26c1674e1c41d222fbd4cff63707e1",
+      "sha256_publicado": "45ddd1eaed508698b16abf58538e2ec810700000632e457226229de2090f03d8",
+      "transformacion": "entrada.proyecto_ingenieria: ruta absoluta local -> \"<PROYECTO_INGENIERIA>\"; resto del archivo idéntico byte a byte",
+      "original_conservado_en": "sipsa_evaluacion_v2/resultados/ejecucion.json y SIPSA_EVALUACION_PREDICTIVA_REVISION_v2.zip (expediente de revisión)"
+    }
+  ],
+  "modulos_aprobados": {
+    "evaluacion/nucleo.py": "51e58d3eb09d817994d8b7e60d2c5d8ea1951e21c0b7d67a01420c95455cbcb5",
+    "evaluacion/ejecutar.py": "f92cc124cbd207c5b3acce2b7d6fec9f1b9d95156957719bc149e566c6f9ccd9",
+    "evaluacion/datos.py": "cf2281db4f594dec51e7a74674621b59ecec1d1f6ef5e18eb0903580155a64a5",
+    "evaluacion/controles.py": "e9515b29c42b3e3599b5802e47880dc0490feec9b4e461c667c67addc494b31a",
+    "evaluacion/recalcular.py": "d29bc531798e095a3c81122bfef18a68303bd950ee92561a4ae50373e1b71ad6",
+    "evaluacion/integridad.py": "472cfb4f0158deb76a00dde012aba891dcea85e652a40d6a589c7f81f1714466",
+    "evaluacion/figuras.py": "c89f0b826392a1ca7ed18922994808bad97d7b677458d1bf6e1a1893b4aea820",
+    "evaluacion/__main__.py": "81f56b5c2876e44d77c46a09e6f512f751549e8d1292ae8b9425245171ff00c3",
+    "evaluacion/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "huella_codigo_revision": "ec44861dd1e72646871b8c0959f14f682f9b5c847881731a217a836a8f613edf",
+  "cambios": [
+    {
+      "modulo": "evaluacion/integridad.py",
+      "clase": "validacion",
+      "sha256_v2": "60b5854b541cf5f9be7fe0d49974da0c6a75bd089c1bc5214ddaf10d123b3c53",
+      "sha256_publicacion": "472cfb4f0158deb76a00dde012aba891dcea85e652a40d6a589c7f81f1714466",
+      "justificacion": "Acepta como padre un registro derivado solo si está declarado aquí con la huella de origen del registro original; verifica la huella publicada de cada derivado y usa estos módulos aprobados."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "pasaron": 9,
+  "fallos": 0,
+  "pruebas": [
+    {
+      "prueba": "copia_derivada_lote:retro_r1",
+      "datos": "copia_derivada_lote",
+      "origen": "2024-06",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2024-06",
+        "volumenes_desde": "2024-06"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 1830,
+      "ultima_etiqueta": "2024-05"
+    },
+    {
+      "prueba": "copia_derivada_lote:retro_r2",
+      "datos": "copia_derivada_lote",
+      "origen": "2024-06",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2024-05",
+        "volumenes_desde": "2024-05"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 1770,
+      "ultima_etiqueta": "2024-04"
+    },
+    {
+      "prueba": "copia_derivada_lote:retro_p1_a2",
+      "datos": "copia_derivada_lote",
+      "origen": "2024-06",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2024-06",
+        "volumenes_desde": "2024-05"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 1800,
+      "ultima_etiqueta": "2024-05"
+    },
+    {
+      "prueba": "sintetico:retro_r1",
+      "datos": "sintetico",
+      "origen": "2023-06",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2023-06",
+        "volumenes_desde": "2023-06"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 294,
+      "ultima_etiqueta": "2023-05"
+    },
+    {
+      "prueba": "sintetico:retro_r2",
+      "datos": "sintetico",
+      "origen": "2023-06",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2023-05",
+        "volumenes_desde": "2023-05"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 282,
+      "ultima_etiqueta": "2023-04"
+    },
+    {
+      "prueba": "sintetico:retro_p1_a2",
+      "datos": "sintetico",
+      "origen": "2023-06",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2023-06",
+        "volumenes_desde": "2023-05"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 288,
+      "ultima_etiqueta": "2023-05"
+    },
+    {
+      "prueba": "sintetico:retro_r1",
+      "datos": "sintetico",
+      "origen": "2025-05",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2025-05",
+        "volumenes_desde": "2025-05"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 432,
+      "ultima_etiqueta": "2025-04"
+    },
+    {
+      "prueba": "sintetico:retro_r2",
+      "datos": "sintetico",
+      "origen": "2025-05",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2025-04",
+        "volumenes_desde": "2025-04"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 420,
+      "ultima_etiqueta": "2025-03"
+    },
+    {
+      "prueba": "sintetico:retro_p1_a2",
+      "datos": "sintetico",
+      "origen": "2025-05",
+      "resultado": "PASS",
+      "valores_futuros_alterados": {
+        "precios_desde": "2025-05",
+        "volumenes_desde": "2025-04"
+      },
+      "variables_identicas": true,
+      "pronosticos_identicos": true,
+      "escala_identica": true,
+      "control_negativo_precio_limite_cambia": true,
+      "control_negativo_volumen_limite_cambia_solo_abast": true,
+      "filas_entrenamiento": 426,
+      "ultima_etiqueta": "2025-04"
+    }
+  ]
+}

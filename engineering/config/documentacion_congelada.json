@@ -1,0 +1,30 @@
+[
+  {
+    "name": "metodologia_precios.pdf",
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/fichas/DSO-SIPSA_P-MET-001.pdf",
+    "sha256": "c7d3d76f4dc3a60aeec14acb7cae6d89b40401bffc1248abc6a68acf53832c42",
+    "bytes": 1088184,
+    "retrieved_at": "2026-11-11T15:05:13.402716+00:00"
+  },
+  {
+    "name": "metodologia_abastecimiento.pdf",
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/met-SIPSAbastecimiento.pdf",
+    "sha256": "bd9a3f12e5f61d5261f872ccd2c2e90f5f4b9144c3f5f991e75a48b15f2b9f92",
+    "bytes": 875595,
+    "retrieved_at": "2026-11-11T15:05:19.048418+00:00"
+  },
+  {
+    "name": "guia_servicio.pdf",
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/DANE-webservice-SIPSA.pdf",
+    "sha256": "76f286b04e54dd7f346460631f247abf72874f3d598d5159af915aa84c43ac32",
+    "bytes": 218733,
+    "retrieved_at": "2026-11-11T15:05:25.336627+00:00"
+  },
+  {
+    "name": "servicio_web.html",
+    "url": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/servicio-web-para-consulta-de-la-base-de-datos-de-sipsa",
+    "sha256": "8ef65333c71201b32ebb9ac87697f4f20e06cb3f8f0cf4be381b891edb5835bb",
+    "bytes": 49601,
+    "retrieved_at": "2026-11-11T15:05:33.102018+00:00"
+  }
+]

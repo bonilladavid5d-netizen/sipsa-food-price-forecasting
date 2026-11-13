@@ -1,0 +1,7 @@
+market_id,source,raw_market,canonical_market,rule
+M01,precios,"Bogotá, D.C., Corabastos","Bogotá, D.C., Corabastos",exact_name
+M01,abastecimiento,"Bogotá, D.C., Corabastos","Bogotá, D.C., Corabastos",exact_name
+M02,precios,"Medellín, Central Mayorista de Antioquia","Medellín, Central Mayorista de Antioquia",exact_name
+M02,abastecimiento,"Medellín, Central Mayorista de Antioquia","Medellín, Central Mayorista de Antioquia",exact_name
+M03,precios,"Bucaramanga, Centroabastos","Bucaramanga, Centroabastos",exact_name
+M03,abastecimiento,"Bucaramanga, Centroabastos","Bucaramanga, Centroabastos",exact_name

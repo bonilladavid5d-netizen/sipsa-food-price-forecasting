@@ -1,0 +1,15 @@
+{
+  "version": "excepciones-v1",
+  "conciliacion_totales": [
+    {"month": "2018-12", "market": "Bogotá, D.C., Corabastos", "difference_kg_esperada": 260, "tolerancia_kg": 1,
+     "decision": "Heredada de viabilidad: se conserva la fuente y la discrepancia; no se atribuye a redondeo ni revisión sin evidencia."},
+    {"month": "2022-07", "market": "Medellín, Central Mayorista de Antioquia", "difference_kg_esperada": 300, "tolerancia_kg": 1,
+     "decision": "Heredada de viabilidad: igual tratamiento."}
+  ],
+  "huecos_precio_canasta": [
+    {"month": "2025-04", "market": "Bucaramanga, Centroabastos", "product": "Limón Tahití"},
+    {"month": "2025-09", "market": "Bucaramanga, Centroabastos", "product": "Limón Tahití"}
+  ],
+  "llaves_repetidas_precios_exceso_esperado": 8,
+  "abastecimiento_no_positivo_esperado": [{"year": 2022, "rows": 1, "fuera_de_canasta": true}]
+}

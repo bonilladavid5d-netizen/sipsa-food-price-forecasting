@@ -1,0 +1,141 @@
+{
+  "revision": "distribucion-etapa1-v2",
+  "creado_utc": "2026-11-12T21:34:50+00:00",
+  "naturaleza": "Revisión de distribución posterior a los resultados: retira de la copia pública las series del DANE y adapta la verificación. No cambia datos, estimación, exportación, métricas ni conclusiones.",
+  "padre": {
+    "revision": "publicacion-etapa1",
+    "revision_publicacion_etapa1_sha256": "a1a5929384465506e0af484d6c70e50011237315c0e034bb4402e936249f4efc",
+    "zip_publicable_anterior_sha256": "47df535564ed1bc20c56b15ff77a356c4fb6621da7148a3c5374fb92bc1cbd0b"
+  },
+  "retirados": {
+    "evaluation/resultados/predicciones.csv": {
+      "sha256_aprobado": "ef0b296a9fdf093c0d5a0da352a25c1c002514b7495258bcb3e18590cf4e6cde",
+      "bytes": 4743891,
+      "motivo": "precios observados, base B, referencia estacional y pronósticos ingenuo/estacional (reproducen precios); observado = predicho - error",
+      "reconstruccion": "modo B: reconstruir el lote de ingeniería y ejecutar evaluation/reproducir.sh en una copia de trabajo",
+      "original_conservado_en": "expediente privado: resultados/predicciones.csv y su ZIP aprobado"
+    },
+    "evaluation/resultados/seleccion/predicciones_seleccion.csv": {
+      "sha256_aprobado": "af80ae50a0d304d9ccc467d8533d2870e0725770a05d4742519539a867c1b3a4",
+      "bytes": 2324470,
+      "motivo": "mismas columnas de precios para los objetivos de 2023",
+      "reconstruccion": "igual que predicciones.csv",
+      "original_conservado_en": "expediente privado: seleccion/predicciones_seleccion.csv y su ZIP aprobado"
+    },
+    "engineering/config/referencia_panel_viabilidad.csv": {
+      "sha256_aprobado": "c467fab13ca1840e1ea7f31d504122722b46c39c2de5014a3ce7aacc3d39b2f6",
+      "bytes": 775349,
+      "motivo": "panel de 2.880 celdas con price (COP/kg) y kg mensuales",
+      "reconstruccion": "engineering/herramientas/reconstruir_referencias.py",
+      "original_conservado_en": "expediente privado: config/referencia_panel_viabilidad.csv y su ZIP aprobado"
+    },
+    "engineering/config/referencia_conciliacion_viabilidad.csv": {
+      "sha256_aprobado": "74ae62f0edd281ba96ae10d505a58dd35728fb342a0b230369fcfbea6f76ba18",
+      "bytes": 26277,
+      "motivo": "288 totales mercado-mes: official_tonnes y microdata_kg",
+      "reconstruccion": "engineering/herramientas/reconstruir_referencias.py",
+      "original_conservado_en": "expediente privado: config/referencia_conciliacion_viabilidad.csv y su ZIP aprobado"
+    },
+    "engineering/config/referencia_candidatos_viabilidad.csv": {
+      "sha256_aprobado": "19faf1c427f2ac7c7c8473f4ac54b6b74b612d5a16ff3eac8d8fc819e0b413fa",
+      "bytes": 1625,
+      "motivo": "kg acumulados 2018-2022 por producto (training_kg) y cobertura",
+      "reconstruccion": "engineering/herramientas/reconstruir_referencias.py",
+      "original_conservado_en": "expediente privado: config/referencia_candidatos_viabilidad.csv y su ZIP aprobado"
+    }
+  },
+  "tablas_conservadas_aprobadas": {
+    "resultados/metricas_por_serie.csv": "8349755cb717e863906eeed7831ec133a716084e6f5eaf4cf88e24c395a9bca5",
+    "resultados/metricas_resumen.csv": "a0e963707153be4450462c59554a37ef9429357913974a93079d9317c750f833",
+    "resultados/aporte_abastecimiento.csv": "2289fa3c934dfd112bde0520bf03288b28ab6a95904cbce3271d4559f37281e8",
+    "resultados/auditoria_temporal.csv": "dc7fbabe6ec8c0e26b5c5dcd104011c993658aae08f124c3518b32e716c8340e",
+    "resultados/flujo_observaciones.csv": "f58827aa875faefad0268ab0dfe1d3a5fc84537c5e058625e9e9d7408c7b4c7c",
+    "resultados/cifras_resumen.json": "c5457fa1d1545f3b9ce70fa74ff5f42f777dc0a5a70a2a9a9156a5c3cb8ef561",
+    "resultados/seleccion/metricas_seleccion_por_serie.csv": "36ebe536468622e1e1d73e7394dfceafa82500ecd2fc076ccb12ca2ab8a16356",
+    "resultados/seleccion/metricas_seleccion_resumen.csv": "26ac7f34cbb2d47be72773d7d9c2f1df7bdccbc4a6a576f87cd999022fc7e0ec",
+    "resultados/seleccion/parametros_congelados.json": "d1942eff35d3056bb8aba014db750a4444480d2468b89beaafc71536fe384c15",
+    "resultados/controles/pruebas_fugas.json": "c9cead726311a5bbe036c391a629a08621efdd4cfd1e75ad87da2f70477e5224",
+    "resultados/figuras/fig1_precision_por_modelo.png": "8c982d93d578c42e569d9fabd35606b580bb7c8367c7893485f4aa12a537e4eb",
+    "resultados/figuras/fig2_aporte_abastecimiento_por_serie.png": "3f2ec2dbac8129901f4da71c0b0fe1f1a25a3ef9436b60a7f8f714a6e5cc6ffd",
+    "resultados/figuras/fig3_estabilidad_aporte.png": "8213301043a42a6d4face827d60c9faeb18a30cd6cc248c3895a4a57e395c8e2"
+  },
+  "modulos_aprobados": {
+    "evaluacion/nucleo.py": "51e58d3eb09d817994d8b7e60d2c5d8ea1951e21c0b7d67a01420c95455cbcb5",
+    "evaluacion/ejecutar.py": "f92cc124cbd207c5b3acce2b7d6fec9f1b9d95156957719bc149e566c6f9ccd9",
+    "evaluacion/datos.py": "cf2281db4f594dec51e7a74674621b59ecec1d1f6ef5e18eb0903580155a64a5",
+    "evaluacion/controles.py": "e9515b29c42b3e3599b5802e47880dc0490feec9b4e461c667c67addc494b31a",
+    "evaluacion/recalcular.py": "d29bc531798e095a3c81122bfef18a68303bd950ee92561a4ae50373e1b71ad6",
+    "evaluacion/integridad.py": "95fc7d0fc6a31cf3ac1039ce8784d27fed03025a6d3c83650fb6ce2acbfc57a9",
+    "evaluacion/figuras.py": "c89f0b826392a1ca7ed18922994808bad97d7b677458d1bf6e1a1893b4aea820",
+    "evaluacion/__main__.py": "b72685b058d8a6b175b8ba0dd07e8bfe1dcbc81d43e59f8cf5c6b35caa8fdcee",
+    "evaluacion/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evaluacion/publico.py": "9948de6cfe47c55a96d9eb880707686745a9dd48b231ea7f0eda42172422dcbe"
+  },
+  "huella_codigo_revision": "bde6c635886af21161fc8966966e1b9a80be875b033e9b3c71724d0a3791181a",
+  "cambios": [
+    {
+      "modulo": "evaluacion/integridad.py",
+      "sha256_anterior": "472cfb4f0158deb76a00dde012aba891dcea85e652a40d6a589c7f81f1714466",
+      "sha256_distribucion": "95fc7d0fc6a31cf3ac1039ce8784d27fed03025a6d3c83650fb6ce2acbfc57a9",
+      "justificacion": "validacion: añade el eslabón revision_distribucion y clasifica publico.py"
+    },
+    {
+      "modulo": "evaluacion/__main__.py",
+      "sha256_anterior": "81f56b5c2876e44d77c46a09e6f512f751549e8d1292ae8b9425245171ff00c3",
+      "sha256_distribucion": "3d9488160b46917df432bf6d75eaefd0b39351dbd784f5229c449b0328a07f53",
+      "justificacion": "presentacion/CLI: comandos verificar-publico y comparar-aprobado; controles y recalcular informan NO EJECUTADO sin datos (código 2)"
+    },
+    {
+      "modulo": "evaluacion/publico.py",
+      "sha256_anterior": null,
+      "sha256_distribucion": "9948de6cfe47c55a96d9eb880707686745a9dd48b231ea7f0eda42172422dcbe",
+      "justificacion": "validacion (nuevo): verificación pública sin series del DANE y comparación de una reconstrucción local con lo aprobado"
+    }
+  ],
+  "enmiendas": [
+    {
+      "enmienda": "recalcular-aprobacion",
+      "creado_utc": "2026-11-13T05:08:16+00:00",
+      "naturaleza": "Corrección de validación posterior a los resultados. No cambia datos, estimación, exportación, métricas, figuras ni conclusiones; no se reentrenó.",
+      "sha256_revision_distribucion_antes": "b86679267b5496ff7c0182f381e7e14895d33bdaeb9485b410f4817a984efc12",
+      "huella_codigo_revision_antes": "8a2f305d31b20dd7250a4a341eca68b403db21aaa26ba8d31bb2ceb2495a676d",
+      "huella_codigo_revision_despues": "bde6c635886af21161fc8966966e1b9a80be875b033e9b3c71724d0a3791181a",
+      "zip_publicable_anterior_sha256": "52522cf4e7b83e9eadb887b9512bce058147abf83241e8dd818d3d1bbf625c72",
+      "modulos": [
+        {
+          "modulo": "evaluacion/__main__.py",
+          "sha256_antes": "3d9488160b46917df432bf6d75eaefd0b39351dbd784f5229c449b0328a07f53",
+          "sha256_despues": "b72685b058d8a6b175b8ba0dd07e8bfe1dcbc81d43e59f8cf5c6b35caa8fdcee",
+          "justificacion": "presentacion/CLI: `recalcular` retira cualquier VALIDACION_VIGENTE.json anterior antes de comprobar los insumos, y de nuevo ante un fallo del recálculo (código 1) o una excepción (código 1); sin datos termina con código 2 y sin aprobación. No emite aprobación: solo `controles` lo hace. recalcular.py no cambia."
+        }
+      ],
+      "otros_archivos": [
+        {
+          "archivo": "evaluation/reproducir.sh",
+          "clase": "ejecucion_empaquetado",
+          "sha256_antes": "66dff588948df1926cb7b36bf599c38a60e16f22642b8f3d1e8438deddbe8e29",
+          "sha256_despues": "5b4a6704e39d2d07e88b1616b4de03b47141291b3522b10c4738936de501b067",
+          "cambio": "`recalcular` se ejecuta antes de `controles`, para que la aprobación final la emita `controles` y no quede retirada por el recálculo."
+        },
+        {
+          "archivo": "evaluation/herramientas/probar_rechazos.py",
+          "clase": "herramienta_validacion",
+          "sha256_antes": "267982e238065bd5a6595de3ff15c94fd6e0d80380cfc1135d3bf28c5137ac75",
+          "sha256_despues": "7f8be30f1bd4bc6fae810fec97248f087d83f5c995aabbadaed92c9a85b06be8",
+          "cambio": "P1c siembra una aprobación previa y exige código 2 sin aprobación al terminar; casos 6a-6c de recálculo con datos (íntegro, aporte falso, insumo ilegible); se registra si la aprobación estaba sembrada."
+        }
+      ],
+      "sin_cambios": [
+        "registro_protocolo.json (congelamiento original)",
+        "revision_mantenimiento_v2.json",
+        "revision_publicacion_etapa1.json",
+        "nucleo.py",
+        "recalcular.py",
+        "controles.py",
+        "ejecutar.py",
+        "datos.py",
+        "tablas conservadas y figuras"
+      ]
+    }
+  ]
+}

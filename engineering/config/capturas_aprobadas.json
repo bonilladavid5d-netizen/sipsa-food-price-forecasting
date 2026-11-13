@@ -1,0 +1,188 @@
+{
+  "version": "capturas-v1",
+  "descripcion": "Metadatos de captura aprobados. first_seen_at = retrieved_at literal del JSON lateral verificado contra el manifiesto del ZIP congelado.",
+  "origen": [
+    {
+      "zip": "SIPSA_FUENTES_2018_2021.zip",
+      "zip_sha256": "bffc1f13ba1440aab23be61b6378d1fbb87f26c0694f3ee3b35e39629514aeee",
+      "manifiesto_sha256": "b6bdf8b73cb19800ca658f2ba5e8c63730a5c887221e86700481e34ac07d59fb"
+    },
+    {
+      "zip": "SIPSA_FUENTES_2022_2025.zip",
+      "zip_sha256": "76fa63a213021e084e5490ed46a3c27cae7a52abf1c76f2fc09d1e3419ed1c63",
+      "manifiesto_sha256": "5bd05f5361050719f1b644c7bb08847bdd8559e5bb864bce589c1090abfac059"
+    }
+  ],
+  "capturas": [
+    {
+      "local_path": "raw/abastecimiento/2018.xlsx",
+      "sidecar_path": "raw/abastecimiento/2018.json",
+      "sidecar_sha256": "2069080679ce6f17c5bcc600c7dd29cda2f0721ea39765f9fa8e2ec49de90bd0",
+      "sidecar_bytes": 973,
+      "source_sha256": "805d3de754da104813b6a717a6464dfb8ed0ff2a1b11ec0e6ffaa6137209a583",
+      "retrieved_at": "2026-11-11T15:02:39.886490+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2019.xlsx",
+      "sidecar_path": "raw/abastecimiento/2019.json",
+      "sidecar_sha256": "a7e1da47749d014990062299658a10111967b7bb4a8618f08177b25039a53c6f",
+      "sidecar_bytes": 964,
+      "source_sha256": "def6a96058d56bea99663d9fdd5f2dcebd2a85af4fc487807dc24089773bd777",
+      "retrieved_at": "2026-11-11T15:02:36.841138+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2020.xlsx",
+      "sidecar_path": "raw/abastecimiento/2020.json",
+      "sidecar_sha256": "63e2b71fbb574781f9e3abcf7c84a78046acfdde642e1bccf4d8c88665efcf33",
+      "sidecar_bytes": 964,
+      "source_sha256": "bb28aa715c6642ed2ec30c251c5cd7f022bb2e2ae34126f6c0424705f64372b8",
+      "retrieved_at": "2026-11-11T15:02:31.679870+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2021.xlsx",
+      "sidecar_path": "raw/abastecimiento/2021.json",
+      "sidecar_sha256": "5c46af210d86fe7574cb86c2ee9b56b8b680b4e70b965675d53b740b2e7660ae",
+      "sidecar_bytes": 964,
+      "source_sha256": "8ff33af2ef1c7b7935f65138a61e041cfb7f41841ada6d36c509bae3cb691e76",
+      "retrieved_at": "2026-11-11T15:02:26.783007+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2022.xlsx",
+      "sidecar_path": "raw/abastecimiento/2022.json",
+      "sidecar_sha256": "c63b6e0aba59438b9519509378f71019b99827cbceca658e90ab3566ed832d99",
+      "sidecar_bytes": 964,
+      "source_sha256": "127062bff3b7e00ca3a1fcfa7590842bb6f83c1c9a34cd58c88d26009e368bdf",
+      "retrieved_at": "2026-11-11T15:02:24.953727+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2023.xlsx",
+      "sidecar_path": "raw/abastecimiento/2023.json",
+      "sidecar_sha256": "21ddc4dd8f8ac17f11cefe4ab3ba4d3e21fb92ff5c738d7295062d69725116ff",
+      "sidecar_bytes": 964,
+      "source_sha256": "98f42cd3cc618b9413e5485a180b1c85a8477d69b9657d613da2e499a9f24d1a",
+      "retrieved_at": "2026-11-11T15:02:12.238405+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2024.xlsx",
+      "sidecar_path": "raw/abastecimiento/2024.json",
+      "sidecar_sha256": "c4ca36c485412dd9705eaaf3d2fff8290af13f9d05d3009182e87b91b6f5f4fa",
+      "sidecar_bytes": 905,
+      "source_sha256": "a498a8fd80c4b0e0305f95aac301983ef3b7e8dcbc2c24517f26f0c427ef4354",
+      "retrieved_at": "2026-11-11T15:02:12.040290+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/abastecimiento/2025.xlsx",
+      "sidecar_path": "raw/abastecimiento/2025.json",
+      "sidecar_sha256": "0687c97a56e76ecb6811b8989768deaadc0c030c621af8704a659581b4de6d88",
+      "sidecar_bytes": 905,
+      "source_sha256": "b55b88d464939b846bb4aa6814019ac61bf6f59f624c946d34ccd273414fe0b4",
+      "retrieved_at": "2026-11-11T15:02:05.133943+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/historico_abastecimiento.xlsx",
+      "sidecar_path": "raw/historico_abastecimiento.json",
+      "sidecar_sha256": "47480f198ef8c219eafe600815b5522f32916081d55a94d7b9607cd6cae2826e",
+      "sidecar_bytes": 605,
+      "source_sha256": "6893be7fcbd72780da92bda321c9a522f958c18c6de4989dc2ce38136649935e",
+      "retrieved_at": "2026-11-11T15:07:21.552737+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/precios/2018.xlsx",
+      "sidecar_path": "raw/precios/2018.json",
+      "sidecar_sha256": "6d083618677607fa08d0f9407e6b647886818fa4eebe6c39a162ba699873b7a5",
+      "sidecar_bytes": 984,
+      "source_sha256": "fb6d5349f80f42305261160bf6beb906d07af4f429b5f68c3247c69aaa162d12",
+      "retrieved_at": "2026-11-11T15:02:05.002853+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/precios/2019.xlsx",
+      "sidecar_path": "raw/precios/2019.json",
+      "sidecar_sha256": "9dbe0a9335a2078cb8ca940f4842bea28cb2f37c2611482ba4efdcf18c6ee1f0",
+      "sidecar_bytes": 984,
+      "source_sha256": "b6a22e980e7911f9ca741e2a1e7ba2f53ce6775085a293052ef89f532e70832d",
+      "retrieved_at": "2026-11-11T15:02:04.953482+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/precios/2020.xlsx",
+      "sidecar_path": "raw/precios/2020.json",
+      "sidecar_sha256": "78e58cc6b6d2718e24e2d3214c3957e027e61e6f466535dd4ce9646adf87dbc0",
+      "sidecar_bytes": 984,
+      "source_sha256": "53e6de3b4c5308b2fc1bd135b39871531ff40a636e2f4c7fc5bcffcf57e65fbc",
+      "retrieved_at": "2026-11-11T15:01:59.908111+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/precios/2021.xlsx",
+      "sidecar_path": "raw/precios/2021.json",
+      "sidecar_sha256": "4fe1044093551bdf1bdb32cf4cbfaa4dfeb00531d602eea621fba8a969a7fd6d",
+      "sidecar_bytes": 984,
+      "source_sha256": "4a460f246bacc4ffc86c235dbef0a043c9ee3b2a7e43ceb0ef3373cab7d2fa09",
+      "retrieved_at": "2026-11-11T15:01:59.906560+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2018_2021.zip"
+    },
+    {
+      "local_path": "raw/precios/2022.xlsx",
+      "sidecar_path": "raw/precios/2022.json",
+      "sidecar_sha256": "b7b045815543ad47719f2706fda4d9a2186b1f03f896300f1714241d0d1702bd",
+      "sidecar_bytes": 984,
+      "source_sha256": "1e299bc44280121eb79d0de4678a1888e92f1aaa1d6195027da69c3d55f47110",
+      "retrieved_at": "2026-11-11T15:01:59.097851+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/precios/2023.xlsx",
+      "sidecar_path": "raw/precios/2023.json",
+      "sidecar_sha256": "1d555a5eb143837434fcb9dfe67d806c7b3fb6be23877187dee30c31e231d6cf",
+      "sidecar_bytes": 916,
+      "source_sha256": "15230ac8d4046644016770db4d885f49bc76a429673a5369bb014d4b4476c78e",
+      "retrieved_at": "2026-11-11T15:01:50.521629+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/precios/2024.xlsx",
+      "sidecar_path": "raw/precios/2024.json",
+      "sidecar_sha256": "a47d14efeab92fe9126120df1d586631d0d3808fab58c080f4ce54aa8263533f",
+      "sidecar_bytes": 910,
+      "source_sha256": "081276b031fd517cf137c0c2e5ab1ff6364b7c5d40915dfccf0f4cb972087838",
+      "retrieved_at": "2026-11-11T15:01:50.519927+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    },
+    {
+      "local_path": "raw/precios/2025.xlsx",
+      "sidecar_path": "raw/precios/2025.json",
+      "sidecar_sha256": "45b058b75996351104aad69598dd0cc0f3c2264aed456835d7a16752f6357267",
+      "sidecar_bytes": 910,
+      "source_sha256": "235a93317d9845fd6ce31c5060e9fabc478dd7686e5dd3a3833c674eef7c4c8a",
+      "retrieved_at": "2026-11-11T15:01:50.520535+00:00",
+      "historical_release_at": null,
+      "zip": "SIPSA_FUENTES_2022_2025.zip"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "origen": "SIPSA_VIABILIDAD_ENTREGA.zip (11-11-2026)",
+  "zip_sha256": "8faec76e23217f9b6e424b258c00a3316b5a84d07cd32e237df8b2a68b015792",
+  "perfiles": {
+    "abastecimiento_2018": {
+      "data_sha256": "e589aa6c2d4b5c0872a1de723fa7c032cc6466b0c82fd2dac3dcabf7c8d7591e",
+      "rows": 1727577,
+      "output_rows": 33022,
+      "identical_row_occurrences_after_first": 249606,
+      "csv_sha256": {
+        "datos.csv": "e589aa6c2d4b5c0872a1de723fa7c032cc6466b0c82fd2dac3dcabf7c8d7591e",
+        "dias_mercado.csv": "0f1c80c3e6e2eea4ff3c4ceb4f92c07386a7d146f29264153e638231d02917bb",
+        "esquemas.csv": "2ff1fd8f9cd200d8f156a9f2e9e7051033f0d9e9632e05bf00596865a49fba8b",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "a0e206eb8f1eb3a3995cdba0002047edb3a86f4adbb3aba16d47a2d35b156f15",
+        "repeticiones_ejemplos.csv": "6768ebdef0515627287aa7d93d94a411b529f49afd986a50b093a666129bd944"
+      }
+    },
+    "abastecimiento_2019": {
+      "data_sha256": "506dc99c9181dfb150937b2602006d428a853db82640cfba42aaf7706f7139ce",
+      "rows": 1805560,
+      "output_rows": 33252,
+      "identical_row_occurrences_after_first": 278031,
+      "csv_sha256": {
+        "datos.csv": "506dc99c9181dfb150937b2602006d428a853db82640cfba42aaf7706f7139ce",
+        "dias_mercado.csv": "7f5666899f00735e7880dbe3ec842fba5c448e3acb7a73f1e33e1eb8352713e2",
+        "esquemas.csv": "b33a93da1c0bac415af48e184d990f6478afa86502e679822a3f32f81de82b5f",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "4df0e887f83bd8ca80f1f90656f01239386cca2a8947d37582a74f9acbcb4558",
+        "repeticiones_ejemplos.csv": "94b20389abcbc4e6005c452f89deb9987101d5edcbebbfea30ffc055c9bb3a50"
+      }
+    },
+    "abastecimiento_2020": {
+      "data_sha256": "2f7e76fca5a7c3c4ad4e3ad1b529977f753e7cf6cf0ec2274bca0e86c2903069",
+      "rows": 1813661,
+      "output_rows": 33981,
+      "identical_row_occurrences_after_first": 289664,
+      "csv_sha256": {
+        "datos.csv": "2f7e76fca5a7c3c4ad4e3ad1b529977f753e7cf6cf0ec2274bca0e86c2903069",
+        "dias_mercado.csv": "0fb5d88dba1fb8ee78f23b431da8126284b05ed8c7e6b9b64251c0c859661da2",
+        "esquemas.csv": "84a642b3f1dec92e7c0003bd3d5a2a4bb66b0edf648d1280aebc91ff2d72bec6",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "6d939b38979509ad8e705eb021cc132ab129615019de924ca69bb602ba392839",
+        "repeticiones_ejemplos.csv": "31be7542e6f2ae0d856c61c5528baea5fbd136d4493d97284a27498fea7dbf9d"
+      }
+    },
+    "abastecimiento_2021": {
+      "data_sha256": "ffdb6710124972e71a6f82c04b62ad6cbb408602a910f086ca8573586f6a5d4b",
+      "rows": 1844286,
+      "output_rows": 34437,
+      "identical_row_occurrences_after_first": 300231,
+      "csv_sha256": {
+        "datos.csv": "ffdb6710124972e71a6f82c04b62ad6cbb408602a910f086ca8573586f6a5d4b",
+        "dias_mercado.csv": "9cd923998ef917dcd15c32cfa785f7e653dee9d3cbf297a1fc9c0cd6f2b33fe6",
+        "esquemas.csv": "899c81c126ca3312e1c41f7e3a9244ba0f846c7f4451f6067c604fb37049fdc6",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "b265fa7848e66b31f5de29a56769a603b89742bfa2461354a9e68b62fba52637",
+        "repeticiones_ejemplos.csv": "34811d95322b59d437101120b0c78901d5e77f7d52ba9f99b7fa6d3b1183c84d"
+      }
+    },
+    "abastecimiento_2022": {
+      "data_sha256": "09d6a2b29b4de5e59bcc00e695ca8003b63e45742b3eb9e0fe5ca3f299b611fc",
+      "rows": 1857838,
+      "output_rows": 35579,
+      "identical_row_occurrences_after_first": 293572,
+      "csv_sha256": {
+        "datos.csv": "09d6a2b29b4de5e59bcc00e695ca8003b63e45742b3eb9e0fe5ca3f299b611fc",
+        "dias_mercado.csv": "cdbc62b5b846fc0462fd96c07e33850b86b18bb4eed3f45c50baaa08cae39733",
+        "esquemas.csv": "09a793cca573976ec3d3c1982fa7cad2b7d8c9fe4fec99a0f778f23753cd1953",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "b0a677ef3606aa7202bacab7caf2649312cdbc7cb17f656c1eb411c6b07777e9",
+        "repeticiones_ejemplos.csv": "428f24bf5f212de34bcc25ba40fac14d9d4f8d04b07d002d86867b65fcee1721"
+      }
+    },
+    "abastecimiento_2023": {
+      "data_sha256": "bfec204707a6bcc6c4d223c261ab0858294846f3264031f9975f5c9669f87e98",
+      "rows": 2013625,
+      "output_rows": 38318,
+      "identical_row_occurrences_after_first": 333955,
+      "csv_sha256": {
+        "datos.csv": "bfec204707a6bcc6c4d223c261ab0858294846f3264031f9975f5c9669f87e98",
+        "dias_mercado.csv": "06dfc9dac09710d805b19a6ebcbfd5ad140878f0780bb2d2bdd03db3f251bdd3",
+        "esquemas.csv": "52dac4f667fa6f569e781d022720bd5a15cc473c5e899406db9a465e3f348eb8",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "d7bca864656e0114c8317f1992f051f94a37e7ff3481abf130cdaa032934ed17",
+        "repeticiones_ejemplos.csv": "603ba6ab345d96fe2c595c6c557f9962c1467827134ca401dee90c1f574189ee"
+      }
+    },
+    "abastecimiento_2024": {
+      "data_sha256": "f655698e1a664d209eac3aea2c3e63d02703e856214aee0734b243ac74f26599",
+      "rows": 2166153,
+      "output_rows": 39122,
+      "identical_row_occurrences_after_first": 349425,
+      "csv_sha256": {
+        "datos.csv": "f655698e1a664d209eac3aea2c3e63d02703e856214aee0734b243ac74f26599",
+        "dias_mercado.csv": "e78ba436c551870ce151b5df654ad3a7b7d773518977217b20496e0fb2fdcddc",
+        "esquemas.csv": "1c72a9b05ce5a512dad3051fb550f0108c3a171370da7dadbc8c309b83659d97",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "34665bee8c0ff105fe9597a06ff34f3aaa325b2149aa34d4b06fdcc925ea27d8",
+        "repeticiones_ejemplos.csv": "81f3ad53b191266a158ca40207b818a8523e3c151b6aec5a465d734affc5e568"
+      }
+    },
+    "abastecimiento_2025": {
+      "data_sha256": "542b486a34048e5b4ab38335d956bf550c3f74028a0c407dcfa57fcf18c7d908",
+      "rows": 2266012,
+      "output_rows": 39278,
+      "identical_row_occurrences_after_first": 367398,
+      "csv_sha256": {
+        "datos.csv": "542b486a34048e5b4ab38335d956bf550c3f74028a0c407dcfa57fcf18c7d908",
+        "dias_mercado.csv": "2e7f7078dc36645048a24632d0944eed48689dde1861f4b1eebf40b43c648520",
+        "esquemas.csv": "7c8696fd3bfc8d70c48afa855cad547266adaf731995c2e225b483e3a2a8173d",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "da04e62fd35b2dbba24bc92f0e7108f134c82e2d24b801f87c573f53d37ecd6a",
+        "repeticiones_ejemplos.csv": "f78d60e44f4175743755f53efd3e4eca4e05d7f6a3b9805c96abe728f4be18cf"
+      }
+    },
+    "precios_2018": {
+      "data_sha256": "e95129e0b8971271a3fcdb87ba7629f699f8e0cf6c8ae834fa16361af774dd82",
+      "rows": 57121,
+      "output_rows": 57121,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "e95129e0b8971271a3fcdb87ba7629f699f8e0cf6c8ae834fa16361af774dd82",
+        "dias_mercado.csv": "7bbe313872b80947f95f9b5cffb7dd768625b04da42ea0d7d0829b5ecf4187f6",
+        "esquemas.csv": "5025b74fb1589e330ff1e2753d52aed8033c43d2ff3162aaebfab736e758dbc8",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "a150d055738b7d8dd7e5e45f14770ca2b7115b73e07fbc17402c0e1c9087800d",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2019": {
+      "data_sha256": "4fdc5b1d9aa9d158ea355953b0a3182ede4f0beb6eebdc3cb496581432287eb4",
+      "rows": 56626,
+      "output_rows": 56626,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "4fdc5b1d9aa9d158ea355953b0a3182ede4f0beb6eebdc3cb496581432287eb4",
+        "dias_mercado.csv": "39c69ae90a26acfa96e6396f6e2e08ba8202cc85500ef2f3fc1bfe9c1792cea0",
+        "esquemas.csv": "29566d643266becdc380c1f2b270a2c2b1eb3ffd4cc85582384684023641adbd",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "73012c8c673c7201fa57c4b8de1bc1843995e84213a6436c35f526e7da06ac31",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2020": {
+      "data_sha256": "bdd4448afb2fd45b0cd63030d449f5462c9219d80ead07b0655c75b22e735c63",
+      "rows": 55716,
+      "output_rows": 55716,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "bdd4448afb2fd45b0cd63030d449f5462c9219d80ead07b0655c75b22e735c63",
+        "dias_mercado.csv": "bb97baa23a120783892b5b75562468e5797a993010cc620ec9897ec0274610d2",
+        "esquemas.csv": "3d8ba9a5d02b0096efa7f9db3d98670c90e2c1cd071bec4adef1344259b373cd",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "08a18df79dad228f4514a6ed652e54ea8a9d02b5a30bda074641f4f7af0bd191",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2021": {
+      "data_sha256": "1b7e02f54ea9a793197cae0ffc4144cb3f3b0b8616249ab662050cc0573be318",
+      "rows": 54528,
+      "output_rows": 54528,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "1b7e02f54ea9a793197cae0ffc4144cb3f3b0b8616249ab662050cc0573be318",
+        "dias_mercado.csv": "0b44feb8dd5c0d03ecaff70b641fd622274e30877fc7e6e913c8632b305d0255",
+        "esquemas.csv": "5afcfb5999581a16398148b4fefe22f6b5107f9f67874c4febd6d07c31632032",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "80c5f32faf47529e0f610410e780392d0e5cfe80124c7863947aef0d426fb94b",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2022": {
+      "data_sha256": "f8d0c250e2972f979d074d779beb0cd1480583c6cb508f7a3c77647cce3ab413",
+      "rows": 53647,
+      "output_rows": 53647,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "f8d0c250e2972f979d074d779beb0cd1480583c6cb508f7a3c77647cce3ab413",
+        "dias_mercado.csv": "7ea76f178af1f97218b2b48952155a524ff5dbd83a2a2f0654a92c5ebbbddaf2",
+        "esquemas.csv": "dfe85b5187b615dfd1acc7eb110b4b2dc446166a3e342c7b09a7e517fd0e2303",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "84966463d070f550f88502474b69061fcbfa3f0ba4af42c65e33007ce98a761d",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2023": {
+      "data_sha256": "ecd29f6b9558bbd2b86ad358052afed2e84f7c705583b30626acade416dcdb75",
+      "rows": 53807,
+      "output_rows": 53807,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "ecd29f6b9558bbd2b86ad358052afed2e84f7c705583b30626acade416dcdb75",
+        "dias_mercado.csv": "4e04835a6f45feeaa102c347a25178de55bd28785f3c88500da9c3d2957eba86",
+        "esquemas.csv": "c9c2c571602a0d79c7a5cf364a5a39b316f2e0396e6f1ce9931f2320b63feed1",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "360fe3108c2f28c98a674aa6c231d6986f08f2322bdd04a20c288be87a2e595b",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2024": {
+      "data_sha256": "42980ffd4ac706db48b73a33e29d29372842b9b1015f6fe6b3843070fdebb30b",
+      "rows": 54042,
+      "output_rows": 54042,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "42980ffd4ac706db48b73a33e29d29372842b9b1015f6fe6b3843070fdebb30b",
+        "dias_mercado.csv": "b4f4222762cc50d7ccc106b32eba528f89a3424336a56b42ce13da7cd5cfec79",
+        "esquemas.csv": "0c04316c37a2a0a62072579872d87e5eef40ffccf45fdcdcfc4a1fb19b9ac17e",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "454b4e19968e0459ef03b04ca0a241db745a16b5723607893573f3f2b2550772",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    },
+    "precios_2025": {
+      "data_sha256": "4d9baba45b2362774725b803bd78daf6e1634246574082065a39e011f92a35cd",
+      "rows": 54408,
+      "output_rows": 54408,
+      "identical_row_occurrences_after_first": 0,
+      "csv_sha256": {
+        "datos.csv": "4d9baba45b2362774725b803bd78daf6e1634246574082065a39e011f92a35cd",
+        "dias_mercado.csv": "cf453f3b26d26faac2bedb22c599239f93507fa2dc7387c5cbb81bad052adf1e",
+        "esquemas.csv": "16e9d471123239425c4a4d9adc92988d9e14b1d932c60ffe66aca57be3235f5e",
+        "incidencias.csv": "b78a9e16573d3c62a61a375c6ba96f1ec71abe191a6e40f25257d164994e1c52",
+        "notas.csv": "2c6132d74cd791cd8c7d87a04aa0255b5eb96559bebc53733dd22d25fc975cc3",
+        "repeticiones_ejemplos.csv": "cb26aefdcc0b14ceb52c03651940f5822813bf12f36a232169d5981adf9fc7c4"
+      }
+    }
+  },
+  "tablas": {
+    "panel_auditado.csv": "c467fab13ca1840e1ea7f31d504122722b46c39c2de5014a3ce7aacc3d39b2f6",
+    "candidatos_elegibles.csv": "19faf1c427f2ac7c7c8473f4ac54b6b74b612d5a16ff3eac8d8fc819e0b413fa",
+    "canasta_propuesta.csv": "cac03407c793e448cb5ae4eb3168bff634d31ce1ce299b6855fe5387e3a643f7",
+    "conciliacion_totales_dane.csv": "74ae62f0edd281ba96ae10d505a58dd35728fb342a0b230369fcfbea6f76ba18",
+    "llaves_repetidas_precios.csv": "76eb1bf629cb49d56cf7182b18f90cd2ef36e3f5d904790f0e894b305988a149",
+    "cobertura_30_series.csv": "919775db563f91a1186f76ec4346bc71063b2f6c4a6d38f23b544ff0aee176a8",
+    "huecos_canasta.csv": "f74a5b83f1dda621bd77085c4a95bb3a1ece8024ecb86601fe765135c1af72f6",
+    "ambiguedad_cpc.csv": "acb2f73b8355716e10ccb3991bc4e2f0d63d74bff2a4cb8d7bc52bb5fa1830e3",
+    "perfil_anual.csv": "df76ba9947164325794fd6c1701dc129c7eca9d4651af58bb89d4097c65dff57"
+  },
+  "resultados": {
+    "price_rows": 439895,
+    "supply_rows": 15494712,
+    "price_series_key_excess": 8,
+    "eligible_products": 33,
+    "basket": [
+      "Chócolo mazorca",
+      "Arveja verde en vaina",
+      "Lechuga Batavia",
+      "Habichuela",
+      "Ahuyama",
+      "Piña gold",
+      "Limón Tahití",
+      "Guayaba pera",
+      "Banano criollo",
+      "Plátano hartón verde"
+    ],
+    "panel_rows": 2880,
+    "price_present": 2878,
+    "supply_present": 2880,
+    "both_present": 2878,
+    "reconciliation_rows": 288,
+    "reconciliation_within_1kg": 286,
+    "largest_difference_kg": 299.99999998509884,
+    "largest_relative_difference": 5.015736609200886e-06,
+    "models_trained": 0,
+    "output_hashes": {
+      "tablas/panel_auditado.csv": "c467fab13ca1840e1ea7f31d504122722b46c39c2de5014a3ce7aacc3d39b2f6",
+      "config/equivalencias_productos.csv": "7d56a15212f76c0a42af50f3f77a97ff6f09a2d577cefa643b29fe046dd15463",
+      "config/equivalencias_mercados.csv": "6f657ab9ead14469cbc1c7e1401745f9793e138ccea6b7ebbb783d37fdf2089a"
+    }
+  }
+}

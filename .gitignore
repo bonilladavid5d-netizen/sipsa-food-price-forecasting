@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+engineering/datos/
+salida_rechazos/
+evaluation_reconstruida/
+.DS_Store

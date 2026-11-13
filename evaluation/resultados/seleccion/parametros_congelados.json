@@ -1,0 +1,36 @@
+{
+  "congelado_utc": "2026-11-11T21:32:08+00:00",
+  "escenario_seleccion": "retro_r1",
+  "objetivos_seleccion": [
+    "2023-01",
+    "2023-10"
+  ],
+  "parametros": {
+    "rf_abast": {
+      "max_depth": 8,
+      "min_samples_leaf": 5
+    },
+    "rf_precio": {
+      "max_depth": 8,
+      "min_samples_leaf": 5
+    },
+    "ridge_abast": {
+      "alpha": 100
+    },
+    "ridge_precio": {
+      "alpha": 100
+    }
+  },
+  "mase_seleccion": {
+    "rf_abast": 0.965829676,
+    "rf_precio": 0.947610947,
+    "ridge_abast": 1.039348675,
+    "ridge_precio": 1.028398763
+  },
+  "referente": "ingenuo",
+  "mase_referente_seleccion": 1.2365466912701883,
+  "mase_ingenuo_seleccion": 1.2365466912701883,
+  "mase_estacional_seleccion": 1.3653564958532345,
+  "familia_principal": "rf",
+  "nota": "Escrito antes de calcular cualquier pronóstico con objetivo en 2024-2025."
+}

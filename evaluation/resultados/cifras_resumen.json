@@ -1,0 +1,41 @@
+{
+  "fuente": "recalculado desde resultados/predicciones.csv con evaluacion/recalcular.cifras_clave (retro_r1)",
+  "redondeo": 2,
+  "cifras": {
+    "mase_ingenuo": 1.07,
+    "mase_rf_precio": 0.93,
+    "mase_rf_abast": 0.94,
+    "mase_ridge_precio": 0.96,
+    "mase_ridge_abast": 0.96,
+    "mase_ingenuo_2024": 1.12,
+    "mase_ingenuo_2025": 1.02,
+    "mase_rf_precio_2024": 0.95,
+    "mase_rf_precio_2025": 0.92,
+    "reduccion_mase_rf_precio_vs_ingenuo_pct_conjunta": 12.67,
+    "reduccion_mase_rf_precio_vs_ingenuo_pct_2024": 14.97,
+    "reduccion_mase_rf_precio_vs_ingenuo_pct_2025": 10.0,
+    "series_rf_precio_mejor_que_ingenuo": 21.0,
+    "series_rf_precio_mejor_que_ingenuo_2025": 17.0,
+    "mediana_mae_rf_precio_cop_kg": 497.44,
+    "mediana_mae_ingenuo_cop_kg": 481.73,
+    "cambio_mediana_mae_rf_precio_vs_ingenuo_pct": 3.26,
+    "error_pct_firmado_medio_rf_precio": 6.92,
+    "series_rf_precio_error_firmado_positivo_cop_kg": 20.0,
+    "cambio_mase_con_abast_rf_pct": 0.47,
+    "cambio_mase_con_abast_ridge_pct": 0.31,
+    "series_mejoran_con_abast_rf": 13.0,
+    "series_mejoran_con_abast_ridge": 9.0
+  },
+  "escritas_en_resumen": {
+    "reduccion_mase_rf_precio_vs_ingenuo_pct_conjunta": "12,67 %",
+    "reduccion_mase_rf_precio_vs_ingenuo_pct_2024": "14,97 %",
+    "reduccion_mase_rf_precio_vs_ingenuo_pct_2025": "10,00 %",
+    "mediana_mae_rf_precio_cop_kg": "497,44",
+    "mediana_mae_ingenuo_cop_kg": "481,73",
+    "cambio_mediana_mae_rf_precio_vs_ingenuo_pct": "+3,26 %",
+    "error_pct_firmado_medio_rf_precio": "+6,92 %",
+    "series_rf_precio_error_firmado_positivo_cop_kg": "20 de 30",
+    "cambio_mase_con_abast_rf_pct": "+0,47 %",
+    "cambio_mase_con_abast_ridge_pct": "+0,31 %"
+  }
+}

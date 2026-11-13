@@ -1,0 +1,8 @@
+canal,componente,regla_documentada,evidencia,estado_verificacion,usa_la_receta,consecuencia
+boletin_mensual_precios,precios,Día hábil posterior a la publicación del IPC,"Metodología SIPSA-P, junio 2022, p. 16",regla_documentada_no_fecha_historica_por_archivo,no,El promedio de t no está disponible al cierre de t
+servicio_web_precios,precios,Actualización mensual el día 8,Portal y guía SOAP del servicio web,no_verificado_wsdl_http_500_en_viabilidad,no,Regla del servicio; no calendario de los XLSX históricos
+servicio_web_abastecimiento,abastecimiento,Actualización mensual el día 10,Portal y guía SOAP del servicio web,no_verificado_wsdl_http_500_en_viabilidad,no,Semántica de cantidad no conciliada con el microdato
+boletin_mensual_abastecimiento,abastecimiento,Día 20 del mes siguiente o hábil posterior,"Metodología SIPSA-A, julio 2023, p. 22; notas XLSX 2025 fila 20",regla_documentada_no_fecha_historica_por_archivo,no,Boletín agregado; no equivale al microdato por producto
+microdato_anual_abastecimiento,abastecimiento,Difusión de microdatos desde 2019,"Metodología SIPSA-A, julio 2023, p. 8",inicio_documentado_sin_calendario_por_version,si (snapshot actual),Tener 2018 hoy no prueba disponibilidad durante 2018
+serie_historica_precios_xlsx,precios,Sin calendario de versión recuperado,Portal de precios mayoristas,snapshot_actual_sin_vintage,si (snapshot actual),Las versiones de 2026 no reproducen lo publicado en cada fecha
+serie_historica_abastecimiento_agregada,abastecimiento,Series históricas mensuales desde 2020,"Metodología SIPSA-A, julio 2023, p. 8",snapshot_actual_sin_vintage,solo_conciliacion,Contraste de totales; no entra al panel

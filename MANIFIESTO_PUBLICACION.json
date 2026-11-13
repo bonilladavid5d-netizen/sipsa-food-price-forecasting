@@ -1,0 +1,949 @@
+{
+ "publicacion": "sipsa-food-price-forecasting · Etapa 1 · distribución v2.1 (enmienda recalcular-aprobacion)",
+ "autor": "David Bonilla",
+ "fuente_datos": "Fuente: Departamento Administrativo Nacional de Estadística: www.dane.gov.co (SIPSA)",
+ "paquete_anterior_sha256": "47df535564ed1bc20c56b15ff77a356c4fb6621da7148a3c5374fb92bc1cbd0b",
+ "origenes": {
+  "evaluacion_v2_zip_sha256": "63745a0c0376c120a22d542699887ff0cb4b72c749edac259be60cfdb2bc712a",
+  "ingenieria_v2_1_zip_sha256": "398f8b99b8bb5047137b0a550ac2ce0c3128ebb22d2fe684f97225c3e5818229",
+  "lote_aprobado": "lote-20261111T192146Z-0dba2228adae",
+  "huella_contenido_lote": "0dba2228adae1e086ca005fa8c16a1676b99a6fa05a4c30225c7befd53d63ed2"
+ },
+ "retirados_no_distribuidos": {
+  "evaluation/resultados/predicciones.csv": {
+   "sha256_aprobado": "ef0b296a9fdf093c0d5a0da352a25c1c002514b7495258bcb3e18590cf4e6cde",
+   "bytes": 4743891,
+   "motivo": "precios observados, base B, referencia estacional y pronósticos ingenuo/estacional (reproducen precios); observado = predicho - error",
+   "reconstruccion": "modo B: reconstruir el lote de ingeniería y ejecutar evaluation/reproducir.sh en una copia de trabajo",
+   "original_conservado_en": "expediente privado: resultados/predicciones.csv y su ZIP aprobado"
+  },
+  "evaluation/resultados/seleccion/predicciones_seleccion.csv": {
+   "sha256_aprobado": "af80ae50a0d304d9ccc467d8533d2870e0725770a05d4742519539a867c1b3a4",
+   "bytes": 2324470,
+   "motivo": "mismas columnas de precios para los objetivos de 2023",
+   "reconstruccion": "igual que predicciones.csv",
+   "original_conservado_en": "expediente privado: seleccion/predicciones_seleccion.csv y su ZIP aprobado"
+  },
+  "engineering/config/referencia_panel_viabilidad.csv": {
+   "sha256_aprobado": "c467fab13ca1840e1ea7f31d504122722b46c39c2de5014a3ce7aacc3d39b2f6",
+   "bytes": 775349,
+   "motivo": "panel de 2.880 celdas con price (COP/kg) y kg mensuales",
+   "reconstruccion": "engineering/herramientas/reconstruir_referencias.py",
+   "original_conservado_en": "expediente privado: config/referencia_panel_viabilidad.csv y su ZIP aprobado"
+  },
+  "engineering/config/referencia_conciliacion_viabilidad.csv": {
+   "sha256_aprobado": "74ae62f0edd281ba96ae10d505a58dd35728fb342a0b230369fcfbea6f76ba18",
+   "bytes": 26277,
+   "motivo": "288 totales mercado-mes: official_tonnes y microdata_kg",
+   "reconstruccion": "engineering/herramientas/reconstruir_referencias.py",
+   "original_conservado_en": "expediente privado: config/referencia_conciliacion_viabilidad.csv y su ZIP aprobado"
+  },
+  "engineering/config/referencia_candidatos_viabilidad.csv": {
+   "sha256_aprobado": "19faf1c427f2ac7c7c8473f4ac54b6b74b612d5a16ff3eac8d8fc819e0b413fa",
+   "bytes": 1625,
+   "motivo": "kg acumulados 2018-2022 por producto (training_kg) y cobertura",
+   "reconstruccion": "engineering/herramientas/reconstruir_referencias.py",
+   "original_conservado_en": "expediente privado: config/referencia_candidatos_viabilidad.csv y su ZIP aprobado"
+  }
+ },
+ "recuento": {
+  "copia_identica": 102,
+  "derivado": 2,
+  "validacion_codigo": 3,
+  "ejecucion_empaquetado": 2,
+  "herramienta_validacion": 6,
+  "adaptado_documentacion": 5,
+  "nuevo": 12,
+  "total": 132
+ },
+ "diferencias_frente_a_v2_52522cf4": [
+  "docs/reproduccion.md",
+  "docs/validacion_y_revisiones.md",
+  "evaluation/VALIDACION.md",
+  "evaluation/evaluacion/__main__.py",
+  "evaluation/herramientas/enmendar_revision_distribucion.py",
+  "evaluation/herramientas/probar_rechazos.py",
+  "evaluation/reproducir.sh",
+  "evaluation/resultados/revision_distribucion_etapa1_v2.json"
+ ],
+ "diferencias_frente_al_paquete_revisado": {
+  "retirados": [
+   "engineering/config/referencia_candidatos_viabilidad.csv",
+   "engineering/config/referencia_conciliacion_viabilidad.csv",
+   "engineering/config/referencia_panel_viabilidad.csv",
+   "evaluation/resultados/predicciones.csv",
+   "evaluation/resultados/seleccion/predicciones_seleccion.csv"
+  ],
+  "anadidos": [
+   "engineering/herramientas/reconstruir_referencias.py",
+   "evaluation/evaluacion/publico.py",
+   "evaluation/herramientas/enmendar_revision_distribucion.py",
+   "evaluation/herramientas/registrar_revision_distribucion.py",
+   "evaluation/resultados/revision_distribucion_etapa1_v2.json"
+  ],
+  "modificados": [
+   "ATRIBUCION_DATOS.md",
+   "README.md",
+   "docs/datos_y_procedencia.md",
+   "docs/diccionario_datos.md",
+   "docs/reproduccion.md",
+   "docs/validacion_y_revisiones.md",
+   "engineering/README.md",
+   "engineering/sipsa.sh",
+   "evaluation/README.md",
+   "evaluation/VALIDACION.md",
+   "evaluation/evaluacion/__main__.py",
+   "evaluation/evaluacion/integridad.py",
+   "evaluation/herramientas/probar_rechazos.py",
+   "evaluation/reproducir.sh"
+  ],
+  "reclasificados": {
+   "engineering/herramientas/obtener_fuentes.py": [
+    "nuevo",
+    "herramienta_validacion"
+   ],
+   "engineering/sipsa.sh": [
+    "copia_identica",
+    "ejecucion_empaquetado"
+   ],
+   "evaluation/evaluacion/__main__.py": [
+    "copia_identica",
+    "validacion_codigo"
+   ],
+   "evaluation/evaluacion/integridad.py": [
+    "derivado",
+    "validacion_codigo"
+   ],
+   "evaluation/herramientas/probar_rechazos.py": [
+    "copia_identica",
+    "herramienta_validacion"
+   ],
+   "evaluation/herramientas/registrar_revision_publicacion.py": [
+    "nuevo",
+    "herramienta_validacion"
+   ],
+   "evaluation/reproducir.sh": [
+    "adaptado_documentacion",
+    "ejecucion_empaquetado"
+   ]
+  }
+ },
+ "archivos": [
+  {
+   "archivo": ".gitignore",
+   "sha256": "5cfd0790912a074ddb7724e9894c5ce45f4667b861bf0b74cb7b147a1088d730",
+   "tipo": "nuevo",
+   "nota": "Exclusiones locales"
+  },
+  {
+   "archivo": "ATRIBUCION_DATOS.md",
+   "sha256": "32ec2fe4d42aefdd1d8b5a0f2edd19cdc75d84900ee405ae1e85cce8e049025c",
+   "tipo": "nuevo",
+   "nota": "Atribución DANE y condiciones de distribución"
+  },
+  {
+   "archivo": "README.md",
+   "sha256": "15f6ae847e8bbe9863265f371f20547725b7eb0a505d47e7ebc17b3fc7974239",
+   "tipo": "nuevo",
+   "nota": "Presentación pública"
+  },
+  {
+   "archivo": "docs/cambios_respecto_paquete_revisado.md",
+   "sha256": "5257f20e2da13269f0a352416bdba04d225f1bd0d00018daf20a2365d31ffd64",
+   "tipo": "nuevo",
+   "nota": "Diferencias frente al paquete 47df…"
+  },
+  {
+   "archivo": "docs/cambios_respecto_v2.md",
+   "sha256": "b8cb57c87f6693ec019047b49233d8efe0d0a5f82a868e5e37e261d3d0339eb0",
+   "tipo": "nuevo",
+   "nota": "Diferencias frente a v2"
+  },
+  {
+   "archivo": "docs/datos_y_procedencia.md",
+   "sha256": "f5d55a978f00f4605baecf026f64e74c2cebea9c822d2ebc0a5790e60fd60521",
+   "tipo": "nuevo",
+   "nota": "Documentación"
+  },
+  {
+   "archivo": "docs/diccionario_datos.md",
+   "sha256": "44a88e9321886f38610042664a0257a2048ae4f56c7367d17aafc9460f0af665",
+   "tipo": "nuevo",
+   "nota": "Documentación"
+  },
+  {
+   "archivo": "docs/metodologia.md",
+   "sha256": "9c8a5e4357a7277bcfad1201298122c842a39bf01c006fa3def317cab2f9e8ba",
+   "tipo": "nuevo",
+   "nota": "Documentación"
+  },
+  {
+   "archivo": "docs/reproduccion.md",
+   "sha256": "bc430722618fb2008bbb5bd4f79320c01008b1c0574aef1c2b40b833d42731f5",
+   "tipo": "nuevo",
+   "nota": "Modos A y B"
+  },
+  {
+   "archivo": "docs/validacion_y_revisiones.md",
+   "sha256": "04f98b1ee6b23c33815fd61f444b20752712ca9c57a9b8fc23c3a4fe74929d64",
+   "tipo": "nuevo",
+   "nota": "Documentación"
+  },
+  {
+   "archivo": "engineering/README.md",
+   "sha256": "1ecebcbb6cc6af4fe6b89003fd393e142ad1003c03a3437c3b5c6f292f3326d0",
+   "tipo": "adaptado_documentacion",
+   "origen": "sipsa_datos/README.md",
+   "sha256_origen": "7243c76acbc0c41b6436ae4699df90149a1f9b614df27deff2850ef5d636ee3a",
+   "nota": "Receta de fuentes y referencias."
+  },
+  {
+   "archivo": "engineering/config/alcance.json",
+   "sha256": "c49ab0ae3ed514cd32bcfff2db9b03172bc50b78af057df85f0dd45ac882c7e1",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/alcance.json"
+  },
+  {
+   "archivo": "engineering/config/avisos_imputacion.csv",
+   "sha256": "0962d494a1146eb7db3501dddb2e2e6a97b27373ee8d4d21034c157418adc436",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/avisos_imputacion.csv"
+  },
+  {
+   "archivo": "engineering/config/canales_disponibilidad.csv",
+   "sha256": "76cf6ea9a5206e64b6197112435155c430c9d77eaf344ebde04bd69476875f31",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/canales_disponibilidad.csv"
+  },
+  {
+   "archivo": "engineering/config/capturas_aprobadas.json",
+   "sha256": "a940f6cc5759ca236e8d018992f13be656a5fe9e46c20e8d4a57a9cd17eacfa3",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/capturas_aprobadas.json"
+  },
+  {
+   "archivo": "engineering/config/documentacion_congelada.json",
+   "sha256": "5c34a2c18349bd85817b1a24b50c88ecb01928127eb17d1f603b0e2cf26a4dfe",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/documentacion_congelada.json"
+  },
+  {
+   "archivo": "engineering/config/equivalencias_mercados.csv",
+   "sha256": "a7b08d7b1c95e08f5dc3ecbecd34fbb356ffad8cdbad6fd112c7679ed5b4a297",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/equivalencias_mercados.csv"
+  },
+  {
+   "archivo": "engineering/config/equivalencias_productos.csv",
+   "sha256": "134b5d0547b917af2723249c87a846dc0afc6d825da4f7f9686e47a0593e0d54",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/equivalencias_productos.csv"
+  },
+  {
+   "archivo": "engineering/config/esquemas_aprobados.json",
+   "sha256": "e1f09c9bcfe696aa3e51c1d0446d1a59923e78c92ce72586f728dbc62cba5d11",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/esquemas_aprobados.json"
+  },
+  {
+   "archivo": "engineering/config/excepciones_aprobadas.json",
+   "sha256": "776213d8e3ff7cb1671307f64c1bb7df3b9f056f43ea5341c5c81950d0913c2b",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/excepciones_aprobadas.json"
+  },
+  {
+   "archivo": "engineering/config/fuentes_congeladas.json",
+   "sha256": "be65eeb15cab4b1940b1ced9ae2c7a793e6643436000a8d2e9e35c4a0c44d4cd",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/fuentes_congeladas.json"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/alcance.json",
+   "sha256": "9f4b2a2c32366534c67119ac24fd2b8f5a2611c5d46aee685dce0571741ad46b",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/alcance.json"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/avisos_imputacion.csv",
+   "sha256": "0962d494a1146eb7db3501dddb2e2e6a97b27373ee8d4d21034c157418adc436",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/avisos_imputacion.csv"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/consulta_asof.sql",
+   "sha256": "1fa110ddbe44269ab4df38fe7de3609613dfec4d14e169316b88d94d3ab0f6f6",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/consulta_asof.sql"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/equivalencias_mercados.csv",
+   "sha256": "6f657ab9ead14469cbc1c7e1401745f9793e138ccea6b7ebbb783d37fdf2089a",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/equivalencias_mercados.csv"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/equivalencias_productos.csv",
+   "sha256": "7d56a15212f76c0a42af50f3f77a97ff6f09a2d577cefa643b29fe046dd15463",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/equivalencias_productos.csv"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/esquemas_aprobados.json",
+   "sha256": "e1f09c9bcfe696aa3e51c1d0446d1a59923e78c92ce72586f728dbc62cba5d11",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/esquemas_aprobados.json"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/fuentes_congeladas.json",
+   "sha256": "be65eeb15cab4b1940b1ced9ae2c7a793e6643436000a8d2e9e35c4a0c44d4cd",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/fuentes_congeladas.json"
+  },
+  {
+   "archivo": "engineering/config/heredado_viabilidad/modelo_datos.sql",
+   "sha256": "95e41355a049b24921b1bb4235b81a81a66f1b441b2f4f0740adde76183d7e3f",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/heredado_viabilidad/modelo_datos.sql"
+  },
+  {
+   "archivo": "engineering/config/politica_temporal.json",
+   "sha256": "9b0676399f57e3a881a24af62c9bd2ba637bcd2ac4529b7e09c90791ef60baf5",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/politica_temporal.json"
+  },
+  {
+   "archivo": "engineering/config/referencia_viabilidad.json",
+   "sha256": "4affe94366677ad24737eb22efa21c89db9851900318d89d22d6af0998f7fe05",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/config/referencia_viabilidad.json"
+  },
+  {
+   "archivo": "engineering/docs/ARQUITECTURA.md",
+   "sha256": "831ae283dc2a85552cc5f218582c30edaf38916f8fd97e53aa9dc31d5f864f7c",
+   "tipo": "adaptado_documentacion",
+   "origen": "sipsa_datos/docs/ARQUITECTURA.md",
+   "sha256_origen": "d7334c2eee3e9ddedb24760538db02cf1cd5ab9e8aa50e7f27738cfab21c0ab9",
+   "nota": "67 contratos y flock (auditoría de datos)."
+  },
+  {
+   "archivo": "engineering/docs/CAMBIOS_RESPECTO_VIABILIDAD.md",
+   "sha256": "260387efe5a5f7c06c863fd3fb58f494e81d743efcb8e21cd07dc5172c12b1fd",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/docs/CAMBIOS_RESPECTO_VIABILIDAD.md"
+  },
+  {
+   "archivo": "engineering/docs/DECISIONES.md",
+   "sha256": "06e3716054902b74b9fb2c9ff82dedaf11071591b02d4b7cbf7f78809fa1662f",
+   "tipo": "adaptado_documentacion",
+   "origen": "sipsa_datos/docs/DECISIONES.md",
+   "sha256_origen": "a62ec4d3f390ec9f5f652b2fc78faf49bf6ca34d83875e0b93ccc8a23313d15b",
+   "nota": "D-09 sustituida por D-19."
+  },
+  {
+   "archivo": "engineering/docs/OPERACION.md",
+   "sha256": "ab413666274ae3d14a22b27f9ab255826d4ba03dd1547461943b750e3d3fc10f",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/docs/OPERACION.md"
+  },
+  {
+   "archivo": "engineering/docs/POLITICA_TEMPORAL.md",
+   "sha256": "4e6dea82c2570b4d955bd53082456b54a7eadb587710c5c2e622f8a3477bf691",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/docs/POLITICA_TEMPORAL.md"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2018.json",
+   "sha256": "2069080679ce6f17c5bcc600c7dd29cda2f0721ea39765f9fa8e2ec49de90bd0",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2018.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2019.json",
+   "sha256": "a7e1da47749d014990062299658a10111967b7bb4a8618f08177b25039a53c6f",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2019.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2020.json",
+   "sha256": "63e2b71fbb574781f9e3abcf7c84a78046acfdde642e1bccf4d8c88665efcf33",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2020.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2021.json",
+   "sha256": "5c46af210d86fe7574cb86c2ee9b56b8b680b4e70b965675d53b740b2e7660ae",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2021.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2022.json",
+   "sha256": "c63b6e0aba59438b9519509378f71019b99827cbceca658e90ab3566ed832d99",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2022.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2023.json",
+   "sha256": "21ddc4dd8f8ac17f11cefe4ab3ba4d3e21fb92ff5c738d7295062d69725116ff",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2023.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2024.json",
+   "sha256": "c4ca36c485412dd9705eaaf3d2fff8290af13f9d05d3009182e87b91b6f5f4fa",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2024.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/abastecimiento/2025.json",
+   "sha256": "0687c97a56e76ecb6811b8989768deaadc0c030c621af8704a659581b4de6d88",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/abastecimiento/2025.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/historico_abastecimiento.json",
+   "sha256": "47480f198ef8c219eafe600815b5522f32916081d55a94d7b9607cd6cae2826e",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/historico_abastecimiento.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2018.json",
+   "sha256": "6d083618677607fa08d0f9407e6b647886818fa4eebe6c39a162ba699873b7a5",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2018.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2019.json",
+   "sha256": "9dbe0a9335a2078cb8ca940f4842bea28cb2f37c2611482ba4efdcf18c6ee1f0",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2019.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2020.json",
+   "sha256": "78e58cc6b6d2718e24e2d3214c3957e027e61e6f466535dd4ce9646adf87dbc0",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2020.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2021.json",
+   "sha256": "4fe1044093551bdf1bdb32cf4cbfaa4dfeb00531d602eea621fba8a969a7fd6d",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2021.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2022.json",
+   "sha256": "b7b045815543ad47719f2706fda4d9a2186b1f03f896300f1714241d0d1702bd",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2022.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2023.json",
+   "sha256": "1d555a5eb143837434fcb9dfe67d806c7b3fb6be23877187dee30c31e231d6cf",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2023.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2024.json",
+   "sha256": "a47d14efeab92fe9126120df1d586631d0d3808fab58c080f4ce54aa8263533f",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2024.json"
+  },
+  {
+   "archivo": "engineering/fuentes/metadatos_captura/precios/2025.json",
+   "sha256": "45b058b75996351104aad69598dd0cc0f3c2264aed456835d7a16752f6357267",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/datos/raw/precios/2025.json"
+  },
+  {
+   "archivo": "engineering/herramientas/comparar_versiones.py",
+   "sha256": "862a2051146b98ebcf4b6251763f8a24fd6353a6fa0c8973c2bf934931ee79c2",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/herramientas/comparar_versiones.py"
+  },
+  {
+   "archivo": "engineering/herramientas/contrastar_servicio_web.py",
+   "sha256": "bd27a157d2aac516f47bb51a555dc7fe3fff7fbdf900e35c1d933a4e1c4deb7b",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/herramientas/contrastar_servicio_web.py"
+  },
+  {
+   "archivo": "engineering/herramientas/ejemplos_corte.py",
+   "sha256": "18c13b66a676719831aac3b93fddc930859228b53d4ca8a1d829b9280f612dbc",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/herramientas/ejemplos_corte.py"
+  },
+  {
+   "archivo": "engineering/herramientas/extraer_capturas_aprobadas.py",
+   "sha256": "f591b13815d22fc17c80be5e3b72836bdbd3bc8715c90a5ab475bc178e9b8f38",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/herramientas/extraer_capturas_aprobadas.py"
+  },
+  {
+   "archivo": "engineering/herramientas/obtener_fuentes.py",
+   "sha256": "bcc24e204be23fc0996c86bb8250ca68365c9180454645694d363b954f7f1121",
+   "tipo": "herramienta_validacion",
+   "nota": "Obtiene las 17 fuentes oficiales y exige tamaño y SHA-256 congelados."
+  },
+  {
+   "archivo": "engineering/herramientas/reconstruccion_limpia.sh",
+   "sha256": "4634e60ab92e3a9d59a5f86f4d0c86e4f13288f472971f22fb90f76b66af3e55",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/herramientas/reconstruccion_limpia.sh"
+  },
+  {
+   "archivo": "engineering/herramientas/reconstruir_referencias.py",
+   "sha256": "79eca0286f789cfbfdf92dd02f9b1e8ae6db28dc07b5ec34b0fdeb8d3b0e8daf",
+   "tipo": "herramienta_validacion",
+   "nota": "Regenera las 3 referencias de viabilidad y exige sus huellas aprobadas fijas."
+  },
+  {
+   "archivo": "engineering/pruebas/revision_independiente/repro_postcommit_v2.py",
+   "sha256": "af3857cc25a414901a0b0ce6cf187d77174e24e41740bbfdd0fc913b23aee3db",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/pruebas/revision_independiente/repro_postcommit_v2.py"
+  },
+  {
+   "archivo": "engineering/pruebas/test_bloqueo.py",
+   "sha256": "56e667644bcf5339071d74aec5c7268f7ad6cede2f02230bbeeccf740522e2c2",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/pruebas/test_bloqueo.py"
+  },
+  {
+   "archivo": "engineering/pruebas/test_cierre_v2_1.py",
+   "sha256": "7a5aae2176c6bcde5623a03f74bb96603c1d58c5a3da5e70a850ee3b93457b6b",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/pruebas/test_cierre_v2_1.py"
+  },
+  {
+   "archivo": "engineering/pruebas/test_integracion_fallos.py",
+   "sha256": "06592abc612d82e648fae5ef22ccbfa8975ccfebfe2aea03998ac32c2f9da33b",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/pruebas/test_integracion_fallos.py"
+  },
+  {
+   "archivo": "engineering/pruebas/test_regresion_v2.py",
+   "sha256": "5544652017c9ed230ad9fc46878da33fa94bcbe625aa29221c4cb41f120fe969",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/pruebas/test_regresion_v2.py"
+  },
+  {
+   "archivo": "engineering/pruebas/test_unitarias.py",
+   "sha256": "4d6829971610c8009c26aac507dcdebcf31cc88b4a8c405ed8feba2c2854a451",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/pruebas/test_unitarias.py"
+  },
+  {
+   "archivo": "engineering/requirements.lock",
+   "sha256": "e79fa71cb058d71bf1336041fd8bda7411ab8ba0bcd3ebe5b5385dc86ee5c505",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/requirements.lock"
+  },
+  {
+   "archivo": "engineering/requirements.txt",
+   "sha256": "7aa8abf3af0c607d58992b34ce233222dcae3446456cac576418e6e493027806",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/requirements.txt"
+  },
+  {
+   "archivo": "engineering/sipsa.sh",
+   "sha256": "fa99670dc285b486502cf1ededcad9f06f7915650a16cdac7b46282e030e3ebe",
+   "tipo": "ejecucion_empaquetado",
+   "origen": "sipsa_datos/sipsa.sh",
+   "sha256_origen": "901ade1edd5a46e31d6adceca119a384bd8a878a66baf766f15042ce4ce306bc",
+   "nota": "construir se detiene con código 3 si faltan las referencias de regresión no distribuidas."
+  },
+  {
+   "archivo": "engineering/sipsa/__init__.py",
+   "sha256": "9c4659e452cfb11a0cff95b86c92756a1147bc3e3253bb0585fbe77a5e5c983a",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/__init__.py"
+  },
+  {
+   "archivo": "engineering/sipsa/__main__.py",
+   "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/__main__.py"
+  },
+  {
+   "archivo": "engineering/sipsa/cli.py",
+   "sha256": "5fcdc895997b1db0065f928bd585a0fe3c818707e12cf0a6c4cd136fc73ed93a",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/cli.py"
+  },
+  {
+   "archivo": "engineering/sipsa/construir.py",
+   "sha256": "3576ab8a1c7cf8a1f9470a23e94e82822a155d895deeadf40a839ceb3ee9cd56",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/construir.py"
+  },
+  {
+   "archivo": "engineering/sipsa/lote.py",
+   "sha256": "9a3ca499c56ff7dda9dba21ff50a6d8b7c98fb5e38e1021d64c742a682094f07",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/lote.py"
+  },
+  {
+   "archivo": "engineering/sipsa/normalizar.py",
+   "sha256": "eee4bfb8f8a4176906a070fe70a33d31b7f263883fe4fee86805a2af1c443d60",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/normalizar.py"
+  },
+  {
+   "archivo": "engineering/sipsa/util.py",
+   "sha256": "752708133b3a61fc57eed7897d7eaa99a6453631c6e101f822996d722a8d585a",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/util.py"
+  },
+  {
+   "archivo": "engineering/sipsa/validar.py",
+   "sha256": "9ce50eed8ea6c3497e19181f9819cbf04c22488fd51adb039f7e66a562d3b15d",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/validar.py"
+  },
+  {
+   "archivo": "engineering/sipsa/xlsx_stream.py",
+   "sha256": "8f09ba596f34b5cf4f09e4348b7eedf0a52857e05b548d60264d806983765ab1",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sipsa/xlsx_stream.py"
+  },
+  {
+   "archivo": "engineering/sql/conciliacion.sql",
+   "sha256": "51bee0ac14273cf1d90898672f07ed7f9b148bfff4d4f86555db42a832756ec0",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/conciliacion.sql"
+  },
+  {
+   "archivo": "engineering/sql/consulta_asof_estricta.sql",
+   "sha256": "605dd52bad57263e1dee03f4492ddc25607a7cb116f1a9c7c7c498920ecf1597",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/consulta_asof_estricta.sql"
+  },
+  {
+   "archivo": "engineering/sql/consulta_escenario.sql",
+   "sha256": "93b77d13ec59e61069f811e1bf3355c559d5b5b32fe85cda0f9ba3b2040019b7",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/consulta_escenario.sql"
+  },
+  {
+   "archivo": "engineering/sql/esquema.sql",
+   "sha256": "9066f188e7dc22821ea6123812ab3be330a14777e37c619a663c98185c5f4a7b",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/esquema.sql"
+  },
+  {
+   "archivo": "engineering/sql/etiquetas_disponibles.sql",
+   "sha256": "e277f4ffb5f29a237f4092c742c3f1a89db557ef7d025d073a5584795537d87c",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/etiquetas_disponibles.sql"
+  },
+  {
+   "archivo": "engineering/sql/panel.sql",
+   "sha256": "114ce6812ac17fb7204d5db08caebbb5ec0a88c2b23be2ab36e05ef6bde2c704",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/panel.sql"
+  },
+  {
+   "archivo": "engineering/sql/seleccion_canasta.sql",
+   "sha256": "a2ef8dbe0416c71bd4a82336c6ccb7fc8e6ab6bfc75087883e42efba13fcc831",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/seleccion_canasta.sql"
+  },
+  {
+   "archivo": "engineering/sql/transformaciones.sql",
+   "sha256": "66984ee259ebed1cb3de3ef62fd9aff4a9244c2463f38542874b78646e072cd5",
+   "tipo": "copia_identica",
+   "origen": "sipsa_datos/sql/transformaciones.sql"
+  },
+  {
+   "archivo": "evaluation/PROTOCOLO_PREDICTIVO.md",
+   "sha256": "1dc05cc171036d9b8dc7ba505ddce470f4f9eae7e8216dc7e4c7e249821f2e23",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/PROTOCOLO_PREDICTIVO.md"
+  },
+  {
+   "archivo": "evaluation/README.md",
+   "sha256": "53e710d4d95b715c32f069481e2dd2180eb06d1f88b0dc3e84c7596b000bb43d",
+   "tipo": "adaptado_documentacion",
+   "origen": "sipsa_evaluacion_v2/README.md",
+   "sha256_origen": "bfba66b1600b71d392335ae7ad505341d6aa9de6f727f58af4c29b757b0dcbb0",
+   "nota": "Copia pública sin series del DANE; rutas y modos."
+  },
+  {
+   "archivo": "evaluation/RESUMEN_RESULTADOS.md",
+   "sha256": "5a1378303797af3e7d38f122029821dae14258ff50466365e368e7842c50c686",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/RESUMEN_RESULTADOS.md"
+  },
+  {
+   "archivo": "evaluation/VALIDACION.md",
+   "sha256": "0f3e2ae3e2da0842d6316ee65fc047cf8a4ab7bf8289854a68f8c8d8badc6f78",
+   "tipo": "adaptado_documentacion",
+   "origen": "sipsa_evaluacion_v2/VALIDACION.md",
+   "sha256_origen": "bf436b36931ba8df49b8345ed69b2645dcb6fd575ae926f590eadeeb5c6fc082",
+   "nota": "Notas de publicación y de distribución."
+  },
+  {
+   "archivo": "evaluation/config/protocolo.json",
+   "sha256": "ba659eb079c6dc696760f7078a7bbc43745c19c01c890965509f2333749986e7",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/config/protocolo.json"
+  },
+  {
+   "archivo": "evaluation/evaluacion/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/__init__.py"
+  },
+  {
+   "archivo": "evaluation/evaluacion/__main__.py",
+   "sha256": "b72685b058d8a6b175b8ba0dd07e8bfe1dcbc81d43e59f8cf5c6b35caa8fdcee",
+   "tipo": "validacion_codigo",
+   "origen": "sipsa_evaluacion_v2/evaluacion/__main__.py",
+   "sha256_origen": "81f56b5c2876e44d77c46a09e6f512f751549e8d1292ae8b9425245171ff00c3",
+   "nota": "CLI: verificar-publico y comparar-aprobado; controles y recalcular informan NO EJECUTADO sin datos (código 2); recalcular retira cualquier aprobación anterior antes de comprobar insumos y ante fallos."
+  },
+  {
+   "archivo": "evaluation/evaluacion/controles.py",
+   "sha256": "e9515b29c42b3e3599b5802e47880dc0490feec9b4e461c667c67addc494b31a",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/controles.py"
+  },
+  {
+   "archivo": "evaluation/evaluacion/datos.py",
+   "sha256": "cf2281db4f594dec51e7a74674621b59ecec1d1f6ef5e18eb0903580155a64a5",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/datos.py"
+  },
+  {
+   "archivo": "evaluation/evaluacion/ejecutar.py",
+   "sha256": "f92cc124cbd207c5b3acce2b7d6fec9f1b9d95156957719bc149e566c6f9ccd9",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/ejecutar.py"
+  },
+  {
+   "archivo": "evaluation/evaluacion/figuras.py",
+   "sha256": "c89f0b826392a1ca7ed18922994808bad97d7b677458d1bf6e1a1893b4aea820",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/figuras.py"
+  },
+  {
+   "archivo": "evaluation/evaluacion/integridad.py",
+   "sha256": "95fc7d0fc6a31cf3ac1039ce8784d27fed03025a6d3c83650fb6ce2acbfc57a9",
+   "tipo": "validacion_codigo",
+   "origen": "sipsa_evaluacion_v2/evaluacion/integridad.py",
+   "sha256_origen": "60b5854b541cf5f9be7fe0d49974da0c6a75bd089c1bc5214ddaf10d123b3c53",
+   "nota": "Eslabones de publicación y distribución; clasifica publico.py."
+  },
+  {
+   "archivo": "evaluation/evaluacion/nucleo.py",
+   "sha256": "51e58d3eb09d817994d8b7e60d2c5d8ea1951e21c0b7d67a01420c95455cbcb5",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/nucleo.py"
+  },
+  {
+   "archivo": "evaluation/evaluacion/publico.py",
+   "sha256": "9948de6cfe47c55a96d9eb880707686745a9dd48b231ea7f0eda42172422dcbe",
+   "tipo": "validacion_codigo",
+   "nota": "Nuevo: verificación pública sin series del DANE y comparación de una reconstrucción con lo aprobado."
+  },
+  {
+   "archivo": "evaluation/evaluacion/recalcular.py",
+   "sha256": "d29bc531798e095a3c81122bfef18a68303bd950ee92561a4ae50373e1b71ad6",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/evaluacion/recalcular.py"
+  },
+  {
+   "archivo": "evaluation/herramientas/declarar_cifras_resumen.py",
+   "sha256": "2954a68f5827ee41d4a2c89ea6ddfb68bd6820dd370d32e9338450c6106f5e41",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/herramientas/declarar_cifras_resumen.py"
+  },
+  {
+   "archivo": "evaluation/herramientas/enmendar_revision_distribucion.py",
+   "sha256": "c87f2fe8371072060a8031e7d5884875528ba1aa89fbbd2657fd356c6afc7179",
+   "tipo": "herramienta_validacion",
+   "nota": "Registra una vez la enmienda recalcular-aprobacion en la revisión de distribución."
+  },
+  {
+   "archivo": "evaluation/herramientas/probar_rechazos.py",
+   "sha256": "7f8be30f1bd4bc6fae810fec97248f087d83f5c995aabbadaed92c9a85b06be8",
+   "tipo": "herramienta_validacion",
+   "origen": "sipsa_evaluacion_v2/herramientas/probar_rechazos.py",
+   "sha256_origen": "14fd62294ba265d7544307a021a43dd1d6f7717e16b12face397e0cb7d50fc9b",
+   "nota": "Batería de rechazos según el modo: pública sin datos o completa tras reconstruir; casos de aprobación de recalcular."
+  },
+  {
+   "archivo": "evaluation/herramientas/registrar_revision_distribucion.py",
+   "sha256": "798e0d67cee354d86f3d74e8e1c0906728993768ecbf40c0dbd9ee263b9d552f",
+   "tipo": "herramienta_validacion",
+   "nota": "Crea la revisión de distribución (una sola vez)."
+  },
+  {
+   "archivo": "evaluation/herramientas/registrar_revision_mantenimiento.py",
+   "sha256": "c994913198fb26d248b5e94c86a2e2dc3a693ee2850f9d3ca3ef3dc720d1585c",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/herramientas/registrar_revision_mantenimiento.py"
+  },
+  {
+   "archivo": "evaluation/herramientas/registrar_revision_publicacion.py",
+   "sha256": "1a59ddba0508696f7de72d91b543b2e5e10b80ae53e958d622a8ddc351816d4f",
+   "tipo": "herramienta_validacion",
+   "nota": "Crea la revisión de publicación (una sola vez)."
+  },
+  {
+   "archivo": "evaluation/pruebas/test_fugas.py",
+   "sha256": "06e1e0262d6210dab7a44536d1a91ed2a66d21e43e700f305fc34b1d7e9aaa0f",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/pruebas/test_fugas.py"
+  },
+  {
+   "archivo": "evaluation/reproducir.sh",
+   "sha256": "5b4a6704e39d2d07e88b1616b4de03b47141291b3522b10c4738936de501b067",
+   "tipo": "ejecucion_empaquetado",
+   "origen": "sipsa_evaluacion_v2/reproducir.sh",
+   "sha256_origen": "007cc95eab2e5f12b34cbe8677be5217bd26f157194484e444371d29df50ce54",
+   "nota": "Resuelve SIPSA_PROYECTO_INGENIERIA (por defecto ../engineering); recalcular antes de controles. Cambia el arranque y el orden del script, no el estimador."
+  },
+  {
+   "archivo": "evaluation/requirements.lock",
+   "sha256": "29ad26fce2df1a232ce8ece45257828ffec0d1d763d8af52588af738b9fc1929",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/requirements.lock"
+  },
+  {
+   "archivo": "evaluation/resultados/aporte_abastecimiento.csv",
+   "sha256": "2289fa3c934dfd112bde0520bf03288b28ab6a95904cbce3271d4559f37281e8",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/aporte_abastecimiento.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/auditoria_temporal.csv",
+   "sha256": "dc7fbabe6ec8c0e26b5c5dcd104011c993658aae08f124c3518b32e716c8340e",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/auditoria_temporal.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/cifras_resumen.json",
+   "sha256": "c5457fa1d1545f3b9ce70fa74ff5f42f777dc0a5a70a2a9a9156a5c3cb8ef561",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/cifras_resumen.json"
+  },
+  {
+   "archivo": "evaluation/resultados/controles/pruebas_fugas.json",
+   "sha256": "c9cead726311a5bbe036c391a629a08621efdd4cfd1e75ad87da2f70477e5224",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/controles/pruebas_fugas.json"
+  },
+  {
+   "archivo": "evaluation/resultados/ejecucion.json",
+   "sha256": "45ddd1eaed508698b16abf58538e2ec810700000632e457226229de2090f03d8",
+   "tipo": "derivado",
+   "origen": "sipsa_evaluacion_v2/resultados/ejecucion.json",
+   "sha256_origen": "910d4d697f8cd17a79739f46af0a5a0acd26c1674e1c41d222fbd4cff63707e1",
+   "nota": "Anonimización del mismo campo; salida de ejecución declarada por procedencia."
+  },
+  {
+   "archivo": "evaluation/resultados/figuras/fig1_precision_por_modelo.png",
+   "sha256": "8c982d93d578c42e569d9fabd35606b580bb7c8367c7893485f4aa12a537e4eb",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/figuras/fig1_precision_por_modelo.png"
+  },
+  {
+   "archivo": "evaluation/resultados/figuras/fig2_aporte_abastecimiento_por_serie.png",
+   "sha256": "3f2ec2dbac8129901f4da71c0b0fe1f1a25a3ef9436b60a7f8f714a6e5cc6ffd",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/figuras/fig2_aporte_abastecimiento_por_serie.png"
+  },
+  {
+   "archivo": "evaluation/resultados/figuras/fig3_estabilidad_aporte.png",
+   "sha256": "8213301043a42a6d4face827d60c9faeb18a30cd6cc248c3895a4a57e395c8e2",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/figuras/fig3_estabilidad_aporte.png"
+  },
+  {
+   "archivo": "evaluation/resultados/flujo_observaciones.csv",
+   "sha256": "f58827aa875faefad0268ab0dfe1d3a5fc84537c5e058625e9e9d7408c7b4c7c",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/flujo_observaciones.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/metricas_por_serie.csv",
+   "sha256": "8349755cb717e863906eeed7831ec133a716084e6f5eaf4cf88e24c395a9bca5",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/metricas_por_serie.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/metricas_resumen.csv",
+   "sha256": "a0e963707153be4450462c59554a37ef9429357913974a93079d9317c750f833",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/metricas_resumen.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/registro_cambios.md",
+   "sha256": "26d278ba48c5e6a0d1c6e308daba96f3214daf54257ac54016ed7b178ab3165c",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/registro_cambios.md"
+  },
+  {
+   "archivo": "evaluation/resultados/registro_protocolo.json",
+   "sha256": "96e0a865b699bbaf62c971f5c7d2c51e31c63f8ca045079f81f53347577dc55d",
+   "tipo": "derivado",
+   "origen": "sipsa_evaluacion_v2/resultados/registro_protocolo.json",
+   "sha256_origen": "4815272dc780f913a87a0df76342c5f10c1ed0a4ac71b8e130f7ed160e267a56",
+   "nota": "Anonimización de entrada.proyecto_ingenieria; declarado en revision_publicacion_etapa1.json (registro protegido)."
+  },
+  {
+   "archivo": "evaluation/resultados/revision_distribucion_etapa1_v2.json",
+   "sha256": "d34063aa62d23e40367e1207ca86443ccecbe3661a5e635abbb18df0c28a30b9",
+   "tipo": "nuevo",
+   "nota": "Revisión de distribución"
+  },
+  {
+   "archivo": "evaluation/resultados/revision_mantenimiento_v2.json",
+   "sha256": "7e9f0776f01f5f73091c59599331576a4e88a5787c5dbd531cb56e22e78fcfd9",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/revision_mantenimiento_v2.json"
+  },
+  {
+   "archivo": "evaluation/resultados/revision_publicacion_etapa1.json",
+   "sha256": "a1a5929384465506e0af484d6c70e50011237315c0e034bb4402e936249f4efc",
+   "tipo": "nuevo",
+   "nota": "Revisión de publicación"
+  },
+  {
+   "archivo": "evaluation/resultados/seleccion/metricas_seleccion_por_serie.csv",
+   "sha256": "36ebe536468622e1e1d73e7394dfceafa82500ecd2fc076ccb12ca2ab8a16356",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/seleccion/metricas_seleccion_por_serie.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/seleccion/metricas_seleccion_resumen.csv",
+   "sha256": "26ac7f34cbb2d47be72773d7d9c2f1df7bdccbc4a6a576f87cd999022fc7e0ec",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/seleccion/metricas_seleccion_resumen.csv"
+  },
+  {
+   "archivo": "evaluation/resultados/seleccion/parametros_congelados.json",
+   "sha256": "d1942eff35d3056bb8aba014db750a4444480d2468b89beaafc71536fe384c15",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/seleccion/parametros_congelados.json"
+  },
+  {
+   "archivo": "figures/fig1_precision_por_modelo.png",
+   "sha256": "8c982d93d578c42e569d9fabd35606b580bb7c8367c7893485f4aa12a537e4eb",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/figuras/fig1_precision_por_modelo.png"
+  },
+  {
+   "archivo": "figures/fig2_aporte_abastecimiento_por_serie.png",
+   "sha256": "3f2ec2dbac8129901f4da71c0b0fe1f1a25a3ef9436b60a7f8f714a6e5cc6ffd",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/figuras/fig2_aporte_abastecimiento_por_serie.png"
+  },
+  {
+   "archivo": "figures/fig3_estabilidad_aporte.png",
+   "sha256": "8213301043a42a6d4face827d60c9faeb18a30cd6cc248c3895a4a57e395c8e2",
+   "tipo": "copia_identica",
+   "origen": "sipsa_evaluacion_v2/resultados/figuras/fig3_estabilidad_aporte.png"
+  }
+ ]
+}

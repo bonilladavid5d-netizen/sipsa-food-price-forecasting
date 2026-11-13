@@ -1,0 +1,27 @@
+{
+  "version": "politica-temporal-v2",
+  "aprobada_en": "fase de ingeniería, 2026-11-11",
+  "unidad_corte": "Un corte t significa: pronóstico emitido al cierre del mes calendario t (último microsegundo antes del día 1 de t+1, hora de Colombia America/Bogota). No se usa el último día hábil. El objetivo es el precio mensual de t+h.",
+  "modos": {
+    "estricto_observado": {
+      "descripcion": "Solo versiones que este sistema ha observado (first_seen_at = retrieved_at aprobado en config/capturas_aprobadas.json y verificado por SHA-256 del JSON lateral) antes del instante de corte. No usa fechas supuestas. Con las capturas actuales (2026-11-11) no devuelve nada para cortes anteriores.",
+      "base": "observado"
+    },
+    "escenarios_retrospectivos": "Supuestos declarados. No son fechas de publicación demostradas y no deben presentarse como tales."
+  },
+  "escenarios": [
+    {"escenario_id": "retro_r1", "retraso_precio_meses": 1, "retraso_abastecimiento_meses": 1, "base": "supuesto",
+     "descripcion": "Escenario inicial de la viabilidad: al cierre de t se usan como máximo precios y volúmenes de t-1. Las etiquetas de entrenamiento también se limitan a t-1."},
+    {"escenario_id": "retro_r2", "retraso_precio_meses": 2, "retraso_abastecimiento_meses": 2, "base": "supuesto",
+     "descripcion": "Sensibilidad conservadora: un mes adicional de retraso para ambas fuentes."},
+    {"escenario_id": "retro_p1_a2", "retraso_precio_meses": 1, "retraso_abastecimiento_meses": 2, "base": "supuesto",
+     "descripcion": "Sensibilidad asimétrica: abastecimiento con un mes más de retraso que precios (microdato por producto posterior al boletín)."}
+  ],
+  "reglas": [
+    "Nunca se rellena published_at ni historical_available_at con un supuesto.",
+    "El promedio del mes t no está disponible al cierre de t en ningún escenario (retraso mínimo 1).",
+    "Las etiquetas de entrenamiento se rigen por el mismo retraso que la variable de precio.",
+    "Antes de 2019-01 (microdatos) y 2020-01 (series históricas mensuales) la difusión del canal no está demostrada; los escenarios lo marcan con la bandera canal_difundido_documentado=false."
+  ],
+  "inicio_documentado_canal": {"abastecimiento_microdato": "2019-01", "abastecimiento_serie_historica": "2020-01", "precios_boletin": null}
+}

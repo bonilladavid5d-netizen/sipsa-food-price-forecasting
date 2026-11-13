@@ -1,0 +1,28 @@
+{
+  "version": "alcance-v2",
+  "tipo": "estudio_predictivo_no_causal",
+  "years": [2018,2019,2020,2021,2022,2023,2024,2025],
+  "selection_training_end": "2022-12",
+  "markets": ["Bogotá, D.C., Corabastos", "Medellín, Central Mayorista de Antioquia", "Bucaramanga, Centroabastos"],
+  "groups": ["VERDURAS Y HORTALIZAS", "FRUTAS", "TUBERCULOS, RAICES Y PLATANOS"],
+  "min_training_months_each_market_each_source": 54,
+  "candidate_rule": "Correspondencia literal exacta del producto en ambas fuentes. Orden por minimo de meses conjuntos de entrenamiento descendente, volumen kg de entrenamiento descendente y nombre ascendente. Sin usar valores de precios ni resultados de pronostico. Todos los candidatos elegibles se reportan.",
+  "basket_quotas": {"VERDURAS Y HORTALIZAS":5,"FRUTAS":4,"TUBERCULOS, RAICES Y PLATANOS":1},
+  "target_product_count": 10,
+  "product_count_not_a_model_requirement": true,
+  "missing_supply_is_zero": false,
+  "deduplicate_supply_rows": false,
+  "cpc_is_unique_product_id": false,
+  "historical_available_at": null,
+  "vintage_state": "snapshot_actual_no_vintage_historico",
+  "allow_models_in_this_phase": false,
+  "future_evaluation_proposal": {
+    "target": "precio promedio mayorista del mes siguiente",
+    "issue_date": "cierre del mes calendario t: ultimo microsegundo antes del dia 1 de t+1, hora de Colombia (America/Bogota, UTC-05:00). Sustituye a la propuesta heredada de ultimo dia habil (D-17); funcion util.cierre_mes",
+    "latest_observation_month_in_lag_scenario": "t-1",
+    "availability_label": "supuesto retrospectivo; no fecha historica demostrada",
+    "validation_year": 2023,
+    "holdout_years": [2024,2025],
+    "all_markets_share_time_folds": true
+  }
+}

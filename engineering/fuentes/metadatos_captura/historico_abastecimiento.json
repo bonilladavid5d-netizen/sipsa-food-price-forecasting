@@ -1,0 +1,10 @@
+{
+  "tipo": "abastecimiento",
+  "etiqueta": "Series históricas componente abastecimiento (2013-2026)",
+  "url": "https://www.dane.gov.co/files/operaciones/SIPSA/Series-historicas-abastecimiento-2013-2026.xlsx",
+  "portal": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/componente-abastecimientos-1",
+  "portal_sha256": "941cfaa221497dadbc7c5d1654ac8457637b29de61d4f3caae431d3dab435791",
+  "retrieved_at": "2026-11-11T15:07:21.552737+00:00",
+  "sha256": "6893be7fcbd72780da92bda321c9a522f958c18c6de4989dc2ce38136649935e",
+  "bytes": 881635
+}

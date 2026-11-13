@@ -1,0 +1,87 @@
+{
+  "revision": "mantenimiento-v2",
+  "creado_utc": "2026-11-11T22:39:10+00:00",
+  "naturaleza": "Revisión de mantenimiento POSTERIOR a observar los resultados de 2024-2025. No es un congelamiento previo ni modifica el registro original.",
+  "padre": {
+    "registro_protocolo_sha256": "4815272dc780f913a87a0df76342c5f10c1ed0a4ac71b8e130f7ed160e267a56",
+    "congelado_utc": "2026-11-11T21:30:54+00:00",
+    "huella_codigo_congelamiento": "3e2c336aad3499f888fc69c8c54e54237b1b7513fb82005a4e6b14887e04baab",
+    "huella_codigo_ejecucion_v1": "e447ffa4f560c4f2037f7c0790f407d3680ce6f90ebb5390b501364d9c05b4a7",
+    "zip_v1_sha256": "4828ec5e6d8c6fb4fe5ce02a895411737a83df60556b3fd26116cea17418da01"
+  },
+  "modulos_aprobados": {
+    "evaluacion/nucleo.py": "51e58d3eb09d817994d8b7e60d2c5d8ea1951e21c0b7d67a01420c95455cbcb5",
+    "evaluacion/ejecutar.py": "f92cc124cbd207c5b3acce2b7d6fec9f1b9d95156957719bc149e566c6f9ccd9",
+    "evaluacion/datos.py": "cf2281db4f594dec51e7a74674621b59ecec1d1f6ef5e18eb0903580155a64a5",
+    "evaluacion/controles.py": "e9515b29c42b3e3599b5802e47880dc0490feec9b4e461c667c67addc494b31a",
+    "evaluacion/recalcular.py": "d29bc531798e095a3c81122bfef18a68303bd950ee92561a4ae50373e1b71ad6",
+    "evaluacion/integridad.py": "60b5854b541cf5f9be7fe0d49974da0c6a75bd089c1bc5214ddaf10d123b3c53",
+    "evaluacion/figuras.py": "c89f0b826392a1ca7ed18922994808bad97d7b677458d1bf6e1a1893b4aea820",
+    "evaluacion/__main__.py": "81f56b5c2876e44d77c46a09e6f512f751549e8d1292ae8b9425245171ff00c3",
+    "evaluacion/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "huella_codigo_revision": "917d0bbd8ba69c55dc116e6c139ba95962073bb32df6d063e2f3fd218b43ca49",
+  "cambios": [
+    {
+      "modulo": "evaluacion/ejecutar.py",
+      "clase": "calculo",
+      "sha256_congelamiento": "97e2af9451d94b5672cc4265d11686e60fabb6f1d310e4a508e2a32bda459401",
+      "sha256_ejecucion_v1": "97e2af9451d94b5672cc4265d11686e60fabb6f1d310e4a508e2a32bda459401",
+      "sha256_v2": "f92cc124cbd207c5b3acce2b7d6fec9f1b9d95156957719bc149e566c6f9ccd9",
+      "justificacion": "Solo _comprobar_congelado(): además del protocolo verifica el manifiesto de código antes de cargar datos o estimar (hallazgo 3). No cambia selección, estimación ni tablas; se demuestra reejecutando y comparando las predicciones."
+    },
+    {
+      "modulo": "evaluacion/datos.py",
+      "clase": "calculo",
+      "sha256_congelamiento": "acb7325cc5a090a3e45da0ce6fb421b9d1afaa91e7d66c80928ec5e3d23a6d1e",
+      "sha256_ejecucion_v1": "acb7325cc5a090a3e45da0ce6fb421b9d1afaa91e7d66c80928ec5e3d23a6d1e",
+      "sha256_v2": "cf2281db4f594dec51e7a74674621b59ecec1d1f6ef5e18eb0903580155a64a5",
+      "justificacion": "Variable SIPSA_PROYECTO_INGENIERIA para ubicar el proyecto de ingeniería al reproducir (cambio n.º 3 del registro v1, ya presente en la entrega v1). No cambia la lectura ni los controles de integridad del lote."
+    },
+    {
+      "modulo": "evaluacion/controles.py",
+      "clase": "validacion",
+      "sha256_congelamiento": "5024efaea2f26f73a9c8167f753e03596270add2cd8289c55d907c1919fd5e14",
+      "sha256_ejecucion_v1": "5024efaea2f26f73a9c8167f753e03596270add2cd8289c55d907c1919fd5e14",
+      "sha256_v2": "e9515b29c42b3e3599b5802e47880dc0490feec9b4e461c667c67addc494b31a",
+      "justificacion": "Hallazgo 2: límites temporales recalculados desde origen y retrasos; cobertura derivada del protocolo; integración del recálculo completo y de la integridad de código; invalidación de aprobaciones antiguas."
+    },
+    {
+      "modulo": "evaluacion/recalcular.py",
+      "clase": "validacion",
+      "sha256_congelamiento": "3e9914c3d1a5ed115ce61b4f6360d96afd18847028b7f59a26b7d299887c8446",
+      "sha256_ejecucion_v1": "3e9914c3d1a5ed115ce61b4f6360d96afd18847028b7f59a26b7d299887c8446",
+      "sha256_v2": "d29bc531798e095a3c81122bfef18a68303bd950ee92561a4ae50373e1b71ad6",
+      "justificacion": "Hallazgo 1: recálculo de todas las tablas y cifras del resumen desde predicho-observado, con llaves exactas y tolerancias explícitas."
+    },
+    {
+      "modulo": "evaluacion/integridad.py",
+      "clase": "validacion",
+      "sha256_congelamiento": null,
+      "sha256_ejecucion_v1": null,
+      "sha256_v2": "60b5854b541cf5f9be7fe0d49974da0c6a75bd089c1bc5214ddaf10d123b3c53",
+      "justificacion": "Hallazgo 3: verificación de módulos contra este manifiesto aprobado."
+    },
+    {
+      "modulo": "evaluacion/figuras.py",
+      "clase": "presentacion",
+      "sha256_congelamiento": null,
+      "sha256_ejecucion_v1": "10e4fe5e41623cae546f87fd7ba3c8482571a8b6ce94c56aa722ad6d7506a834",
+      "sha256_v2": "c89f0b826392a1ca7ed18922994808bad97d7b677458d1bf6e1a1893b4aea820",
+      "justificacion": "Legibilidad de figuras (cambio n.º 2 del registro v1, ya presente en la entrega v1); el archivo no existía al congelar."
+    },
+    {
+      "modulo": "evaluacion/__main__.py",
+      "clase": "presentacion",
+      "sha256_congelamiento": "e9ca68d7dab960aee1f0bf4c0a8aef904de7ca24de4467d18953798717237f16",
+      "sha256_ejecucion_v1": "e9ca68d7dab960aee1f0bf4c0a8aef904de7ca24de4467d18953798717237f16",
+      "sha256_v2": "81f56b5c2876e44d77c46a09e6f512f751549e8d1292ae8b9425245171ff00c3",
+      "justificacion": "Mensajes de la CLI: resumen y causa concreta del rechazo."
+    }
+  ],
+  "sin_cambios": [
+    "evaluacion/nucleo.py",
+    "evaluacion/__init__.py"
+  ],
+  "efecto_esperado_en_resultados": "ninguno: nucleo.py idéntico al congelado; los cambios de ejecutar.py y datos.py no tocan selección, estimación ni exportación"
+}

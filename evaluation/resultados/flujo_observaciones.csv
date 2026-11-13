@@ -1,0 +1,35 @@
+escenario,etapa,n,detalle
+todos,malla_producto_mercado_mes,2880,
+todos,con_precio_observado,2878,
+todos,con_abastecimiento_observado,2880,
+retro_r1,ejemplos_con_ventana_completa,2400,objetivos 2019-05..2025-12
+retro_r1,perdidos_por_ventanas_y_rezagos,480,"meses objetivo anteriores a 2019-05 (ventanas L-12..L, m-12, S-14..S)"
+retro_r1,ejemplos_con_etiqueta_observada,2398,
+retro_r1,ejemplos_sin_etiqueta,2,"2025-04 Limón Tahití @ Bucaramanga, Centroabastos;2025-09 Limón Tahití @ Bucaramanga, Centroabastos"
+retro_r1,seleccion_filas_pronosticadas,300,
+retro_r1,seleccion_filas_evaluadas,300,
+retro_r1,seleccion_entrenamiento_primer_origen,1290,
+retro_r1,seleccion_entrenamiento_ultimo_origen,1560,
+retro_r1,evaluacion_filas_pronosticadas,720,
+retro_r1,evaluacion_filas_evaluadas,718,
+retro_r1,evaluacion_excluidas_objetivo_ausente,2,"2025-04 Limón Tahití @ Bucaramanga, Centroabastos;2025-09 Limón Tahití @ Bucaramanga, Centroabastos"
+retro_r1,evaluacion_entrenamiento_primer_origen,1650,
+retro_r1,evaluacion_entrenamiento_ultimo_origen,2338,
+retro_r2,ejemplos_con_ventana_completa,2370,objetivos 2019-06..2025-12
+retro_r2,perdidos_por_ventanas_y_rezagos,510,"meses objetivo anteriores a 2019-06 (ventanas L-12..L, m-12, S-14..S)"
+retro_r2,ejemplos_con_etiqueta_observada,2368,
+retro_r2,ejemplos_sin_etiqueta,2,"2025-04 Limón Tahití @ Bucaramanga, Centroabastos;2025-09 Limón Tahití @ Bucaramanga, Centroabastos"
+retro_r2,evaluacion_filas_pronosticadas,720,
+retro_r2,evaluacion_filas_evaluadas,718,
+retro_r2,evaluacion_excluidas_objetivo_ausente,2,"2025-04 Limón Tahití @ Bucaramanga, Centroabastos;2025-09 Limón Tahití @ Bucaramanga, Centroabastos"
+retro_r2,evaluacion_entrenamiento_primer_origen,1590,
+retro_r2,evaluacion_entrenamiento_ultimo_origen,2278,
+retro_p1_a2,ejemplos_con_ventana_completa,2370,objetivos 2019-06..2025-12
+retro_p1_a2,perdidos_por_ventanas_y_rezagos,510,"meses objetivo anteriores a 2019-06 (ventanas L-12..L, m-12, S-14..S)"
+retro_p1_a2,ejemplos_con_etiqueta_observada,2368,
+retro_p1_a2,ejemplos_sin_etiqueta,2,"2025-04 Limón Tahití @ Bucaramanga, Centroabastos;2025-09 Limón Tahití @ Bucaramanga, Centroabastos"
+retro_p1_a2,evaluacion_filas_pronosticadas,720,
+retro_p1_a2,evaluacion_filas_evaluadas,718,
+retro_p1_a2,evaluacion_excluidas_objetivo_ausente,2,"2025-04 Limón Tahití @ Bucaramanga, Centroabastos;2025-09 Limón Tahití @ Bucaramanga, Centroabastos"
+retro_p1_a2,evaluacion_entrenamiento_primer_origen,1620,
+retro_p1_a2,evaluacion_entrenamiento_ultimo_origen,2308,

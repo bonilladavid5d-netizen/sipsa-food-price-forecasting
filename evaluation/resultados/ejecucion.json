@@ -1,0 +1,64 @@
+{
+  "inicio_utc": "2026-11-11T21:31:03+00:00",
+  "fin_utc": "2026-11-11T21:35:10+00:00",
+  "entrada": {
+    "lote_id": "lote-20261111T192146Z-0dba2228adae",
+    "publicacion_id": "pub-20261111T192146Z-605849",
+    "huella_contenido": "0dba2228adae1e086ca005fa8c16a1676b99a6fa05a4c30225c7befd53d63ed2",
+    "manifiesto_sha256": "78bff696aa31e885951bbafc4d5d2248e59fd91f0b2f056d875f2ed51aaec4f8",
+    "panel_csv_sha256": "020f5d4bbae6166693d8d51760a522fdb5c224da8f864119a77e73e9830f2005",
+    "proyecto_ingenieria": "<PROYECTO_INGENIERIA>",
+    "hechos": {
+      "celdas": 2880,
+      "precios_presentes": 2878,
+      "abastecimiento_presente": 2880,
+      "series": 30,
+      "meses": 96,
+      "mes_min": "2018-01",
+      "mes_max": "2025-12",
+      "mercado_mes_con_aviso": 10,
+      "precios_ausentes": [
+        {
+          "month": "2025-04",
+          "market": "Bucaramanga, Centroabastos",
+          "product": "Limón Tahití"
+        },
+        {
+          "month": "2025-09",
+          "market": "Bucaramanga, Centroabastos",
+          "product": "Limón Tahití"
+        }
+      ]
+    }
+  },
+  "codigo": {
+    "sha256": "e447ffa4f560c4f2037f7c0790f407d3680ce6f90ebb5390b501364d9c05b4a7",
+    "archivos": {
+      "evaluacion/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evaluacion/__main__.py": "e9ca68d7dab960aee1f0bf4c0a8aef904de7ca24de4467d18953798717237f16",
+      "evaluacion/controles.py": "5024efaea2f26f73a9c8167f753e03596270add2cd8289c55d907c1919fd5e14",
+      "evaluacion/datos.py": "acb7325cc5a090a3e45da0ce6fb421b9d1afaa91e7d66c80928ec5e3d23a6d1e",
+      "evaluacion/ejecutar.py": "97e2af9451d94b5672cc4265d11686e60fabb6f1d310e4a508e2a32bda459401",
+      "evaluacion/figuras.py": "10e4fe5e41623cae546f87fd7ba3c8482571a8b6ce94c56aa722ad6d7506a834",
+      "evaluacion/nucleo.py": "51e58d3eb09d817994d8b7e60d2c5d8ea1951e21c0b7d67a01420c95455cbcb5",
+      "evaluacion/recalcular.py": "3e9914c3d1a5ed115ce61b4f6360d96afd18847028b7f59a26b7d299887c8446"
+    }
+  },
+  "entorno": {
+    "python": "3.13.11",
+    "sistema": "Darwin",
+    "version": "27.2.0",
+    "maquina": "arm64",
+    "paquetes": {
+      "numpy": "2.5.4",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.9.1",
+      "duckdb": "2.0.0",
+      "pyarrow": "26.0.1",
+      "matplotlib": "3.11.2",
+      "scipy": "1.18.1"
+    }
+  },
+  "protocolo_congelado_utc": "2026-11-11T21:30:54+00:00",
+  "parametros_congelados_utc": "2026-11-11T21:32:08+00:00"
+}

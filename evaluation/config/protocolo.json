@@ -1,0 +1,250 @@
+{
+  "version": "protocolo-predictivo-v1",
+  "proyecto": "SIPSA — evaluación predictiva retrospectiva",
+  "autor": "David Bonilla",
+  "naturaleza": "Protocolo interno fijado antes de estimar con datos reales; no es una prerregistración externa.",
+  "fuente_datos": "Departamento Administrativo Nacional de Estadística (DANE), SIPSA",
+  "entrada": {
+    "proyecto_ingenieria_relativo": "../sipsa_datos",
+    "mecanismo": "sipsa.lote.aprobado() + sipsa.lote.verificar_aprobado(completo=True); lectura read-only de panel_mensual en sipsa.duckdb",
+    "lote_id_al_congelar": "lote-20261111T192146Z-0dba2228adae",
+    "huella_contenido": "0dba2228adae1e086ca005fa8c16a1676b99a6fa05a4c30225c7befd53d63ed2",
+    "hechos_esperados": {
+      "celdas": 2880,
+      "precios_presentes": 2878,
+      "abastecimiento_presente": 2880,
+      "series": 30,
+      "meses": 96,
+      "mes_min": "2018-01",
+      "mes_max": "2025-12",
+      "mercado_mes_con_aviso": 10
+    }
+  },
+  "objetivo": {
+    "variable": "precio mayorista mensual publicado (price), COP/kg, por producto y mercado",
+    "horizonte": "pronóstico emitido al cierre del mes calendario t (America/Bogota, util.cierre_mes del proyecto de ingeniería) para el mes t+1",
+    "nota": "En retro_r1 la última observación disponible es t-1: se predice t+1 desde t-1 (dos meses por delante de la última observación). No se dispone del precio de t."
+  },
+  "escenarios": {
+    "principal": "retro_r1",
+    "retrasos_meses": {
+      "retro_r1": {
+        "precio": 1,
+        "abastecimiento": 1
+      },
+      "retro_r2": {
+        "precio": 2,
+        "abastecimiento": 2
+      },
+      "retro_p1_a2": {
+        "precio": 1,
+        "abastecimiento": 2
+      }
+    },
+    "naturaleza": "supuestos retrospectivos declarados en politica-temporal-v2; no son fechas históricas observadas"
+  },
+  "periodos": {
+    "historia_desde": "2018-01",
+    "historia_inicial": [
+      "2018-01",
+      "2022-12"
+    ],
+    "seleccion_meses_objetivo": [
+      "2023-01",
+      "2023-10"
+    ],
+    "separacion_no_usada_para_seleccion": [
+      "2023-11",
+      "2023-12"
+    ],
+    "evaluacion_meses_objetivo": [
+      "2024-01",
+      "2025-12"
+    ],
+    "justificacion_frontera": "El primer objetivo de evaluación (2024-01) se emite al cierre de 2023-12. Con retraso de precio hasta 2 meses, la última etiqueta conocida en ese origen puede ser 2023-10; por eso la selección usa objetivos 2023-01..2023-10 y todos sus errores ya serían conocidos en el primer origen de evaluación bajo cualquier escenario considerado."
+  },
+  "entrenamiento": {
+    "esquema": "en cada origen t se reajustan los modelos con ventana expansiva; parámetros congelados tras la selección",
+    "etiquetas_permitidas": "ejemplos con mes objetivo m <= t - retraso_precio y precio observado",
+    "variables_de_cada_ejemplo": "calculadas en su propio origen t' = m - 1 con precios <= t' - retraso_precio y abastecimiento <= t' - retraso_abastecimiento",
+    "ventana_completa": "un ejemplo (de entrenamiento o de pronóstico) requiere que existan en la malla todos los meses de las ventanas de precio y de abastecimiento definidas abajo; la misma regla para modelos con y sin abastecimiento dentro de cada escenario",
+    "preprocesamiento": "imputación (mediana) y estandarización ajustadas solo con las filas de entrenamiento del origen"
+  },
+  "variables": {
+    "notacion": "m = mes objetivo; t' = m-1 origen del ejemplo; L = t' - retraso_precio (último mes de precio permitido); S = t' - retraso_abastecimiento; p = precio; q = kg; B = último precio observado en L, L-1 o L-2 (base)",
+    "objetivo_transformado": "y = ln(p_m / B); pronóstico = B * exp(y_hat)",
+    "precio": {
+      "d1": "ln p_L - ln p_{L-1}",
+      "d2": "ln p_{L-1} - ln p_{L-2}",
+      "dev_ma6": "ln p_L - ln mean(p_{L-5..L})",
+      "dev_ma12": "ln p_L - ln mean(p_{L-11..L})",
+      "estacional": "ln p_{m-12} - ln B",
+      "mov_estacional": "ln p_{m-12} - ln p_{L-12}"
+    },
+    "calendario": {
+      "mes_sin": "sin(2*pi*mes(m)/12)",
+      "mes_cos": "cos(2*pi*mes(m)/12)"
+    },
+    "identidades": "indicadoras de producto (10) y de mercado (3)",
+    "indicadores_ausencia": {
+      "falta_precio_ventana": "1 si algún precio de la ventana L-12..L o p_{m-12} falta",
+      "base_rezagada": "1 si B no es p_L"
+    },
+    "abastecimiento_solo_variantes_con_volumen": {
+      "nivel_rel12": "ln q_S - ln mean(q_{S-11..S})",
+      "cambio_1": "ln q_S - ln q_{S-1}",
+      "cambio_12": "ln q_S - ln q_{S-12}",
+      "trim_vs_anio_ant": "ln mean(q_{S-2..S}) - ln mean(q_{S-14..S-12})",
+      "falta_abast_ventana": "1 si algún volumen de S-14..S falta"
+    },
+    "ventanas_requeridas": {
+      "precio": "L-12..L y m-12",
+      "abastecimiento": "S-14..S"
+    },
+    "conteo": "6 de precio + 2 calendario + 13 identidades + 2 indicadores = 23 sin volumen; +5 con volumen = 28"
+  },
+  "faltantes": {
+    "etiquetas": "no se rellenan; objetivo ausente => fila excluida del entrenamiento y de la evaluación con motivo 'objetivo_ausente'",
+    "variables": "una variable cuyo cálculo requiere un valor ausente queda NaN; se imputa con la mediana de entrenamiento del origen y se marca el indicador de ausencia; columnas originales y transformadas se conservan por separado",
+    "base": "B = último precio observado entre L, L-1, L-2; si no existe, la fila no es pronosticable (motivo 'sin_base')",
+    "estacional_ingenuo": "si p_{m-12} falta, el pronóstico estacional no existe para esa fila (motivo 'sin_referencia_estacional') y la fila sale de la comparación emparejada de todos los modelos",
+    "abastecimiento": "nunca se convierte en cero; no se eliminan extremos ni repeticiones; no se ajustan discrepancias oficiales",
+    "avisos_imputacion": "no se usan como variables; solo para estratificar resultados (sensibilidad)"
+  },
+  "modelos": {
+    "semilla": 20261111,
+    "ingenuo": "pronóstico = B (último precio conocido)",
+    "estacional": "pronóstico = p_{m-12}",
+    "ridge_precio": {
+      "variables": "precio+calendario+identidades+indicadores",
+      "rejilla": {
+        "alpha": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ]
+      }
+    },
+    "ridge_abastecimiento": {
+      "variables": "ridge_precio + abastecimiento",
+      "rejilla": {
+        "alpha": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ]
+      }
+    },
+    "rf_precio": {
+      "variables": "igual que ridge_precio (sin estandarizar)",
+      "fijos": {
+        "n_estimators": 300,
+        "max_features": 0.5,
+        "bootstrap": true
+      },
+      "rejilla": {
+        "max_depth": [
+          4,
+          8,
+          null
+        ],
+        "min_samples_leaf": [
+          5,
+          20
+        ]
+      }
+    },
+    "rf_abastecimiento": {
+      "variables": "rf_precio + abastecimiento",
+      "fijos": {
+        "n_estimators": 300,
+        "max_features": 0.5,
+        "bootstrap": true
+      },
+      "rejilla": {
+        "max_depth": [
+          4,
+          8,
+          null
+        ],
+        "min_samples_leaf": [
+          5,
+          20
+        ]
+      }
+    },
+    "presupuesto": "6 configuraciones por familia y variante; idéntico con y sin abastecimiento",
+    "conjunto": "un modelo conjunto para las 30 series por familia, variante, escenario y origen"
+  },
+  "metricas": {
+    "principal": "MASE estacional m=12",
+    "escala": "q_{s,t} = media de |p_k - p_{k-12}| para meses k con ambos precios observados y k <= t - retraso_precio (historia disponible en el origen); la misma escala para todos los modelos de esa serie y origen",
+    "escala_invalida": "si hay menos de 24 pares o q = 0, la fila se excluye de MASE con motivo 'escala_invalida' (para todos los modelos)",
+    "mase_serie": "media de |e|/q sobre los orígenes evaluados de la serie",
+    "resumen": "media simple entre las 30 series (peso igual por serie); también mediana",
+    "adicionales": [
+      "MAE en COP/kg por serie",
+      "error firmado medio (predicho-observado) en COP/kg y en % del observado",
+      "diferencia de MASE con y sin abastecimiento por serie",
+      "MASE por producto, mercado, año y mes",
+      "proporción de series donde cada modelo mejora al referente"
+    ],
+    "no_usar": "MAPE como única medida; promedio global de MAE entre series"
+  },
+  "seleccion": {
+    "datos": "escenario retro_r1, objetivos 2023-01..2023-10 (10 orígenes), ventana expansiva",
+    "criterio": "menor MASE medio entre series; empate (diferencia < 1e-9) => configuración más regularizada (mayor alpha; menor profundidad; mayor hoja)",
+    "referente": "el mejor entre ingenuo y estacional según el mismo criterio",
+    "familia_principal": "la familia (ridge o rf) cuya variante SIN abastecimiento tenga menor MASE de selección; su contraste con/sin abastecimiento es el principal; la otra familia es secundaria",
+    "congelamiento": "los parámetros elegidos se escriben en resultados/seleccion/parametros_congelados.json antes de calcular ningún pronóstico de 2024-2025"
+  },
+  "contrastes": {
+    "aporte_abastecimiento": "por familia: modelo con abastecimiento (parámetros propios) vs sin abastecimiento, sobre exactamente las mismas filas",
+    "controlado": "por familia: modelo con abastecimiento usando los parámetros seleccionados para la variante sin abastecimiento",
+    "comunicacion": {
+      "despreciable": "|cambio relativo del MASE medio| < 2 %",
+      "mejora_consistente": "cambio relativo <= -2 %, mejora en al menos 20 de 30 series, mismo signo en 2024 y 2025 y en la comparación controlada",
+      "otro_caso": "mejora pequeña, concentrada o inestable: se comunica con ese alcance"
+    },
+    "inferencia": "no se calculan p-valores tratando series y meses como independientes; se priorizan magnitud, proporción de series y estabilidad por año y escenario"
+  },
+  "sensibilidades": [
+    "escenarios retro_r2 y retro_p1_a2 con los parámetros congelados de retro_r1",
+    "objetivos en mercado-mes con aviso oficial de imputación vs sin aviso",
+    "excluir de la evaluación (copia derivada) las filas cuya ventana de abastecimiento S-14..S contiene un mercado-mes con aviso; todos los modelos sobre el mismo subconjunto"
+  ],
+  "figuras": {
+    "maximo": 3,
+    "series_ilustrativas_fijadas_antes_de_ver_errores": [
+      [
+        "Plátano hartón verde",
+        "Bogotá, D.C., Corabastos"
+      ],
+      [
+        "Limón Tahití",
+        "Bucaramanga, Centroabastos"
+      ],
+      [
+        "Lechuga Batavia",
+        "Medellín, Central Mayorista de Antioquia"
+      ]
+    ],
+    "nota": "Se eligieron por diversidad de producto y mercado y por incluir la serie con los dos precios ausentes; no se usan en esta versión salvo que una figura lo requiera.",
+    "diseno": [
+      "MASE de evaluación retro_r1 por modelo, punto por serie + media",
+      "delta MASE por serie (con - sin volumen), familia principal, ordenada, con comparación controlada",
+      "delta MASE medio por año y escenario, ambas familias"
+    ]
+  },
+  "reproducibilidad": {
+    "semilla": 20261111,
+    "n_jobs": 1,
+    "verificacion": "repetir la ejecución en una carpeta nueva y comparar SHA-256 de predicciones y métricas"
+  }
+}

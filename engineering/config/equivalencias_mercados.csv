@@ -1,0 +1,7 @@
+market_id,label,component,raw_label,rule,version,valid_from_month,valid_to_month,decision
+M01,"Bogotá, D.C., Corabastos",precios,"Bogotá, D.C., Corabastos",exact_name,equiv-v2,2018-01,,D-04: heredada de viabilidad sin cambios
+M01,"Bogotá, D.C., Corabastos",abastecimiento,"Bogotá, D.C., Corabastos",exact_name,equiv-v2,2018-01,,D-04: heredada de viabilidad sin cambios
+M02,"Medellín, Central Mayorista de Antioquia",precios,"Medellín, Central Mayorista de Antioquia",exact_name,equiv-v2,2018-01,,D-04: heredada de viabilidad sin cambios
+M02,"Medellín, Central Mayorista de Antioquia",abastecimiento,"Medellín, Central Mayorista de Antioquia",exact_name,equiv-v2,2018-01,,D-04: heredada de viabilidad sin cambios
+M03,"Bucaramanga, Centroabastos",precios,"Bucaramanga, Centroabastos",exact_name,equiv-v2,2018-01,,D-04: heredada de viabilidad sin cambios
+M03,"Bucaramanga, Centroabastos",abastecimiento,"Bucaramanga, Centroabastos",exact_name,equiv-v2,2018-01,,D-04: heredada de viabilidad sin cambios

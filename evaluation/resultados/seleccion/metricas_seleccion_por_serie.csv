@@ -1,0 +1,781 @@
+modelo,product_id,market_id,product,market,n,mase,mae_cop_kg,error_firmado_cop_kg,error_firmado_pct
+estacional,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.0052088757320836,392.6,13.4,7.191434317273837
+estacional,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0761343177263278,276.5,-190.7,-8.654971601230544
+estacional,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,1.1954805189258795,249.8,-169.2,-10.704542634368348
+estacional,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.179526654752942,1306.6,166.8,8.243094519724133
+estacional,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9418302049167672,981.5,402.3,13.485439545304981
+estacional,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.32756956154046,1423.2,-940.8,-11.560784054115594
+estacional,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,2.159747692383074,1258.3,259.1,25.472321844409656
+estacional,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.8294899798825803,481.6,203.4,27.174337926508645
+estacional,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.7972868962279143,657.1,256.9,21.43108831913739
+estacional,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.5737220467007085,1155.9,144.5,14.136553333771177
+estacional,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.9442026704858415,617.9,506.7,27.25637989920142
+estacional,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,0.9641726476511318,717.2,138.2,11.040280090023344
+estacional,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.9165243538736212,352.6,121.4,7.815535153396687
+estacional,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.6020159647340368,269.7,4.7,3.8658643725876867
+estacional,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,1.0081755669495822,215.2,-133.0,-10.622600475237283
+estacional,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,2.6267680956145716,1164.4,-1164.4,-37.547868095103546
+estacional,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,2.8810530573499604,1354.0,-1354.0,-42.46213144235512
+estacional,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,2.9499656529523888,1242.2,-1242.2,-43.03382255802837
+estacional,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,0.5487523470294347,373.0,-61.0,3.072141992210826
+estacional,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,0.6565194987278008,428.1,181.7,9.775138162634104
+estacional,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,0.5437657559650976,324.8,219.6,20.605677265820464
+estacional,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.5386346871050804,195.3,106.7,4.63660061694464
+estacional,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,1.450021149488573,481.9,-481.9,-19.72036515976167
+estacional,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.7809976880566396,613.3,-239.9,-11.851487654781838
+estacional,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,1.1076965308308238,258.5,-255.1,-11.264764905938733
+estacional,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.8101354884494049,182.7,-182.7,-10.631492851335516
+estacional,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.9328358709603026,155.8,-136.0,-6.9940567833303176
+estacional,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.26942501882508,842.3,-626.5,-12.872204871254894
+estacional,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,2.074804617585662,939.2,-860.6,-27.375172266718405
+estacional,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,1.2682314641732613,930.6,-789.4,-17.010606273456823
+ingenuo,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.7883508127417542,698.0,151.4,18.64541680007251
+ingenuo,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0004997822238377,261.1,3.5,1.7599782975718272
+ingenuo,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.8432460889007605,177.0,12.0,2.0148304908221926
+ingenuo,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0117615506030548,1120.4,580.4,15.246481385853805
+ingenuo,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.7752915103601197,808.8,472.6,14.787130973754852
+ingenuo,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9655873557073715,1065.3,121.5,8.570369125382468
+ingenuo,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,0.945607406280893,545.4,143.0,11.05824532340372
+ingenuo,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,0.8766708989047736,226.5,74.5,9.285252089200998
+ingenuo,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,0.9712777965207231,356.3,153.1,12.806351493002138
+ingenuo,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.3562400315567937,995.2,-174.8,1.0161364223566105
+ingenuo,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.8366179101166212,548.2,109.8,9.317885956317044
+ingenuo,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.2242268077153518,913.5,-257.1,0.1421051030097764
+ingenuo,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,1.0032127017249486,391.8,81.0,8.439111842613736
+ingenuo,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.6828305754352415,116.5,67.7,7.216805525777227
+ingenuo,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.9608224621457578,208.1,11.3,3.0616884724664417
+ingenuo,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.533061146417751,688.9,-333.9,-6.363794206803111
+ingenuo,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.13024923010826,530.2,-318.6,-8.344111286859665
+ingenuo,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.6091366943230105,697.8,-336.4,-4.754880272658536
+ingenuo,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,3.063458107190769,2095.0,-399.6,56.225922220875844
+ingenuo,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,3.2333400990140255,2104.2,-293.0,47.69180245193031
+ingenuo,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,2.8879374245279084,1738.5,-189.5,65.66071656344538
+ingenuo,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,2.0089075732312036,714.8,-4.2,7.9244140116982695
+ingenuo,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.9050291636834664,308.1,33.5,2.9433295208595824
+ingenuo,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.4802749452836248,509.9,35.3,7.774936588998835
+ingenuo,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.5111493735311297,121.0,-10.4,-0.29030723580466683
+ingenuo,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3353860113923174,75.6,-13.4,-0.6962638132464285
+ingenuo,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.6154220683711488,103.0,-23.6,-1.0469773344387714
+ingenuo,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0061818781616019,677.3,209.5,8.516081099061426
+ingenuo,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.6893046130924506,333.8,172.2,8.638104605834247
+ingenuo,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8453187188389826,627.9,243.1,8.26501275948912
+rf_abast|max_depth=4;min_samples_leaf=20,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3489013057361965,526.9463902174451,206.2619450811681,20.79358827869185
+rf_abast|max_depth=4;min_samples_leaf=20,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0830685802360427,283.97597048395994,56.07046751889466,5.031103522991795
+rf_abast|max_depth=4;min_samples_leaf=20,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7470556341860302,157.42367164974638,47.562659763613034,4.700737507970593
+rf_abast|max_depth=4;min_samples_leaf=20,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.015644458767185,1130.2292692214,855.0847730919617,19.632206829546327
+rf_abast|max_depth=4;min_samples_leaf=20,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8937153664911616,933.9697927646603,741.7813570272112,20.943926922855567
+rf_abast|max_depth=4;min_samples_leaf=20,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.8714721873584548,958.445611597527,149.51830552616275,8.034862987859569
+rf_abast|max_depth=4;min_samples_leaf=20,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2121391613464345,711.2234099096413,333.58270607702514,23.16500845557906
+rf_abast|max_depth=4;min_samples_leaf=20,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0583913622424106,277.6609938706649,182.90185604509855,20.85796114249002
+rf_abast|max_depth=4;min_samples_leaf=20,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2082406450184986,443.3325556832589,317.2176397159507,24.424636099539434
+rf_abast|max_depth=4;min_samples_leaf=20,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.299130414781119,955.579680180375,99.68343993325652,11.471013617433076
+rf_abast|max_depth=4;min_samples_leaf=20,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7763580705024119,508.4364911688746,409.2528134642012,25.160294323785752
+rf_abast|max_depth=4;min_samples_leaf=20,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,0.9978785451904463,743.388100159498,69.60598824406343,11.6686326980241
+rf_abast|max_depth=4;min_samples_leaf=20,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.7124465293542771,279.5728540510164,225.01380704174161,17.170801117491635
+rf_abast|max_depth=4;min_samples_leaf=20,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.8006043359957188,136.84348899372407,101.7919691409349,12.264045398256048
+rf_abast|max_depth=4;min_samples_leaf=20,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.782469911334534,169.69383077398905,30.913995863990454,4.623680291865273
+rf_abast|max_depth=4;min_samples_leaf=20,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.355486798682082,608.1813947632278,-488.85825527177366,-13.141358514256224
+rf_abast|max_depth=4;min_samples_leaf=20,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.2510208361788648,584.1084571863685,-584.1084571863685,-17.64591659326816
+rf_abast|max_depth=4;min_samples_leaf=20,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.804125600234323,772.3983137361105,-655.6953613223974,-18.550537591787382
+rf_abast|max_depth=4;min_samples_leaf=20,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.4795960686510694,1010.7250222802352,-335.49480166872456,18.74652395191032
+rf_abast|max_depth=4;min_samples_leaf=20,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.4320940259471635,930.8146614394097,-164.15868632091195,21.06855224091372
+rf_abast|max_depth=4;min_samples_leaf=20,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.327937327402291,798.9463431529873,-70.10754273955502,32.29188602585892
+rf_abast|max_depth=4;min_samples_leaf=20,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8876646371829386,317.2980544313254,-18.15879112822688,3.527593021712081
+rf_abast|max_depth=4;min_samples_leaf=20,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6952610382065849,236.20089827522216,9.755787143258363,1.467887196134201
+rf_abast|max_depth=4;min_samples_leaf=20,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9932599733246112,339.04966628056343,-43.8522102394151,0.9625888332261242
+rf_abast|max_depth=4;min_samples_leaf=20,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4597838039535841,109.5729782649124,51.74050122016506,2.4419725698153547
+rf_abast|max_depth=4;min_samples_leaf=20,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.39888004425787094,89.85162702226012,37.950810040012996,2.3175211607717903
+rf_abast|max_depth=4;min_samples_leaf=20,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5311928828205776,89.62751572274742,49.17476187933157,2.8487086134619877
+rf_abast|max_depth=4;min_samples_leaf=20,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.8080482611634874,544.1958385732709,90.97458601279945,5.843032299352148
+rf_abast|max_depth=4;min_samples_leaf=20,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0186725953263374,475.9692794258972,-25.238354120806026,2.51540179111547
+rf_abast|max_depth=4;min_samples_leaf=20,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.6817000828588997,505.8188717829178,97.68683775761015,5.3876639864437745
+rf_abast|max_depth=4;min_samples_leaf=5,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.360344293337781,531.3547146168381,200.5910649863918,20.618052553392232
+rf_abast|max_depth=4;min_samples_leaf=5,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0859548800065713,284.82478202129977,58.47707062002819,5.157313747207487
+rf_abast|max_depth=4;min_samples_leaf=5,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7485232574687412,157.76096858528223,48.507098670638996,4.754047705371999
+rf_abast|max_depth=4;min_samples_leaf=5,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,0.9915078252485177,1103.419360203561,829.1586529204466,19.18478152237518
+rf_abast|max_depth=4;min_samples_leaf=5,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8909712425847631,930.9756793976865,727.6183387916114,20.63260687152301
+rf_abast|max_depth=4;min_samples_leaf=5,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.8522259020173264,937.7428946520624,134.86202984954443,7.728462706536525
+rf_abast|max_depth=4;min_samples_leaf=5,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2340259257565012,724.2002981044986,340.2188573141657,23.64867840799933
+rf_abast|max_depth=4;min_samples_leaf=5,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0540671674912603,276.4192525052105,181.0076704675617,20.62426844314646
+rf_abast|max_depth=4;min_samples_leaf=5,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.1734597397377744,430.6117610199045,301.16762337651596,23.395815308081104
+rf_abast|max_depth=4;min_samples_leaf=5,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.285592366830973,945.3078426858053,81.78003580396776,10.81693415427976
+rf_abast|max_depth=4;min_samples_leaf=5,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7471112630950513,489.55237221191965,387.35130115358373,23.883225997862674
+rf_abast|max_depth=4;min_samples_leaf=5,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,0.9932434506563684,740.103371900518,57.43409222429618,11.170394974015938
+rf_abast|max_depth=4;min_samples_leaf=5,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6792457308747462,266.686040152099,210.79614613374457,16.208451502257233
+rf_abast|max_depth=4;min_samples_leaf=5,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.7861893777199301,134.35028018202155,98.12880869600758,11.863995678287061
+rf_abast|max_depth=4;min_samples_leaf=5,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7771500284087276,168.47642794820715,28.08932560479418,4.371839001101373
+rf_abast|max_depth=4;min_samples_leaf=5,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.3514672094316496,606.5546518314417,-476.6203753059338,-12.672264521170751
+rf_abast|max_depth=4;min_samples_leaf=5,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.247254332590797,581.5719707894881,-581.5719707894881,-17.567696451700034
+rf_abast|max_depth=4;min_samples_leaf=5,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8514510250690748,793.3210978034958,-657.8427252474339,-18.329758275232724
+rf_abast|max_depth=4;min_samples_leaf=5,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1983265794941376,819.7573021100918,-431.4472807272882,4.3283933683408105
+rf_abast|max_depth=4;min_samples_leaf=5,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.1910206126951324,775.5381201645496,-153.76126247687984,14.873242355558352
+rf_abast|max_depth=4;min_samples_leaf=5,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.0252061527554883,618.5945172720105,-96.28599531131745,20.913937739890823
+rf_abast|max_depth=4;min_samples_leaf=5,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.9047516694170419,323.35758137135434,-1.599969014721728,4.447013049608726
+rf_abast|max_depth=4;min_samples_leaf=5,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.700394995596929,237.88801791675996,11.409996167658733,1.5349100820750199
+rf_abast|max_depth=4;min_samples_leaf=5,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.0007645957275824,341.80485370416375,-15.422524441200995,2.8854161655936816
+rf_abast|max_depth=4;min_samples_leaf=5,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.43894054153103285,104.62558805407166,51.150922030649824,2.4086364067901123
+rf_abast|max_depth=4;min_samples_leaf=5,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.39806118456533757,89.68047438009792,37.26825176535679,2.2777052943554343
+rf_abast|max_depth=4;min_samples_leaf=5,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5364410883989728,90.53333922024129,50.89187904282155,2.9433534825169123
+rf_abast|max_depth=4;min_samples_leaf=5,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.8784871790845434,593.1391027470988,153.7931336442694,7.55650910085858
+rf_abast|max_depth=4;min_samples_leaf=5,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.9736902196059531,456.3887281428638,-6.669122097528543,3.1213480545448653
+rf_abast|max_depth=4;min_samples_leaf=5,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.6924893661962619,515.2629480063873,154.92715214178898,6.744699312934939
+rf_abast|max_depth=8;min_samples_leaf=20,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3825428972194183,540.2949766919007,226.54249347637113,22.00455375333682
+rf_abast|max_depth=8;min_samples_leaf=20,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0433548077405805,273.1446592772808,38.06080628464686,3.867682325769575
+rf_abast|max_depth=8;min_samples_leaf=20,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7260880814582906,152.8027100628318,30.699955084057432,3.389621222934559
+rf_abast|max_depth=8;min_samples_leaf=20,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0760039571104993,1198.5616290704138,827.8439897646003,19.206087136013625
+rf_abast|max_depth=8;min_samples_leaf=20,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8800162334557212,919.1616230073544,696.4648227479222,19.9168369769526
+rf_abast|max_depth=8;min_samples_leaf=20,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9016186112761432,989.3656263845878,78.04904964973112,6.9089687366270764
+rf_abast|max_depth=8;min_samples_leaf=20,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.252690631415262,736.1584409585748,368.0059757849679,25.182460330282563
+rf_abast|max_depth=8;min_samples_leaf=20,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.1318962199041684,297.7084655666148,214.73044320234658,24.127373364531376
+rf_abast|max_depth=8;min_samples_leaf=20,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.3338034435363888,489.61865008486654,364.13865861617484,27.549215709854558
+rf_abast|max_depth=8;min_samples_leaf=20,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.2916388167882513,949.618236806383,153.7878088035709,13.0660553187572
+rf_abast|max_depth=8;min_samples_leaf=20,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7209043643099553,471.539501316436,408.32154934892185,25.149450177136917
+rf_abast|max_depth=8;min_samples_leaf=20,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.0228565724255276,761.5852227438652,116.32193057075065,13.342935280441642
+rf_abast|max_depth=8;min_samples_leaf=20,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.7307749903649127,286.21429117474594,246.48442307311083,18.252259876018826
+rf_abast|max_depth=8;min_samples_leaf=20,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.8677466687990373,148.56342296006815,112.07882522087012,13.42132007370758
+rf_abast|max_depth=8;min_samples_leaf=20,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7644623140518074,165.9044885019852,40.538376681169055,5.216396253839091
+rf_abast|max_depth=8;min_samples_leaf=20,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4339389510959655,641.0209587158122,-546.1414604773852,-15.270375254267801
+rf_abast|max_depth=8;min_samples_leaf=20,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.3994244332732029,652.8914614229996,-652.8914614229996,-19.886458104982054
+rf_abast|max_depth=8;min_samples_leaf=20,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8174490414361864,776.9806516484578,-675.8182170980499,-19.50667180524615
+rf_abast|max_depth=8;min_samples_leaf=20,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.4715254802636344,1005.722009477748,-283.3215918927233,20.106091629000204
+rf_abast|max_depth=8;min_samples_leaf=20,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.391779436535006,904.7204865779179,-128.57792866245512,21.593334315308137
+rf_abast|max_depth=8;min_samples_leaf=20,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2717995437448952,763.2200908429688,-3.4683542489240837,34.29723600125381
+rf_abast|max_depth=8;min_samples_leaf=20,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8538994488739167,305.3621112407886,-3.675638503550431,4.032343284694639
+rf_abast|max_depth=8;min_samples_leaf=20,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6809502771469234,231.046371299244,-19.395870636953212,0.12558224972304938
+rf_abast|max_depth=8;min_samples_leaf=20,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9264367954314954,317.24943587537217,-49.519969328915884,0.10853169876613139
+rf_abast|max_depth=8;min_samples_leaf=20,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.45400693049791263,108.24468981866953,38.59693197699376,1.8644506679309631
+rf_abast|max_depth=8;min_samples_leaf=20,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.35240263031488006,79.34557107761631,30.551734365971992,1.8733392496194898
+rf_abast|max_depth=8;min_samples_leaf=20,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4510266979574289,76.08421438198714,39.909016004305,2.3324174897456493
+rf_abast|max_depth=8;min_samples_leaf=20,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.7808613956535188,525.8399954214236,95.22069772839104,5.984184053685334
+rf_abast|max_depth=8;min_samples_leaf=20,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0699961975917902,500.27416642262796,-23.315922958763032,2.675371909994185
+rf_abast|max_depth=8;min_samples_leaf=20,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.6570503661079795,488.48987350080444,94.50499599451568,5.3408872970844286
+rf_abast|max_depth=8;min_samples_leaf=5,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.4169814062935753,553.5152094106295,203.080162967567,21.11334701241883
+rf_abast|max_depth=8;min_samples_leaf=5,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0458523598973015,273.7623757788239,35.65784966060996,3.7286273366548466
+rf_abast|max_depth=8;min_samples_leaf=5,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7591155648454987,159.52428183971523,32.63783281266744,3.62163375663022
+rf_abast|max_depth=8;min_samples_leaf=5,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0074490592489505,1121.2353583920406,761.0044312756911,18.147143953233286
+rf_abast|max_depth=8;min_samples_leaf=5,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9016329258862822,941.6202493139663,668.4560529780699,19.259981756952783
+rf_abast|max_depth=8;min_samples_leaf=5,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9007568498593382,989.7775875742627,92.82756230541054,7.214333735790237
+rf_abast|max_depth=8;min_samples_leaf=5,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2890200990403002,759.0844775760008,406.42692984728126,27.314000662058234
+rf_abast|max_depth=8;min_samples_leaf=5,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0920188589953366,287.182336838217,204.18892639077163,22.944332826676835
+rf_abast|max_depth=8;min_samples_leaf=5,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2757630171495038,468.37088235929315,342.9797275104073,26.001538775073346
+rf_abast|max_depth=8;min_samples_leaf=5,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.322518837247428,971.2510742398077,165.27045246105894,13.598173214584358
+rf_abast|max_depth=8;min_samples_leaf=5,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7569343699180686,495.30680599057285,434.7676230890809,26.542198256400866
+rf_abast|max_depth=8;min_samples_leaf=5,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,0.9979677247115302,743.0088070247623,109.20435573339668,13.015336868671067
+rf_abast|max_depth=8;min_samples_leaf=5,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6517761184810914,255.43751493106782,204.76688536944067,15.477496548271619
+rf_abast|max_depth=8;min_samples_leaf=5,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.8287518989767794,142.0295296903128,106.96042798565884,12.782979552596391
+rf_abast|max_depth=8;min_samples_leaf=5,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.8098782541785798,175.5897120771088,39.39492852807852,5.22910447291388
+rf_abast|max_depth=8;min_samples_leaf=5,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.432992002722443,641.0850673364312,-549.5893834639846,-15.295340109692749
+rf_abast|max_depth=8;min_samples_leaf=5,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.5133052643238618,703.0656805755805,-703.0656805755805,-21.592012157150105
+rf_abast|max_depth=8;min_samples_leaf=5,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.861737809016904,795.7480275648817,-664.7138897667716,-18.72287654704016
+rf_abast|max_depth=8;min_samples_leaf=5,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.0893657481883985,747.0882822392623,-270.98532628775894,6.855632875890364
+rf_abast|max_depth=8;min_samples_leaf=5,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0070350971398987,657.17605228655,-20.406399464739387,15.791393871574073
+rf_abast|max_depth=8;min_samples_leaf=5,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,0.8130807902478399,487.0592844128258,160.01323341803186,27.98438627503273
+rf_abast|max_depth=8;min_samples_leaf=5,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8106160078091389,290.18996198180184,-33.417736796900655,2.448254930136767
+rf_abast|max_depth=8;min_samples_leaf=5,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6959786007561494,235.52117858927258,-37.026574672219816,-0.6221939584384195
+rf_abast|max_depth=8;min_samples_leaf=5,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9197090910916224,314.59036126065695,-22.522170639104,1.8792882692590904
+rf_abast|max_depth=8;min_samples_leaf=5,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.43052560379422544,102.53427075233125,35.93721384850919,1.7466210539819553
+rf_abast|max_depth=8;min_samples_leaf=5,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3532444762978374,79.55468080169753,28.781148417646136,1.7753674714768968
+rf_abast|max_depth=8;min_samples_leaf=5,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4827582203134047,81.44295211335206,42.04300811694361,2.4641670182624305
+rf_abast|max_depth=8;min_samples_leaf=5,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.903870458840891,610.3279868817363,200.22053434169885,8.748900027944975
+rf_abast|max_depth=8;min_samples_leaf=5,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.8609796786980951,409.17054263062687,69.18009794315216,5.611320041086728
+rf_abast|max_depth=8;min_samples_leaf=5,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.7432740757832045,553.7201308846801,195.22375632691129,7.871295372428095
+rf_abast|max_depth=None;min_samples_leaf=20,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3842636340767611,540.9613015382553,228.06642125527628,22.145051110907783
+rf_abast|max_depth=None;min_samples_leaf=20,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0149052113698924,265.53534577986443,32.421592127608776,3.4708023771736416
+rf_abast|max_depth=None;min_samples_leaf=20,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7345032697781644,154.73124465921404,34.11643839677843,3.6092159118550238
+rf_abast|max_depth=None;min_samples_leaf=20,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0989487389213164,1224.268523020887,822.2422541290882,19.101346631856696
+rf_abast|max_depth=None;min_samples_leaf=20,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8857130233217065,925.2554006084931,696.1430184687849,19.915501863726387
+rf_abast|max_depth=None;min_samples_leaf=20,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.903882901207643,991.6902901661535,93.67492194581664,7.105438243919873
+rf_abast|max_depth=None;min_samples_leaf=20,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2525972277263429,735.9726989630074,364.84282704506757,25.006548863157903
+rf_abast|max_depth=None;min_samples_leaf=20,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.1343106934183669,298.37636772717514,216.45827121349302,24.27392826319846
+rf_abast|max_depth=None;min_samples_leaf=20,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.3362409352316997,490.4590451986363,363.11418647531053,27.51056531515605
+rf_abast|max_depth=None;min_samples_leaf=20,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.291933429424853,949.5910610737449,165.27793830361605,13.413411362140273
+rf_abast|max_depth=None;min_samples_leaf=20,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7199369733059424,470.8555144745261,407.38342567904044,25.1263409982139
+rf_abast|max_depth=None;min_samples_leaf=20,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.0330783745988268,769.2619424269353,114.99299498609435,13.41083127530771
+rf_abast|max_depth=None;min_samples_leaf=20,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.7202551209546788,282.0932963741906,248.14698726998023,18.269770715075605
+rf_abast|max_depth=None;min_samples_leaf=20,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.8767289679997516,150.1055089580834,113.23006617588626,13.556755693583561
+rf_abast|max_depth=None;min_samples_leaf=20,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.780778734861071,169.45414911967706,44.5076811403394,5.568146619054652
+rf_abast|max_depth=None;min_samples_leaf=20,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.44473219950526,646.2692892674474,-554.4630945712166,-15.52323772439565
+rf_abast|max_depth=None;min_samples_leaf=20,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.4201113097603735,663.0938305631082,-663.0938305631082,-20.191628664150844
+rf_abast|max_depth=None;min_samples_leaf=20,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8111846002482506,773.9491953158973,-680.4244596633459,-19.777326823867824
+rf_abast|max_depth=None;min_samples_leaf=20,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.455673864403903,994.8549903922351,-287.645844027494,20.051879435700606
+rf_abast|max_depth=None;min_samples_leaf=20,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.389950553563591,903.6512743473861,-131.753855072847,21.466600332088714
+rf_abast|max_depth=None;min_samples_leaf=20,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2531544578626892,751.9973675504355,-5.5631990420399235,34.26274333303268
+rf_abast|max_depth=None;min_samples_leaf=20,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8745795751577286,312.8227175756845,0.8322722371460941,4.364405182393869
+rf_abast|max_depth=None;min_samples_leaf=20,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6687077396952522,226.9821535068648,-18.582907752848335,0.15206853836448542
+rf_abast|max_depth=None;min_samples_leaf=20,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9169536775032954,314.0627109666415,-51.20166692050141,0.009886522695271571
+rf_abast|max_depth=None;min_samples_leaf=20,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4452431943904715,106.22700564693996,38.72305517306886,1.8638591691695356
+rf_abast|max_depth=None;min_samples_leaf=20,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.34516108537094625,77.6906372351469,39.872719546388296,2.4165644464975884
+rf_abast|max_depth=None;min_samples_leaf=20,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.47854826010351514,80.57134682497299,44.05224327560772,2.537974958780484
+rf_abast|max_depth=None;min_samples_leaf=20,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.7831471957022067,527.2341520217682,90.84425085568296,5.867722375359281
+rf_abast|max_depth=None;min_samples_leaf=20,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0794248891273142,505.1462361409505,-17.4698761615678,2.9242965788990265
+rf_abast|max_depth=None;min_samples_leaf=20,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.6819502067340054,506.02707775912756,73.22741388422992,4.880848550872118
+rf_abast|max_depth=None;min_samples_leaf=5,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.4836909215158776,579.554717142131,206.30190827177685,21.53325509989435
+rf_abast|max_depth=None;min_samples_leaf=5,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.991435873235891,259.4733367517488,22.567489237741892,2.7710542741489834
+rf_abast|max_depth=None;min_samples_leaf=5,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.764531128320382,160.3365683002753,9.2624930600874,1.9510649870437504
+rf_abast|max_depth=None;min_samples_leaf=5,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0063293842023733,1119.9489354816778,636.4620219886881,15.847788747890606
+rf_abast|max_depth=None;min_samples_leaf=5,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8836445317648515,922.497538047977,627.3864178171315,18.32307746911219
+rf_abast|max_depth=None;min_samples_leaf=5,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9443160033758795,1035.7415068462833,9.247286337387958,5.950396597423533
+rf_abast|max_depth=None;min_samples_leaf=5,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2975111655393021,763.7270079455756,404.781908609942,27.23934218110201
+rf_abast|max_depth=None;min_samples_leaf=5,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.1221138220897995,295.3515544854415,213.28831139074782,23.839241637594107
+rf_abast|max_depth=None;min_samples_leaf=5,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.304231857525485,478.93042966418307,346.6423348244419,26.336934861008093
+rf_abast|max_depth=None;min_samples_leaf=5,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.3160180332259324,965.5552037607615,194.75808247241744,14.529337421533302
+rf_abast|max_depth=None;min_samples_leaf=5,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7259179803478102,474.88427324566175,424.5647250876941,25.891072684281575
+rf_abast|max_depth=None;min_samples_leaf=5,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,0.9661105766587635,719.2927947944208,102.96036389767455,12.560028117864375
+rf_abast|max_depth=None;min_samples_leaf=5,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6050644268849655,236.96030826554474,201.3558276083978,14.951862300345356
+rf_abast|max_depth=None;min_samples_leaf=5,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.7800552583355876,133.81134713180623,99.89314718391375,11.94034771698977
+rf_abast|max_depth=None;min_samples_leaf=5,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.8281621803337386,179.37529413567992,30.52749100839776,4.279342102105304
+rf_abast|max_depth=None;min_samples_leaf=5,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4901527543114321,666.5548644026177,-582.112283245569,-16.366427623775486
+rf_abast|max_depth=None;min_samples_leaf=5,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.5618241165982218,726.7799408344641,-726.7799408344641,-22.323541296842674
+rf_abast|max_depth=None;min_samples_leaf=5,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8810467432597302,803.0306505942158,-668.6580851046513,-18.937708622259862
+rf_abast|max_depth=None;min_samples_leaf=5,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1242029617058495,771.0841496534631,-278.8883282039365,7.045550471443865
+rf_abast|max_depth=None;min_samples_leaf=5,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0375236286641922,676.9429685159273,-38.82235554924205,15.374044505259295
+rf_abast|max_depth=None;min_samples_leaf=5,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,0.7998016503998441,479.0321623033398,132.90043071370195,26.75377203829247
+rf_abast|max_depth=None;min_samples_leaf=5,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.7942807708568302,284.8080011991603,-41.70727864717526,1.9543607597518904
+rf_abast|max_depth=None;min_samples_leaf=5,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6937892644600815,234.51481270044718,-31.063774531413447,-0.5331241535620255
+rf_abast|max_depth=None;min_samples_leaf=5,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.8844327922523195,302.88095898378754,-41.113916780998785,0.7296312227383276
+rf_abast|max_depth=None;min_samples_leaf=5,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.44337940087083894,105.8539763401729,38.40057832305884,1.8472118434419216
+rf_abast|max_depth=None;min_samples_leaf=5,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3583458378928714,80.64101985057387,54.778985459000616,3.2692742453518795
+rf_abast|max_depth=None;min_samples_leaf=5,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5264868037494865,88.48180180232843,60.379261118590286,3.3737041500866924
+rf_abast|max_depth=None;min_samples_leaf=5,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.9063592455782171,611.7423640044382,219.3060658556948,9.017398782149991
+rf_abast|max_depth=None;min_samples_leaf=5,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.8929022694524263,425.6459405003769,92.30610609930054,6.423298985603035
+rf_abast|max_depth=None;min_samples_leaf=5,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.7354624672925422,547.2679737233415,180.97558781989292,7.3005508164786015
+rf_precio|max_depth=4;min_samples_leaf=20,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3483120250332101,526.6517954897041,199.10316819647812,20.541159784639483
+rf_precio|max_depth=4;min_samples_leaf=20,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.1167139532591093,292.853641066937,58.13706110512226,5.217294518099027
+rf_precio|max_depth=4;min_samples_leaf=20,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.765927009647731,161.27242980469907,45.77517162139632,4.604915530182783
+rf_precio|max_depth=4;min_samples_leaf=20,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.007357625135152,1121.1061173931532,848.932598531546,19.50917167912194
+rf_precio|max_depth=4;min_samples_leaf=20,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9056366537859155,946.6411731355045,758.3948659198628,21.280321933268393
+rf_precio|max_depth=4;min_samples_leaf=20,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.8713355252821262,958.8130053122208,141.90728665868838,7.955533329595113
+rf_precio|max_depth=4;min_samples_leaf=20,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.222876431665133,717.2612635975875,330.4107323239308,23.08253888952087
+rf_precio|max_depth=4;min_samples_leaf=20,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0422277160258413,273.4066543897764,179.65730071000925,20.503623422391136
+rf_precio|max_depth=4;min_samples_leaf=20,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.1749563352272356,430.91673919826263,302.9800762812124,23.52968540943834
+rf_precio|max_depth=4;min_samples_leaf=20,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.2985191951062671,954.6618573760219,87.463968268278,11.080745747743096
+rf_precio|max_depth=4;min_samples_leaf=20,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7558557746780009,495.233007391868,396.1919018718314,24.39464557157928
+rf_precio|max_depth=4;min_samples_leaf=20,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,0.9961303193097649,742.3061339913902,57.98282197996214,11.159683271952208
+rf_precio|max_depth=4;min_samples_leaf=20,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.7014028422472571,275.15878790800383,217.8252922388279,16.647312487630327
+rf_precio|max_depth=4;min_samples_leaf=20,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.7337617313302547,125.72491563488734,101.54748447111312,12.085514234677028
+rf_precio|max_depth=4;min_samples_leaf=20,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7636735308749918,165.56894896669024,26.02899551344608,4.1498598263445965
+rf_precio|max_depth=4;min_samples_leaf=20,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.3345097058010424,598.7305249515574,-468.244205510534,-12.437793640220837
+rf_precio|max_depth=4;min_samples_leaf=20,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.2024888524967194,562.3458263710788,-562.3458263710788,-16.96122464012893
+rf_precio|max_depth=4;min_samples_leaf=20,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.792466016327498,768.3882570541837,-666.2355577102953,-19.03150602932189
+rf_precio|max_depth=4;min_samples_leaf=20,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.4760414293209736,1007.7971520246592,-328.61483349096477,19.013681056061724
+rf_precio|max_depth=4;min_samples_leaf=20,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.4369313209784802,933.3682861354031,-161.8894446002836,21.171512684416097
+rf_precio|max_depth=4;min_samples_leaf=20,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.3467838254528983,810.2613041756495,-85.93781566077296,31.83606538614575
+rf_precio|max_depth=4;min_samples_leaf=20,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.9127809043159288,326.0669288269605,-12.343118576263759,3.7937519174682413
+rf_precio|max_depth=4;min_samples_leaf=20,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.695716595778678,236.67780025604992,15.44552573760161,1.804229339707163
+rf_precio|max_depth=4;min_samples_leaf=20,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.0003194651889578,341.2802715470863,-40.112358438691444,1.2711800213958202
+rf_precio|max_depth=4;min_samples_leaf=20,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4420556088249265,105.3188722972482,51.238392246409376,2.4176100007262136
+rf_precio|max_depth=4;min_samples_leaf=20,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3794242886296396,85.47068693590214,33.8849889252077,2.0750731005187615
+rf_precio|max_depth=4;min_samples_leaf=20,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5422125261770951,91.44382974260068,45.08253483841829,2.6384190247369053
+rf_precio|max_depth=4;min_samples_leaf=20,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.8002813156824402,538.7947519263602,89.35520541606024,5.800849984445397
+rf_precio|max_depth=4;min_samples_leaf=20,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0113611084224632,473.9515315857798,-19.084474274176728,2.734000407909469
+rf_precio|max_depth=4;min_samples_leaf=20,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.6941647217823249,514.3986873676705,84.7910370378188,5.137952734236926
+rf_precio|max_depth=4;min_samples_leaf=5,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.351622101220657,527.8405986080815,193.82184860445255,20.204395567935865
+rf_precio|max_depth=4;min_samples_leaf=5,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.1249271444512814,295.01474314622544,59.91723096258136,5.333897395617857
+rf_precio|max_depth=4;min_samples_leaf=5,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7613426490281193,160.34106138951114,46.72315940950639,4.659282470622581
+rf_precio|max_depth=4;min_samples_leaf=5,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0004342364683592,1113.4075721885754,831.9473471315927,19.242980509348282
+rf_precio|max_depth=4;min_samples_leaf=5,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9091191579293358,950.2780469327652,751.2475935710723,21.149639921230605
+rf_precio|max_depth=4;min_samples_leaf=5,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.868435072984229,954.8595138752055,119.57813583587286,7.480883651733651
+rf_precio|max_depth=4;min_samples_leaf=5,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2387124152633011,727.7066518321192,347.072216104939,24.10263471133231
+rf_precio|max_depth=4;min_samples_leaf=5,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.036916885076163,272.0333631419038,176.76764733624563,20.223397470250948
+rf_precio|max_depth=4;min_samples_leaf=5,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.1298208650959898,414.5293449239076,285.10730442075464,22.25369581430289
+rf_precio|max_depth=4;min_samples_leaf=5,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.3031176974447143,957.9604202592321,82.18826903223312,10.874367953117556
+rf_precio|max_depth=4;min_samples_leaf=5,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7356868033222436,482.23116855000296,378.8872100472414,23.424715528305946
+rf_precio|max_depth=4;min_samples_leaf=5,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.0061435978015187,749.9959596075481,35.48212502805759,10.428012791840816
+rf_precio|max_depth=4;min_samples_leaf=5,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6645604856313673,260.85061187630834,199.74325677005567,15.491042758210474
+rf_precio|max_depth=4;min_samples_leaf=5,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.7374722409431156,126.17885878268359,96.57273832416742,11.641140530336697
+rf_precio|max_depth=4;min_samples_leaf=5,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7667311858954959,166.16644197958482,21.49917205442248,3.784135353749696
+rf_precio|max_depth=4;min_samples_leaf=5,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.3365638850943646,599.9472698079929,-466.79013451284993,-12.333153262019387
+rf_precio|max_depth=4;min_samples_leaf=5,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.1802752846020594,551.5315192593944,-551.5315192593944,-16.576274451917815
+rf_precio|max_depth=4;min_samples_leaf=5,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8528751163106745,793.7953162155666,-675.8857007651411,-19.113773692637164
+rf_precio|max_depth=4;min_samples_leaf=5,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1956990926507,817.3109705740499,-414.9699025760694,4.947378691201591
+rf_precio|max_depth=4;min_samples_leaf=5,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.1953049139124472,777.7864351218598,-170.6674681618957,13.710264167063954
+rf_precio|max_depth=4;min_samples_leaf=5,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.0372691664992302,626.196562543804,-112.26491114582777,20.432343202113326
+rf_precio|max_depth=4;min_samples_leaf=5,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.9041256840602687,323.01149532410426,5.427234435192259,4.81684658449814
+rf_precio|max_depth=4;min_samples_leaf=5,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6955983678586914,236.34987867107012,13.310164958927748,1.6656627219590818
+rf_precio|max_depth=4;min_samples_leaf=5,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.007246027305507,343.8691967660936,-16.686831083662195,2.8087153313597506
+rf_precio|max_depth=4;min_samples_leaf=5,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4515883447971068,107.65541620579502,54.58757700450883,2.5671376317033
+rf_precio|max_depth=4;min_samples_leaf=5,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3824119993704256,86.14980048040051,36.03425366209567,2.1996402360171285
+rf_precio|max_depth=4;min_samples_leaf=5,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5313171624521009,89.61979544504318,45.98411687917339,2.6784901841639552
+rf_precio|max_depth=4;min_samples_leaf=5,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.884633414452915,596.7065519331452,148.0535431384838,7.411611986332751
+rf_precio|max_depth=4;min_samples_leaf=5,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.9632738617328735,452.48416855790566,-2.6037629477906195,3.266725436811125
+rf_precio|max_depth=4;min_samples_leaf=5,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.696196431682712,516.9791738209591,136.74027717609778,6.300790129898087
+rf_precio|max_depth=8;min_samples_leaf=20,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3696163112073176,535.0032502555636,197.22775097074378,20.510204295890567
+rf_precio|max_depth=8;min_samples_leaf=20,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0836518390752548,283.9147613924903,47.82910137964027,4.4873645165471325
+rf_precio|max_depth=8;min_samples_leaf=20,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7949210417301404,167.5240917309721,35.10824649749843,3.819329207323331
+rf_precio|max_depth=8;min_samples_leaf=20,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.092278912683348,1216.1426169461333,814.9728314923599,19.105723440137844
+rf_precio|max_depth=8;min_samples_leaf=20,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9213345944310867,962.7334256932921,754.4397934462543,21.297705922836677
+rf_precio|max_depth=8;min_samples_leaf=20,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9388290246248889,1030.7566934985364,83.64008147699387,7.217188910881503
+rf_precio|max_depth=8;min_samples_leaf=20,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.268223596538957,744.6420838105925,362.2294200165435,24.903769408042272
+rf_precio|max_depth=8;min_samples_leaf=20,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0744546094576592,282.7381460683656,199.87091075524822,22.6677919170932
+rf_precio|max_depth=8;min_samples_leaf=20,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2700603454630848,466.2603663143656,336.08606605647094,25.750454813418187
+rf_precio|max_depth=8;min_samples_leaf=20,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.2947154184089205,951.1045734657764,149.74318787001667,13.11569680571026
+rf_precio|max_depth=8;min_samples_leaf=20,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.702875740089847,459.944418879146,399.5717480278064,24.501948294164595
+rf_precio|max_depth=8;min_samples_leaf=20,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.0223042377117484,761.1332488466247,76.49024988009982,11.849268148219398
+rf_precio|max_depth=8;min_samples_leaf=20,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6881919067744147,269.6713089734644,245.21458922263955,17.945742922314945
+rf_precio|max_depth=8;min_samples_leaf=20,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.764122706828356,130.94496451801916,104.94897364770122,12.44046532621144
+rf_precio|max_depth=8;min_samples_leaf=20,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7832082651652685,169.67989572865645,30.552911339924776,4.35787357656637
+rf_precio|max_depth=8;min_samples_leaf=20,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.3595489524712752,608.3048183336084,-508.17576887708526,-14.056127583546388
+rf_precio|max_depth=8;min_samples_leaf=20,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.2796731904686625,599.9552829283032,-599.9552829283032,-18.18407255781615
+rf_precio|max_depth=8;min_samples_leaf=20,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7873090592300884,765.5830668684976,-683.5201744995691,-19.944303485351746
+rf_precio|max_depth=8;min_samples_leaf=20,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.445684439835193,987.2521405511467,-257.760029439416,20.19477901323153
+rf_precio|max_depth=8;min_samples_leaf=20,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.3864247009285606,900.9216984117563,-113.30734416763751,21.498950057960826
+rf_precio|max_depth=8;min_samples_leaf=20,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.28726058288211,773.3419472072826,-39.38910518412035,32.183361493356934
+rf_precio|max_depth=8;min_samples_leaf=20,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.9141037774384848,326.9732076421866,28.650398741384834,5.585122434824065
+rf_precio|max_depth=8;min_samples_leaf=20,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.7020262408741897,238.55999995138455,-19.901338024513006,0.3446791725746634
+rf_precio|max_depth=8;min_samples_leaf=20,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9058173120024511,310.4353185260134,-54.47782889612404,-0.05366952265029896
+rf_precio|max_depth=8;min_samples_leaf=20,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4342462161802795,103.58586923752014,26.45205457329762,1.325509708996673
+rf_precio|max_depth=8;min_samples_leaf=20,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.32722020848111844,73.65035219722884,24.431314872424558,1.5118615068835866
+rf_precio|max_depth=8;min_samples_leaf=20,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4278385112785473,72.15463594510027,32.967781462555806,1.9548664449666582
+rf_precio|max_depth=8;min_samples_leaf=20,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.7629759467836446,514.1989266452895,114.67366750363712,6.423615682465438
+rf_precio|max_depth=8;min_samples_leaf=20,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0112942300993162,473.75837330140587,-20.122992190553713,2.6616836463411904
+rf_precio|max_depth=8;min_samples_leaf=20,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.6790610450194308,503.23841538005024,58.762907445731614,4.5489692840779625
+rf_precio|max_depth=8;min_samples_leaf=5,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.43224296913598,559.2963290781174,193.83690235841067,20.755269295536024
+rf_precio|max_depth=8;min_samples_leaf=5,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.090051649890588,285.6284657748057,50.578366753916406,4.642127659131706
+rf_precio|max_depth=8;min_samples_leaf=5,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7609916588993781,160.0023635800099,29.9468261612584,3.444788804033035
+rf_precio|max_depth=8;min_samples_leaf=5,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,0.9942517687319175,1106.1897790770513,735.1809077149982,17.727669510005004
+rf_precio|max_depth=8;min_samples_leaf=5,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8962601496338605,936.0533750117165,703.3923166485145,20.127965232449853
+rf_precio|max_depth=8;min_samples_leaf=5,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9141899211703517,1003.9521671148126,59.56843131365613,6.716286707007339
+rf_precio|max_depth=8;min_samples_leaf=5,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2775505278018415,752.603918282302,392.75323877600687,26.6610193025827
+rf_precio|max_depth=8;min_samples_leaf=5,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0605062005855375,279.24592044737653,201.2687137116428,22.689481467613167
+rf_precio|max_depth=8;min_samples_leaf=5,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.234819403178112,453.1066209742401,321.7608579564488,24.628259510637776
+rf_precio|max_depth=8;min_samples_leaf=5,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.2829438952032222,941.2612437117866,145.80093249174902,12.984071534099778
+rf_precio|max_depth=8;min_samples_leaf=5,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7179829904024471,470.1608281762021,421.4922321771037,25.544379017868792
+rf_precio|max_depth=8;min_samples_leaf=5,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.0189310904564004,759.039157790771,72.15629340852061,11.590640873957469
+rf_precio|max_depth=8;min_samples_leaf=5,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6349035608705987,248.9861708765837,213.66032416349466,15.8978957077463
+rf_precio|max_depth=8;min_samples_leaf=5,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.7199313864104151,123.47014231148357,100.79138368864935,11.971930796973789
+rf_precio|max_depth=8;min_samples_leaf=5,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.8234294977690746,178.27950762482806,27.126010484876907,4.21501884499901
+rf_precio|max_depth=8;min_samples_leaf=5,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.3886781609435057,621.9566011056133,-516.571760496842,-14.150372588416557
+rf_precio|max_depth=8;min_samples_leaf=5,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.2797552369637453,598.940086301866,-598.940086301866,-18.08423678241255
+rf_precio|max_depth=8;min_samples_leaf=5,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8671032720421525,798.7310132361498,-714.2067716628783,-20.892392504780382
+rf_precio|max_depth=8;min_samples_leaf=5,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.0435937899330339,715.152637710029,-228.8146989586747,7.659217638380997
+rf_precio|max_depth=8;min_samples_leaf=5,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0576972468740184,689.3015909886685,-4.4842907113873025,15.915638564231802
+rf_precio|max_depth=8;min_samples_leaf=5,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,0.8397869034910524,505.00757648477304,58.74142713264955,23.467459996886557
+rf_precio|max_depth=8;min_samples_leaf=5,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8206850704208033,293.8893678944678,5.876851730112617,4.304433448761132
+rf_precio|max_depth=8;min_samples_leaf=5,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6863056054426078,232.54962160808782,-35.80900312047227,-0.454078159994605
+rf_precio|max_depth=8;min_samples_leaf=5,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.884958336714994,302.7932300997458,-31.488395445061904,1.2744285199789689
+rf_precio|max_depth=8;min_samples_leaf=5,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4260851011780694,101.67650245705777,22.960075639336402,1.1608493153780546
+rf_precio|max_depth=8;min_samples_leaf=5,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3423049853046406,77.07655312623653,18.712073570297548,1.18249749768454
+rf_precio|max_depth=8;min_samples_leaf=5,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4555138314218522,76.73560788871312,24.341578461132144,1.505249500773553
+rf_precio|max_depth=8;min_samples_leaf=5,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.9076655959341474,613.202638076071,223.83170285367774,9.245494100040927
+rf_precio|max_depth=8;min_samples_leaf=5,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.8078529575293516,383.4174807186219,76.87474240439147,5.740199490871473
+rf_precio|max_depth=8;min_samples_leaf=5,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.7613556453621919,566.4897499170562,204.47501765330645,8.014062887065423
+rf_precio|max_depth=None;min_samples_leaf=20,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.381368299729971,539.574808828432,194.53410191636712,20.409286783822715
+rf_precio|max_depth=None;min_samples_leaf=20,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0512717382718397,275.4880662302171,46.170854176645165,4.284864026965488
+rf_precio|max_depth=None;min_samples_leaf=20,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7940022097966772,167.26575582228583,29.26314605690868,3.38471237064159
+rf_precio|max_depth=None;min_samples_leaf=20,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1242694914060363,1252.3088731798266,822.1083346093321,19.25802471087852
+rf_precio|max_depth=None;min_samples_leaf=20,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9133379736141368,954.2693570984153,741.0598997172726,21.038373056053086
+rf_precio|max_depth=None;min_samples_leaf=20,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9471816623353938,1039.5904774510177,62.43125769430717,6.897245982767193
+rf_precio|max_depth=None;min_samples_leaf=20,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.272462780180454,746.794219211501,359.59769915551976,24.751639635876817
+rf_precio|max_depth=None;min_samples_leaf=20,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.080024050633602,284.120996880284,200.73579239492452,22.739576575763518
+rf_precio|max_depth=None;min_samples_leaf=20,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2685841214784574,465.77620302718935,334.936181441944,25.65824009856213
+rf_precio|max_depth=None;min_samples_leaf=20,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.3074975740348038,960.2877994244375,167.18778433132647,13.689614599337308
+rf_precio|max_depth=None;min_samples_leaf=20,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.6992989311879378,457.5480663122671,397.83874761949926,24.443912401098896
+rf_precio|max_depth=None;min_samples_leaf=20,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.029363489876004,766.3607499355719,81.75302448472652,12.087890278277047
+rf_precio|max_depth=None;min_samples_leaf=20,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6911442108040087,270.8027164645554,244.5196362084608,17.905502173893257
+rf_precio|max_depth=None;min_samples_leaf=20,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.76262874746186,130.62346278861077,103.17589954202205,12.26000833819588
+rf_precio|max_depth=None;min_samples_leaf=20,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7886308638503833,170.79053928787263,28.402983016343548,4.167066479161375
+rf_precio|max_depth=None;min_samples_leaf=20,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.3770154333111457,616.1543637454649,-514.7847753877735,-14.248083285979526
+rf_precio|max_depth=None;min_samples_leaf=20,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.2864943531606703,603.4999468056722,-603.4999468056722,-18.282022778395486
+rf_precio|max_depth=None;min_samples_leaf=20,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7805606179251665,762.9353375445828,-683.5928978534808,-19.983333030716235
+rf_precio|max_depth=None;min_samples_leaf=20,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.4405546426794653,983.4652580800096,-261.536447918878,20.208113139244933
+rf_precio|max_depth=None;min_samples_leaf=20,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.3926553462603777,905.0380164301539,-115.55736068704228,21.622930137411092
+rf_precio|max_depth=None;min_samples_leaf=20,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2758652066856722,766.1576883224126,-33.98591961029997,32.575300675077074
+rf_precio|max_depth=None;min_samples_leaf=20,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.9129211521048107,326.5662890569051,37.44313352375734,5.962297425140246
+rf_precio|max_depth=None;min_samples_leaf=20,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.7056233171099145,239.74069869183967,-27.004096074853056,0.05838336872646205
+rf_precio|max_depth=None;min_samples_leaf=20,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.8905988447275985,305.41153439583394,-54.049710932526935,-0.08843851818004372
+rf_precio|max_depth=None;min_samples_leaf=20,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4539098382231089,108.4405454078304,26.563164768405706,1.3303895870688511
+rf_precio|max_depth=None;min_samples_leaf=20,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.32338858186160135,72.7113358981391,36.11075915463486,2.1937629875488507
+rf_precio|max_depth=None;min_samples_leaf=20,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.43291755654843167,72.8643923818619,38.25573404925149,2.2093650726869027
+rf_precio|max_depth=None;min_samples_leaf=20,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.7527929467851981,507.7843733465364,127.05714164249325,6.723425201006207
+rf_precio|max_depth=None;min_samples_leaf=20,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.02069153733046,478.2305453401085,-20.638103721788593,2.6675797648442034
+rf_precio|max_depth=None;min_samples_leaf=20,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.695604442554271,515.6425267138573,65.08853549419787,4.771471658987214
+rf_precio|max_depth=None;min_samples_leaf=5,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.4922069290686322,582.5569487796852,184.33960670512542,20.626907024999888
+rf_precio|max_depth=None;min_samples_leaf=5,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9830411138560391,257.14157964553243,22.981634130231374,2.7968833329712837
+rf_precio|max_depth=None;min_samples_leaf=5,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7446191291865049,156.40140340398142,12.38696648095754,2.1120517014571303
+rf_precio|max_depth=None;min_samples_leaf=5,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0357876002039101,1152.6030865032233,665.1026482650379,16.484038240348244
+rf_precio|max_depth=None;min_samples_leaf=5,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8509745337435032,888.7167343231562,622.3601771653825,18.072357014219325
+rf_precio|max_depth=None;min_samples_leaf=5,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,0.9630329640393013,1056.8925452560081,28.93624642127761,6.605887182326313
+rf_precio|max_depth=None;min_samples_leaf=5,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.311814293052918,774.3084997425709,418.10815039756505,28.248030526730304
+rf_precio|max_depth=None;min_samples_leaf=5,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.0853933753304312,286.09771750390104,212.41594054922365,23.880771790289117
+rf_precio|max_depth=None;min_samples_leaf=5,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.242137077975693,455.54207213871376,318.2211919591723,24.425558597163327
+rf_precio|max_depth=None;min_samples_leaf=5,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.314519195513555,963.8517672333195,203.2971107045392,14.800470917769449
+rf_precio|max_depth=None;min_samples_leaf=5,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.6912011695470293,452.6262372917208,430.427306354497,25.68498202719129
+rf_precio|max_depth=None;min_samples_leaf=5,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.0406232411332346,774.6879819382463,86.93147919522008,12.251931727874785
+rf_precio|max_depth=None;min_samples_leaf=5,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.6007516442750919,235.51791437647208,228.67741695898494,16.37774432407826
+rf_precio|max_depth=None;min_samples_leaf=5,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.6542930510385293,112.2494542166393,91.75425343505569,10.852787801644315
+rf_precio|max_depth=None;min_samples_leaf=5,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.8107558326390099,175.27984757382313,5.979215797615916,2.1726495785085254
+rf_precio|max_depth=None;min_samples_leaf=5,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4283639265920065,637.8485179082239,-543.7226682436894,-15.151406410566153
+rf_precio|max_depth=None;min_samples_leaf=5,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.323448896381469,619.6477472285316,-619.6477472285316,-18.71094607887734
+rf_precio|max_depth=None;min_samples_leaf=5,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.8227463186139903,779.0453248330368,-703.3424439212107,-20.777520518614118
+rf_precio|max_depth=None;min_samples_leaf=5,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.053043394520838,721.5599265816073,-197.339367487431,8.33483283742524
+rf_precio|max_depth=None;min_samples_leaf=5,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.058110116821854,689.8722097022649,-7.753591609254363,15.029442242105597
+rf_precio|max_depth=None;min_samples_leaf=5,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,0.841920832802024,506.67526819726646,67.11248246569808,23.537091397971427
+rf_precio|max_depth=None;min_samples_leaf=5,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.903248206450743,323.6975570533636,43.022703311184365,6.226267219440071
+rf_precio|max_depth=None;min_samples_leaf=5,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.6741435319836273,228.5758893834383,-46.1554725105339,-0.8413607865590786
+rf_precio|max_depth=None;min_samples_leaf=5,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.856847442795171,293.55807205853193,-51.437606951937184,-0.10928861943862514
+rf_precio|max_depth=None;min_samples_leaf=5,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4185771106187447,100.24749225367687,23.83407906154316,1.2069161432436664
+rf_precio|max_depth=None;min_samples_leaf=5,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.2980594866821848,67.02794969705567,33.799899738107186,2.044333785117555
+rf_precio|max_depth=None;min_samples_leaf=5,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5214165479739452,87.64706720705775,49.63763625888421,2.818187820682904
+rf_precio|max_depth=None;min_samples_leaf=5,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,0.9379126030864207,633.74423148749,274.87253152715937,10.381617846680328
+rf_precio|max_depth=None;min_samples_leaf=5,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,0.8257911284056842,393.10031753276843,107.0754199932131,6.729308139341346
+rf_precio|max_depth=None;min_samples_leaf=5,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.7636127520258275,568.2850978547328,211.00174140199732,8.07841969140589
+ridge_abast|alpha=0.01,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3394635917351312,523.1969022424155,181.77816386045177,18.487432656021348
+ridge_abast|alpha=0.01,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9535759989070931,249.1662499222967,31.491846632626356,3.7342244786093244
+ridge_abast|alpha=0.01,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7581535028470439,159.55226968096642,-0.40359519983901465,1.4131233168914425
+ridge_abast|alpha=0.01,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0900175502506937,1213.94671891034,755.0650381953375,17.961898714927578
+ridge_abast|alpha=0.01,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9903208442912046,1035.3725809219927,799.2520203534709,22.314972659678006
+ridge_abast|alpha=0.01,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1105667942742747,1212.461758221689,44.23208200063273,6.731814660597403
+ridge_abast|alpha=0.01,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2289829725348844,724.0786756120119,409.90689225127727,27.21945525513242
+ridge_abast|alpha=0.01,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3455632023097617,354.12657769518836,271.40853744656005,30.006656826519805
+ridge_abast|alpha=0.01,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2934841536052235,474.31751250367614,365.3444855473389,27.316590106129766
+ridge_abast|alpha=0.01,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4409757356304072,1055.6061639704526,227.46341352879398,14.369929252092092
+ridge_abast|alpha=0.01,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7857233064701836,514.3769333469194,498.68193536240085,29.046403850956704
+ridge_abast|alpha=0.01,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1531509836919345,859.6653368353766,182.06924732320294,16.309288772531026
+ridge_abast|alpha=0.01,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8168748312230244,319.52485467973855,234.955679589706,18.079899214726908
+ridge_abast|alpha=0.01,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.17261777284872,200.6321945755006,148.21667941371342,17.819520093320534
+ridge_abast|alpha=0.01,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7092157206405841,153.56934523033868,37.01871410256863,4.988298827255042
+ridge_abast|alpha=0.01,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.5404446510914473,681.6680781992233,-649.3125581793969,-19.473694458626966
+ridge_abast|alpha=0.01,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.611340286981351,745.7452650972022,-745.7452650972022,-23.21341617524155
+ridge_abast|alpha=0.01,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7591462383612542,739.9971357797575,-654.2031074769698,-20.048611628983615
+ridge_abast|alpha=0.01,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1410417026039534,783.0567511898444,-206.96524541722482,15.236927058145328
+ridge_abast|alpha=0.01,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0327020387974624,678.69720868847,89.28810284223346,22.823913980774645
+ridge_abast|alpha=0.01,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.1676672760134972,704.0388782060087,153.54702305627467,38.334381810635435
+ridge_abast|alpha=0.01,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8020941635135463,288.5601661482894,-27.68904453163782,2.706923693366128
+ridge_abast|alpha=0.01,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8739508000771554,296.0322425633992,-126.52878832535684,-4.076859884092045
+ridge_abast|alpha=0.01,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9267220287098599,316.70157189478675,-101.74309447398086,-2.5180836459974874
+ridge_abast|alpha=0.01,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.45743651747210956,109.02062715187571,-26.88353084076557,-1.045661528351771
+ridge_abast|alpha=0.01,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.2672106198860917,60.0213246447287,11.229139524723404,0.7632957998569185
+ridge_abast|alpha=0.01,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.41220118402483213,69.63080097535105,55.02062552354016,3.107907864485281
+ridge_abast|alpha=0.01,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0710608444712935,722.1454808193112,85.50758212973628,7.243576897455381
+ridge_abast|alpha=0.01,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1699406658639333,547.7705593893672,-77.48590415783875,1.285379741268818
+ridge_abast|alpha=0.01,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8658303332074538,643.687015305371,70.40762628667044,5.783606970222785
+ridge_abast|alpha=0.1,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.339438918592315,523.1872073251503,181.7764934810618,18.487034754967283
+ridge_abast|alpha=0.1,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9535147869710003,249.15034082597012,31.490183434348,3.733947266877228
+ridge_abast|alpha=0.1,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7580842261491701,159.5379026505692,-0.399267953238018,1.4133181928854193
+ridge_abast|alpha=0.1,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0900330232509847,1213.963357256802,755.1033683312922,17.962510742366554
+ridge_abast|alpha=0.1,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9902958948792481,1035.3466430281749,799.2610873318438,22.315122368053885
+ridge_abast|alpha=0.1,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1106147567902696,1212.5125163815678,44.29411896173842,6.733059006705741
+ridge_abast|alpha=0.1,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2289373872072233,724.052874008134,409.91009576293254,27.21923988422324
+ridge_abast|alpha=0.1,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3455178427014758,354.11443816821895,271.4065965884813,30.006266961026252
+ridge_abast|alpha=0.1,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2935425667539597,474.3394630521472,365.3593624384989,27.31778535537553
+ridge_abast|alpha=0.1,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4409705782966546,1055.6039957033088,227.4173123373661,14.368541684775767
+ridge_abast|alpha=0.1,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7856769310966578,514.3458612441815,498.6561779995083,29.045524113591153
+ridge_abast|alpha=0.1,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1531670522468869,859.6770384387986,182.05414299007558,16.308936006875935
+ridge_abast|alpha=0.1,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8169116055528713,319.53908235795245,234.97712670884098,18.08114357142381
+ridge_abast|alpha=0.1,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.1726800981499328,200.64273664307692,148.22133115209965,17.82011733026461
+ridge_abast|alpha=0.1,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7092531762146221,153.57741620630526,37.0234933390896,4.988835564004632
+ridge_abast|alpha=0.1,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.5404468271637541,681.6685326602588,-649.2988181916626,-19.47313773549236
+ridge_abast|alpha=0.1,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.6113041871739466,745.7272343405557,-745.7272343405557,-23.212826551815617
+ridge_abast|alpha=0.1,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7591167907301242,739.9840991742337,-654.1742980290264,-20.04747243682577
+ridge_abast|alpha=0.1,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1411018328512195,783.0967070845448,-207.0549276221036,15.236494943756226
+ridge_abast|alpha=0.1,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0326655219636398,678.6758910073061,89.20727614627421,22.823733564744586
+ridge_abast|alpha=0.1,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.167713428964107,704.0664538007628,153.48960846208143,38.33437430484856
+ridge_abast|alpha=0.1,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8020172206290036,288.53219401253835,-27.679183725366237,2.707458293343735
+ridge_abast|alpha=0.1,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.873918400927398,296.0218992928618,-126.5078825103963,-4.075935460380443
+ridge_abast|alpha=0.1,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9267061715387761,316.6978400715144,-101.72112542930056,-2.516626749052535
+ridge_abast|alpha=0.1,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4574358377222748,109.0207006298353,-26.876171270781743,-1.0453357693108776
+ridge_abast|alpha=0.1,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.2672128390121974,60.02182275403936,11.2317472756102,0.7634484502061106
+ridge_abast|alpha=0.1,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.41223285954552774,69.63618591293468,55.02501308656072,3.1081561289533903
+ridge_abast|alpha=0.1,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0710731413852077,722.1533739238333,85.49196417972658,7.243200539883275
+ridge_abast|alpha=0.1,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.169941743341108,547.773450467266,-77.46116591707441,1.2863563045508697
+ridge_abast|alpha=0.1,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8658469829728743,643.700018557786,70.41305955546477,5.783825394485661
+ridge_abast|alpha=1,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3391941056965746,523.0910184046385,181.75965429146956,18.483096710864956
+ridge_abast|alpha=1,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9529105171924318,248.9932882979195,31.473578110140398,3.7311988237798395
+ridge_abast|alpha=1,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7574015193186623,159.39631894509628,-0.3559697245592588,1.4152846177780485
+ridge_abast|alpha=1,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0901840173628468,1214.1256408246604,755.4795655723235,17.968524966335305
+ridge_abast|alpha=1,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9900473617464925,1035.08820111313,799.3448590673149,22.316469126661882
+ridge_abast|alpha=1,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1110871699114755,1213.012538547889,44.90682495307665,6.745350754809201
+ridge_abast|alpha=1,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.228486373052052,723.7974370269856,409.9396329904497,27.217004473333528
+ridge_abast|alpha=1,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.345068266240173,353.9940903630096,271.38623926026315,30.002299675195065
+ridge_abast|alpha=1,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2941118226899408,474.5534240967595,365.5046035767098,27.329453051876555
+ridge_abast|alpha=1,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.440921575966456,1055.5839393181595,226.9619149993426,14.354839006923484
+ridge_abast|alpha=1,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7852207369164848,514.0402386390408,498.40117166652345,29.03678534216877
+ridge_abast|alpha=1,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1533269616124726,859.7935572752867,181.9062187910663,16.30549801290582
+ridge_abast|alpha=1,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8172687769278516,319.67731605961603,235.18730433066435,18.093344862952204
+ridge_abast|alpha=1,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.173289645245232,200.7458472541876,148.26711156762696,17.82598277015707
+ridge_abast|alpha=1,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7096214077218469,153.65679383783623,37.071019099779164,4.99416432387706
+ridge_abast|alpha=1,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.540464624335105,681.6715812783216,-649.1603071145271,-19.46752988121403
+ridge_abast|alpha=1,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.6109416788214592,745.5464029372384,-745.5464029372384,-23.20690950830005
+ridge_abast|alpha=1,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7588209307598288,739.8535146216036,-653.8862274745072,-20.036066378585822
+ridge_abast|alpha=1,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1416966451950636,783.4920884863565,-207.94093400627406,15.232303242178519
+ridge_abast|alpha=1,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0323031129649167,678.4643029766977,88.40891140793447,22.822010223039126
+ridge_abast|alpha=1,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.1681682998078755,704.3382289714493,152.92446680810136,38.3344942781723
+ridge_abast|alpha=1,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8012669210747415,288.2594062374043,-27.584411455720897,2.7126220909094076
+ridge_abast|alpha=1,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8735982543307909,295.9197120511478,-126.29935889089288,-4.066723409178506
+ridge_abast|alpha=1,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9265553908869055,316.6628506479677,-101.50475015013717,-2.5022587259384306
+ridge_abast|alpha=1,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.45742978059998657,109.02159210424266,-26.802954721308517,-1.0420939853012867
+ridge_abast|alpha=1,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.2672356370659541,60.02693895420973,11.257750316164879,0.7649711782477375
+ridge_abast|alpha=1,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4125497623488402,69.69005426946069,55.069136307888904,3.110650822480634
+ridge_abast|alpha=1,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0711948267585414,722.231527505475,85.33970891185827,7.239528262824973
+ridge_abast|alpha=1,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.169949962295393,547.8008853044124,-77.2146462728521,1.2960742776956136
+ridge_abast|alpha=1,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8660097782115903,643.8272573184905,70.46992019194553,5.786050315776129
+ridge_abast|alpha=10,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3369228678150795,522.1991163046123,181.58556407956405,18.447524118846246
+ridge_abast|alpha=10,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9475390942515662,247.59715402468737,31.312193268140028,3.705869686313062
+ridge_abast|alpha=10,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.751419003911431,158.1557638967118,0.08018989900724591,1.436518339283784
+ridge_abast|alpha=10,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.0913943420804482,1215.4197265293355,758.6562789078955,18.019917547040084
+ridge_abast|alpha=10,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9876479850336978,1032.5883345523307,799.6231652318594,22.317726816723045
+ridge_abast|alpha=10,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1152130689177961,1217.3854925208757,50.399100294126676,6.855656978427089
+ridge_abast|alpha=10,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.224371233742909,721.4537887832653,410.02580822987386,27.18783772023818
+ridge_abast|alpha=10,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3409011560250383,352.87642906363783,271.10306460153305,29.95687638331603
+ridge_abast|alpha=10,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2985618152801268,476.2297254112817,366.6582999785784,27.42212795136122
+ridge_abast|alpha=10,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4406263983326069,1055.504583571623,222.87382317281168,14.232150531841611
+ridge_abast|alpha=10,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7812679001211937,511.39496292654957,496.0510985817359,28.953703989852787
+ridge_abast|alpha=10,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1548402009977676,860.9014370440184,180.67044957050103,16.27791111074693
+ridge_abast|alpha=10,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8199587024116932,320.7224079248016,236.92291170989165,18.19472513782926
+ridge_abast|alpha=10,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.1782393579464832,201.58369886673896,148.66058034216093,17.87543023265227
+ridge_abast|alpha=10,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7127858475439617,154.34139925832588,37.51991403200732,5.043892856558816
+ridge_abast|alpha=10,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.5403254152432844,681.5828457840539,-647.6897295091177,-19.408322841536155
+ridge_abast|alpha=10,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.6072014939300208,743.6997425872152,-743.6997425872152,-23.146174074390117
+ridge_abast|alpha=10,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.755770367946673,738.5388243095565,-651.0194354820994,-19.921276213122756
+ridge_abast|alpha=10,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1470971824448042,787.0929823003581,-215.87770482104852,15.201617756530158
+ridge_abast|alpha=10,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0289312842375449,676.4945959963246,81.26403004566268,22.811685026889943
+ridge_abast|alpha=10,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.1721715001802608,706.729930282873,148.02907590094932,38.351969012869866
+ridge_abast|alpha=10,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.7953545557260313,286.10796165597276,-26.94645897665189,2.749600398580269
+ridge_abast|alpha=10,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8707129456252668,295.00022726938755,-124.26277267762502,-3.97744462262343
+ridge_abast|alpha=10,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9256635915694892,316.4957474625482,-99.61094735564977,-2.375083800987062
+ridge_abast|alpha=10,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4574245618750458,109.04200094833232,-26.103870915581048,-1.0110616651895092
+ridge_abast|alpha=10,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.26751240763514794,60.08896618405256,11.511448755554465,0.7798749588209518
+ridge_abast|alpha=10,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4157123264868735,70.22715871297058,55.52754559866391,3.1364155100692086
+ridge_abast|alpha=10,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0723065801587208,722.9496957416404,84.14592566146356,7.210482794057067
+ridge_abast|alpha=10,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1698128419979548,547.9492922973311,-74.825892611072,1.3890837815555213
+ridge_abast|alpha=10,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8673323728243879,644.8691423862696,71.24259476393813,5.811535113260052
+ridge_abast|alpha=100,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.323375126999656,516.8867428593252,180.42624255284088,18.281970011702413
+ridge_abast|alpha=100,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9209962356688948,240.70488280289487,30.278035943204692,3.56129463119082
+ridge_abast|alpha=100,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7228694810952192,152.25330564313848,4.347404523547743,1.6943327842034699
+ridge_abast|alpha=100,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1020855861626142,1227.1189877007546,770.7240878030482,18.23264876846113
+ridge_abast|alpha=100,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9685891336643495,1012.6220141237588,786.9430463185485,21.994077239868002
+ridge_abast|alpha=100,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1345022146035872,1238.004183016731,82.10195400593129,7.491205051403711
+ridge_abast|alpha=100,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.1963367299555534,705.1125107886462,404.4096245331153,26.704787346605407
+ridge_abast|alpha=100,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3103488714944083,344.64188941216605,265.800069285074,29.33298882889124
+ridge_abast|alpha=100,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.3014963310964545,477.46731292744545,367.7509952377567,27.521820408709047
+ridge_abast|alpha=100,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4408853455129693,1056.302473344816,198.26694559324238,13.501629481957494
+ridge_abast|alpha=100,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7666229909907918,501.6715888932698,478.2096268264477,28.22519599089236
+ridge_abast|alpha=100,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.163280851389525,867.1940382551617,173.73703809079126,16.114597804685747
+ridge_abast|alpha=100,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8183314116191136,320.2544811901122,241.13724123558785,18.471378872842887
+ridge_abast|alpha=100,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.1880775426413845,203.2520568967805,150.00284831806928,18.015970626527107
+ridge_abast|alpha=100,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7278672592125505,157.67641876703559,40.45152907049326,5.362828989262125
+ridge_abast|alpha=100,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.5308478135699577,677.7585663529289,-631.770893870004,-18.77174933850915
+ridge_abast|alpha=100,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.5688930501939544,725.4253810872666,-725.4253810872666,-22.533279260398125
+ridge_abast|alpha=100,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7274296405211966,727.2066823577642,-625.8388213104965,-18.864934793722625
+ridge_abast|alpha=100,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1813820585746362,810.3373965613185,-259.39045835565037,15.353385310970207
+ridge_abast|alpha=100,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0328170370083514,679.899756717696,41.02943921594201,22.969518985655885
+ridge_abast|alpha=100,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.1961340162550693,721.1099141787681,125.20820233981753,39.031826991453435
+ridge_abast|alpha=100,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.7900781844460171,284.0702954932311,-29.139702585736632,2.7236923291944626
+ridge_abast|alpha=100,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8528425276588543,289.35118718977895,-107.36005767701513,-3.2538874146411128
+ridge_abast|alpha=100,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9312238320163473,318.8381465207739,-89.32474430484595,-1.6534595083079047
+ridge_abast|alpha=100,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.45765163523951713,109.24249362290576,-20.556006984283705,-0.7625441180507839
+ridge_abast|alpha=100,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.2712755091978279,60.931399263179834,13.661925272239227,0.9074226806780072
+ridge_abast|alpha=100,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.44230009477615856,74.73233880799935,59.82751772363649,3.3749007128842616
+ridge_abast|alpha=100,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0799540196457602,728.0577729438415,83.39555856326528,7.185925571713998
+ridge_abast|alpha=100,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1607231296752833,544.9809020287245,-55.35536086960106,2.106417195115848
+ridge_abast|alpha=100,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8712426022864325,648.2037807693671,83.83764783726784,6.13007177565887
+ridge_abast|alpha=1000,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3106327896200045,511.7973058853025,178.72969572106825,18.38440925970273
+ridge_abast|alpha=1000,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,0.9133823177284344,238.8152612637923,27.587812586808354,3.299152873516841
+ridge_abast|alpha=1000,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.6964713062013883,146.81142299776295,21.57879946051296,2.908890518570475
+ridge_abast|alpha=1000,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.100428248893042,1223.8957379873307,757.1229534479507,18.065032616494754
+ridge_abast|alpha=1000,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.8908061926767703,930.8469014403988,693.9554333785238,19.78040842591434
+ridge_abast|alpha=1000,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1020408478480193,1204.4639770863075,135.36901075738416,8.570112567960194
+ridge_abast|alpha=1000,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.0958918474229715,644.4018267858658,350.73996831177385,23.293587202545307
+ridge_abast|alpha=1000,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.1533766153015268,302.645957378905,224.61655537407492,24.90576399902526
+ridge_abast|alpha=1000,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.1854031332527082,434.98297652722897,334.50044467072803,25.149845108573654
+ridge_abast|alpha=1000,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4070446618244241,1032.1618328442523,105.7165837633348,10.67604339815663
+ridge_abast|alpha=1000,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7412657101603145,485.52905513733697,387.0865567730653,24.020340812569813
+ridge_abast|alpha=1000,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1457173535391285,854.469145429886,105.52957158128643,13.688430336284462
+ridge_abast|alpha=1000,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.7636299750296976,299.99099383480507,222.55954032242124,17.569767842520985
+ridge_abast|alpha=1000,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.0702803387353068,183.1374975266651,142.88551118481217,16.926511333608453
+ridge_abast|alpha=1000,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7993914893228627,173.38195436713704,45.28739957754433,5.986174392970969
+ridge_abast|alpha=1000,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4851427592833406,661.5665050463331,-546.032342963708,-15.207491530197034
+ridge_abast|alpha=1000,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.364679972414169,631.7340891768683,-626.0304750939572,-19.077761389925247
+ridge_abast|alpha=1000,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.6369555239687532,695.3519318633155,-521.8374723532694,-14.050257516169562
+ridge_abast|alpha=1000,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.609444250881051,1100.8986973766175,-369.5178126866203,20.327006210144887
+ridge_abast|alpha=1000,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.53146745660198,1001.1087143805696,-92.41889735782634,26.17033518444573
+ridge_abast|alpha=1000,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.468215093247587,884.6781270524913,46.25750722456932,44.67835982601896
+ridge_abast|alpha=1000,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.9655887722060832,346.1008452384925,-45.540043424170314,2.708419993902752
+ridge_abast|alpha=1000,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.7958659420882988,271.5366313312651,-43.663592582266645,-0.5226787306064579
+ridge_abast|alpha=1000,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.006843297299041,345.49186477292847,-55.509263952092944,0.8712467012203517
+ridge_abast|alpha=1000,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4738124585704594,112.97207465837081,5.631824803240306,0.41041736009943247
+ridge_abast|alpha=1000,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.3064990581021796,68.8869602854567,21.129455768557545,1.3513942861329449
+ridge_abast|alpha=1000,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.5160761364889261,87.24580439597199,69.13578664162537,3.9060407013030005
+ridge_abast|alpha=1000,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.109673170810392,748.3214117387071,113.87494912410816,7.828792448392212
+ridge_abast|alpha=1000,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0725709516179642,507.3822794460337,19.983412806967543,4.63342774401712
+ridge_abast|alpha=1000,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.8747121811508322,651.6607742352768,145.44260617578666,7.53051164507994
+ridge_precio|alpha=0.01,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.341855908207989,524.1538376715201,182.85353942928663,18.54511966334363
+ridge_precio|alpha=0.01,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0314812496940269,268.94337109078003,15.027202007669576,3.013874194751534
+ridge_precio|alpha=0.01,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7811354093919198,163.78052328061182,-19.952049384331712,0.10010361989571254
+ridge_precio|alpha=0.01,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1021149787240596,1227.2851179948568,777.8525307547532,18.35569908977944
+ridge_precio|alpha=0.01,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,1.0154230074587365,1061.848957967935,853.2611705329698,23.65200394441748
+ridge_precio|alpha=0.01,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.08169318706015,1181.00481666206,-119.37662343580723,4.118063516534896
+ridge_precio|alpha=0.01,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2338807898055522,726.6037278885868,411.6963307498048,27.26285012039435
+ridge_precio|alpha=0.01,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3196876639999287,347.20289565229933,263.61556300434603,29.192951935471385
+ridge_precio|alpha=0.01,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2765736207266571,467.65977421115133,347.7306577495034,26.225225929641827
+ridge_precio|alpha=0.01,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4456327754731866,1058.839735019094,239.08471926242774,14.714217294359067
+ridge_precio|alpha=0.01,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.790789602726124,517.9926171842751,498.94744465269275,28.88367494492058
+ridge_precio|alpha=0.01,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1441096292746695,853.1026306545579,108.26720054752586,13.404044255026928
+ridge_precio|alpha=0.01,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8167703268817178,319.2712574630438,233.93377619164275,17.935347619408287
+ridge_precio|alpha=0.01,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.044298821343945,178.95650822865562,138.87676819817483,16.612559423992614
+ridge_precio|alpha=0.01,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.6886987679065553,148.8294385940908,21.017905449599446,3.522723464005139
+ridge_precio|alpha=0.01,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4900162456608892,660.0390827875883,-617.5219646991867,-18.371018748227648
+ridge_precio|alpha=0.01,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.4638662413976815,678.4795699772842,-678.4795699772842,-20.979661324472545
+ridge_precio|alpha=0.01,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7610129730931743,742.4026838311141,-669.2562834924661,-20.595852603481333
+ridge_precio|alpha=0.01,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1112266181449206,762.3062764707618,-183.01283350589685,15.976323349822152
+ridge_precio|alpha=0.01,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0006722954631289,658.1176884847629,90.47743532865866,23.129207003013203
+ridge_precio|alpha=0.01,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2104516381172186,733.2639058015138,23.0068594923252,32.00520239885884
+ridge_precio|alpha=0.01,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8002203216974453,287.50647918263985,-2.296545778268796,3.953030211798407
+ridge_precio|alpha=0.01,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8741421312815346,295.9128315167046,-142.91395952686327,-4.727592503527769
+ridge_precio|alpha=0.01,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.973255455040164,332.6633074657217,-145.63750403861349,-4.840585335325319
+ridge_precio|alpha=0.01,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4266553077486298,101.61904487478951,-16.5867289909017,-0.5874400038603592
+ridge_precio|alpha=0.01,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.23024234328187446,51.6958305373696,9.419461763644495,0.6427726930347123
+ridge_precio|alpha=0.01,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.33946859584088207,57.13995661243437,11.696320375255642,0.7830778611236708
+ridge_precio|alpha=0.01,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.078884045631485,728.325351240452,110.68253419739881,7.937858618691291
+ridge_precio|alpha=0.01,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1468422939033998,535.7480981526162,-93.16366529975448,0.6134608186255264
+ridge_precio|alpha=0.01,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.9045926298959988,670.9655862742623,38.42146954839459,5.0980830713244
+ridge_precio|alpha=0.1,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3418294266571125,524.1434298039285,182.85172347332963,18.54471549960232
+ridge_precio|alpha=0.1,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0314423626253402,268.9332731257379,15.02547146015013,3.013639820222398
+ridge_precio|alpha=0.1,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7810785398931114,163.76878673037297,-19.9475288484751,0.10033423384833637
+ridge_precio|alpha=0.1,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1021398540149132,1227.3122281823682,777.8989889186714,18.356448571207608
+ridge_precio|alpha=0.1,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,1.0154106221781594,1061.8362895858297,853.2841187335907,23.652497184302966
+ridge_precio|alpha=0.1,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.0817411113908881,1181.05558488008,-119.31868672420778,4.1192325595443915
+ridge_precio|alpha=0.1,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2338322284325824,726.5761883364833,411.69968664262706,27.262615187347222
+ridge_precio|alpha=0.1,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3196329440430588,347.18828578835326,263.6112293842978,29.192309624133607
+ridge_precio|alpha=0.1,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2766259989037994,467.67944199486544,347.74416627606644,26.22631453572741
+ridge_precio|alpha=0.1,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4456261994839092,1058.8365628629024,239.03564061405154,14.712730870084497
+ridge_precio|alpha=0.1,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.790736837245458,517.9573462857022,498.9182316927894,28.88259183263267
+ridge_precio|alpha=0.1,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1441231806038616,853.1124500106343,108.2439361619086,13.403372965919768
+ridge_precio|alpha=0.1,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8168103452104656,319.2867358526434,233.95618579212595,17.936657692805667
+ridge_precio|alpha=0.1,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.0443430492389703,178.96398510277294,138.8805490251811,16.613030295471347
+ridge_precio|alpha=0.1,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.6887335505711147,148.8369118909085,21.021890304947238,3.523179795895147
+ridge_precio|alpha=0.1,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4900124696513704,660.0371303195294,-617.5039858145307,-18.370298939896884
+ridge_precio|alpha=0.1,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.4638113509569743,678.4533039863866,-678.4533039863866,-20.978784993924936
+ridge_precio|alpha=0.1,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7609851263300356,742.3908173647193,-669.2295626513942,-20.594756569963288
+ridge_precio|alpha=0.1,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1112853860220127,762.345156753633,-183.10126635795086,15.975854885059343
+ridge_precio|alpha=0.1,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.000635513544744,658.0961601630694,90.39373019619374,23.1288698250418
+ridge_precio|alpha=0.1,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2105069884401998,733.2973393065425,22.936934480907077,32.00443047011608
+ridge_precio|alpha=0.1,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8001466455519344,287.47964633004915,-2.2818276744959123,3.953837255310229
+ridge_precio|alpha=0.1,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.874125651224222,295.90761593212255,-142.8985469748456,-4.726880787904622
+ridge_precio|alpha=0.1,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9732457544031602,332.6616913157216,-145.61807698822832,-4.83924367585997
+ridge_precio|alpha=0.1,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4266576436486663,101.61973344196835,-16.578475935617963,-0.5870734992981986
+ridge_precio|alpha=0.1,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.23023658027417557,51.69453854398362,9.419959430856853,0.6427993975151038
+ridge_precio|alpha=0.1,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.3395027374738932,57.14568780099826,11.69561501525609,0.783052168596847
+ridge_precio|alpha=0.1,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.078892482683392,728.3308493315183,110.67071767402376,7.937568951133746
+ridge_precio|alpha=0.1,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.146833571449272,535.7464390018819,-93.1407054035868,0.6143383324646612
+ridge_precio|alpha=0.1,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.9046095211067262,670.9787627360868,38.425652760364166,5.09826787657525
+ridge_precio|alpha=1,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3415664628784025,524.0400845509828,182.83332357497213,18.540712144818258
+ridge_precio|alpha=1,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0310634655303113,268.83489849555946,15.008578104923595,3.011345865454845
+ridge_precio|alpha=1,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.780520992322773,163.65374154168552,-19.90219793865017,0.10266612536381892
+ridge_precio|alpha=1,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1023848695226384,1227.5792432452622,778.3560495027566,18.36382919278776
+ridge_precio|alpha=1,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,1.0152877798524678,1061.7106148769524,853.506724966167,23.657272836749108
+ridge_precio|alpha=1,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.0822131795940293,1181.5557512340183,-118.74627526039221,4.130778534405547
+ridge_precio|alpha=1,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2333520538432845,726.30371960965,411.7308615068454,27.260194520494412
+ridge_precio|alpha=1,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.3190903598803285,347.04339235705044,263.5669590107084,29.18582188869786
+ridge_precio|alpha=1,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2771338654498505,467.8702030882781,347.8757155133469,26.236910756222436
+ridge_precio|alpha=1,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.445563254731066,1058.806639902094,238.5506835457814,14.69804636389918
+ridge_precio|alpha=1,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7902169548603329,517.6098780205023,498.6287948680844,28.871824519229012
+ridge_precio|alpha=1,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.14425779240645,853.2100484449016,108.01462364643358,13.396757996430003
+ridge_precio|alpha=1,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8171993149688899,319.4372321037603,234.175847673633,17.949507767866223
+ridge_precio|alpha=1,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.0447708109505256,179.03630461023863,138.91758894208118,16.61762774060515
+ridge_precio|alpha=1,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.6890750950882163,148.91032615331264,21.06154465753493,3.527710623871809
+ridge_precio|alpha=1,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4899705514569834,660.0160625404645,-617.3231000295476,-18.363059284287157
+ridge_precio|alpha=1,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.4632611796331045,678.1903120976407,-678.1903120976407,-20.97000503311141
+ridge_precio|alpha=1,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.760705419151914,742.2720263609257,-668.9624541888634,-20.58378243285132
+ridge_precio|alpha=1,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1118661153571163,762.7294738835584,-183.97419068088965,15.971299571768618
+ridge_precio|alpha=1,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0002703250100369,657.8823727912231,89.56679837160013,23.125568912070243
+ridge_precio|alpha=1,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2110537849961998,733.6276427614275,22.247236874065585,31.996919221104246
+ridge_precio|alpha=1,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.7994317790770509,287.2192204049776,-2.1385835824683,3.9617209366157606
+ridge_precio|alpha=1,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8739626949149681,295.85604363248973,-142.74515472057305,-4.719804163322845
+ridge_precio|alpha=1,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9731563587672728,332.6477743399685,-145.4271825368157,-4.8260357316754225
+ridge_precio|alpha=1,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4266827053641247,101.62699112834294,-16.496335678768855,-0.5834245266640694
+ridge_precio|alpha=1,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.23017978244248524,51.68180519491095,9.42482752812764,0.6430606297632249
+ridge_precio|alpha=1,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.3398400537517109,57.20231475681025,11.68892232848375,0.7828133581873297
+ridge_precio|alpha=1,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0789748107140513,728.3845589584076,110.5568025344564,7.934769544648628
+ridge_precio|alpha=1,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1467434982666675,535.728253890082,-92.91191994759401,0.6230655885538539
+ridge_precio|alpha=1,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.9047738637149472,671.1071115991797,38.47034820729791,5.100161972606417
+ridge_precio|alpha=10,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.339108958292335,523.0747111180017,182.63536328791287,18.50427538122711
+ridge_precio|alpha=10,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0281045600389793,268.06801453761966,14.876728286038723,2.9927219957538265
+ridge_precio|alpha=10,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7758697569339936,162.69572517513612,-19.43746605713445,0.12820567233538346
+ridge_precio|alpha=10,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1045309008080912,1229.916777479939,782.3043042135176,18.428176775211274
+ridge_precio|alpha=10,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,1.014137514397477,1060.531805877162,855.1665977557675,23.692080916948616
+ridge_precio|alpha=10,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.08634063204491,1185.935760191039,-113.59611253772837,4.234283813191294
+ridge_precio|alpha=10,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2289954072232687,723.8188159042384,411.8411311368318,27.22997423665381
+ridge_precio|alpha=10,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.314046848244021,345.69448216709543,263.0469360163912,29.11564784991661
+ridge_precio|alpha=10,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.280888331394629,469.2852717560096,348.89050504745455,26.3184038184841
+ridge_precio|alpha=10,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.445149690459505,1058.6434812874584,234.18546215202568,14.566127514855323
+ridge_precio|alpha=10,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7862732962816652,514.9752646906751,495.9471665355797,28.769012369960738
+ridge_precio|alpha=10,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1455104605323239,854.1227180276874,105.9875401104292,13.338273015947788
+ridge_precio|alpha=10,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.820149293550729,320.5828376183282,235.9927102982794,18.056553316887975
+ridge_precio|alpha=10,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.047844636064595,179.55626032961374,139.22079333900408,16.65403781665761
+ridge_precio|alpha=10,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.6919771203828503,149.5366207954299,21.43771863540769,3.5699711060385706
+ridge_precio|alpha=10,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4892239661854407,659.6846440932035,-615.43310912017,-18.28757386407756
+ridge_precio|alpha=10,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.457676529495806,675.5429339415763,-675.5429339415763,-20.8811611908898
+ridge_precio|alpha=10,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.757829265222363,741.0830335391595,-666.3114091777055,-20.4733500241382
+ridge_precio|alpha=10,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.1170900489840572,766.195821126997,-191.73548338081747,15.936942018975738
+ridge_precio|alpha=10,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,0.9968566310385583,655.8808603775606,82.15429899089058,23.098706519455686
+ridge_precio|alpha=10,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.21596279618375,736.5945638695506,16.15702544616338,31.93946273639059
+ridge_precio|alpha=10,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.7941001678680749,285.27074671367956,-1.0262955385773238,4.025398644711147
+ridge_precio|alpha=10,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8724823987180595,295.38750788477694,-141.2726826806072,-4.652432625715648
+ridge_precio|alpha=10,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9728626201131847,332.6841520285752,-143.79195052319525,-4.711042665667612
+ridge_precio|alpha=10,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.42706699469561576,101.72862554879097,-15.710427141329045,-0.5484102326226195
+ridge_precio|alpha=10,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.22968185965676896,51.57017807775628,9.464630235076038,0.6451981849862193
+ridge_precio|alpha=10,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.3428639467380218,57.71022915255592,11.650596376217141,0.7818558413842429
+ridge_precio|alpha=10,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0796357205017224,728.8209142834439,109.76942318236084,7.914857740590145
+ridge_precio|alpha=10,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1456055501066764,535.4134327114161,-90.69644146168403,0.7061682884022785
+ridge_precio|alpha=10,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.9060416111919392,672.1095701899116,39.14861528851161,5.122771720733519
+ridge_precio|alpha=100,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3237158696102687,517.0353613461233,181.0631225411539,18.32433360616277
+ridge_precio|alpha=100,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0253555855665037,267.4133871505487,15.086539506742929,2.968401641767452
+ridge_precio|alpha=100,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7599255530562613,159.47712721291666,-14.637398489591465,0.44338746963546083
+ridge_precio|alpha=100,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1154469767938646,1241.7345542967291,800.3160882230216,18.739570665274904
+ridge_precio|alpha=100,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,1.0046041222134554,1050.6842120077395,853.7123705865157,23.625058320371103
+ridge_precio|alpha=100,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.1064930271149307,1207.5215373795013,-82.44063518984713,4.844184682735745
+ridge_precio|alpha=100,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.2001788931133563,707.0176154727644,406.4450640024841,26.75199223628083
+ridge_precio|alpha=100,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.277640571953628,335.91604985116567,255.8319457274034,28.299184746497257
+ridge_precio|alpha=100,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.2759246195188167,467.5870832037538,348.5496783079169,26.30065836780276
+ridge_precio|alpha=100,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4451346739240107,1059.2546581378115,207.6079226170068,13.77103299813564
+ridge_precio|alpha=100,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7731281225831323,506.29060886224386,475.69811243444684,27.89076575766559
+ridge_precio|alpha=100,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1518322350604635,858.821371921106,93.31354785908165,12.94951910316556
+ridge_precio|alpha=100,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.8185796177250257,320.144526598919,240.28308884839808,18.343018969653873
+ridge_precio|alpha=100,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,1.0402312365537707,178.26365658831622,139.64130821751112,16.668114102753655
+ridge_precio|alpha=100,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7048538248237138,152.39177237381978,23.903117399052555,3.8385369707437285
+ridge_precio|alpha=100,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4748125657403133,653.9630296378934,-596.2522352699538,-17.520284789770308
+ridge_precio|alpha=100,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.4050564825320795,651.2052614733211,-651.2052614733211,-20.04978401780877
+ridge_precio|alpha=100,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.7315098282575618,731.104939716273,-643.1914075483921,-19.45736145120333
+ridge_precio|alpha=100,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.149250173249143,787.8873679394138,-233.42538214530094,16.042335758266333
+ridge_precio|alpha=100,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.0336581464262213,679.9655280278832,39.67667242500274,23.088187329420542
+ridge_precio|alpha=100,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.2461160534349087,754.8924468751926,-15.491215016685283,32.01206677802263
+ridge_precio|alpha=100,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,0.8046687805942367,288.89486812716916,0.5914025480176406,4.214389472690071
+ridge_precio|alpha=100,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8624153265424012,292.1946533847913,-129.25236927710975,-4.12056501042391
+ridge_precio|alpha=100,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,0.9832735278946426,336.636418629971,-135.66720431012968,-4.102238176787036
+ridge_precio|alpha=100,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4333974166493551,103.24768821877728,-9.740460829761059,-0.2797644675708568
+ridge_precio|alpha=100,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.2272296014160519,51.02071487269143,9.58592284022286,0.6518274857173721
+ridge_precio|alpha=100,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.3598980997779854,60.58108669656308,12.014394421458928,0.8086372921736221
+ridge_precio|alpha=100,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.0823766419848408,730.8236481690526,112.73883216925564,7.970447155563462
+ridge_precio|alpha=100,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.1276821183534258,528.3654052631313,-72.60033525110494,1.3391980779529855
+ridge_precio|alpha=100,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.9075732080487681,673.7238668091593,51.66298780350176,5.427159285062584
+ridge_precio|alpha=1000,P01,M01,Chócolo mazorca,"Bogotá, D.C., Corabastos",10.0,1.3105446605420181,511.7451829687914,177.0894106813917,18.327077657400604
+ridge_precio|alpha=1000,P01,M02,Chócolo mazorca,"Medellín, Central Mayorista de Antioquia",10.0,1.0652778040990236,278.1404334053383,20.14833354748505,3.2350984675558454
+ridge_precio|alpha=1000,P01,M03,Chócolo mazorca,"Bucaramanga, Centroabastos",10.0,0.7571120881516367,159.18066530711633,7.165617287552527,2.0032696100193856
+ridge_precio|alpha=1000,P02,M01,Arveja verde en vaina,"Bogotá, D.C., Corabastos",10.0,1.1307532258485058,1257.5191818326728,806.1621268952646,18.893949031134625
+ridge_precio|alpha=1000,P02,M02,Arveja verde en vaina,"Medellín, Central Mayorista de Antioquia",10.0,0.9405751896223986,983.6553111921037,780.8942309895607,21.81432696921357
+ridge_precio|alpha=1000,P02,M03,Arveja verde en vaina,"Bucaramanga, Centroabastos",10.0,1.0910848842079601,1192.3036399112325,4.142290625205533,6.436332411793972
+ridge_precio|alpha=1000,P03,M01,Lechuga Batavia,"Bogotá, D.C., Corabastos",10.0,1.095017633932432,643.6879763381299,352.79711749380886,23.338056484044355
+ridge_precio|alpha=1000,P03,M02,Lechuga Batavia,"Medellín, Central Mayorista de Antioquia",10.0,1.112041659285166,291.6521766575106,211.61136391779442,23.588220812707743
+ridge_precio|alpha=1000,P03,M03,Lechuga Batavia,"Bucaramanga, Centroabastos",10.0,1.1430749481631488,418.9053462086599,313.61969889248076,23.760390613397483
+ridge_precio|alpha=1000,P04,M01,Habichuela,"Bogotá, D.C., Corabastos",10.0,1.4116973964782107,1035.5068315433828,107.69481979482926,10.734575868756927
+ridge_precio|alpha=1000,P04,M02,Habichuela,"Medellín, Central Mayorista de Antioquia",10.0,0.7387165190822671,484.2148221052119,379.3171544793762,23.370057325277195
+ridge_precio|alpha=1000,P04,M03,Habichuela,"Bucaramanga, Centroabastos",10.0,1.1314010383903053,843.8955206464556,23.907269302259692,10.460012923254943
+ridge_precio|alpha=1000,P05,M01,Ahuyama,"Bogotá, D.C., Corabastos",10.0,0.7550415799986202,296.5223544034576,219.1388503456514,17.30552748265305
+ridge_precio|alpha=1000,P05,M02,Ahuyama,"Medellín, Central Mayorista de Antioquia",10.0,0.8962747137183207,153.68533196246779,131.14412245899115,15.394848065653052
+ridge_precio|alpha=1000,P05,M03,Ahuyama,"Bucaramanga, Centroabastos",10.0,0.7679027788020978,166.33271042437002,30.25803033514951,4.577380823335405
+ridge_precio|alpha=1000,P06,M01,Piña gold,"Bogotá, D.C., Corabastos",10.0,1.4249796705820075,636.4007806282053,-506.13007278117504,-13.7683943840094
+ridge_precio|alpha=1000,P06,M02,Piña gold,"Medellín, Central Mayorista de Antioquia",10.0,1.2224850455186729,568.5311401196547,-543.586200941853,-16.279006690628066
+ridge_precio|alpha=1000,P06,M03,Piña gold,"Bucaramanga, Centroabastos",10.0,1.6464077901413805,702.4817865184278,-542.2373484777877,-14.676312014913401
+ridge_precio|alpha=1000,P07,M01,Limón Tahití,"Bogotá, D.C., Corabastos",10.0,1.5783275522376243,1079.1138708547983,-353.85121586996036,20.563871769924326
+ridge_precio|alpha=1000,P07,M02,Limón Tahití,"Medellín, Central Mayorista de Antioquia",10.0,1.5467833587748558,1010.4107527834861,-107.3017928997975,25.629481083239753
+ridge_precio|alpha=1000,P07,M03,Limón Tahití,"Bucaramanga, Centroabastos",10.0,1.5458249452167254,934.257755159893,-104.37133578888049,36.45735066970684
+ridge_precio|alpha=1000,P08,M01,Guayaba pera,"Bogotá, D.C., Corabastos",10.0,1.005152795708174,359.73044596862354,-7.183052464430352,4.691546755689469
+ridge_precio|alpha=1000,P08,M02,Guayaba pera,"Medellín, Central Mayorista de Antioquia",10.0,0.8161281047811219,277.5189612453136,-73.83850373323862,-1.7241234264315404
+ridge_precio|alpha=1000,P08,M03,Guayaba pera,"Bucaramanga, Centroabastos",10.0,1.0289665474937124,352.43419242743624,-99.96225299420396,-1.4994951134670786
+ridge_precio|alpha=1000,P09,M01,Banano criollo,"Bogotá, D.C., Corabastos",10.0,0.4461149220267765,106.10730310131143,11.202319946440957,0.662990151755608
+ridge_precio|alpha=1000,P09,M02,Banano criollo,"Medellín, Central Mayorista de Antioquia",10.0,0.23079335756375055,51.853491317617134,9.00034387452356,0.6188562777206397
+ridge_precio|alpha=1000,P09,M03,Banano criollo,"Bucaramanga, Centroabastos",10.0,0.4363426168101185,73.43521485026709,14.81508126467802,0.9881824228740389
+ridge_precio|alpha=1000,P10,M01,Plátano hartón verde,"Bogotá, D.C., Corabastos",10.0,1.1012593394051486,744.0646584187792,147.22128354441006,8.672105612539474
+ridge_precio|alpha=1000,P10,M02,Plátano hartón verde,"Medellín, Central Mayorista de Antioquia",10.0,1.0187811438090502,481.23941778426325,2.0759628721168157,3.7612131387125705
+ridge_precio|alpha=1000,P10,M03,Plátano hartón verde,"Bucaramanga, Centroabastos",10.0,0.896701692831875,666.8533327716603,119.68511028084849,6.91197331495416

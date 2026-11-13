@@ -1,0 +1,138 @@
+[
+  {
+    "tipo": "abastecimiento",
+    "year": 2018,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2018.xlsx",
+    "local_path": "raw/abastecimiento/2018.xlsx",
+    "sha256": "805d3de754da104813b6a717a6464dfb8ed0ff2a1b11ec0e6ffaa6137209a583",
+    "bytes": 90323508
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2019,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2019.xlsx",
+    "local_path": "raw/abastecimiento/2019.xlsx",
+    "sha256": "def6a96058d56bea99663d9fdd5f2dcebd2a85af4fc487807dc24089773bd777",
+    "bytes": 93012365
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2020,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2020.xlsx",
+    "local_path": "raw/abastecimiento/2020.xlsx",
+    "sha256": "bb28aa715c6642ed2ec30c251c5cd7f022bb2e2ae34126f6c0424705f64372b8",
+    "bytes": 95409078
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2021,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2021.xlsx",
+    "local_path": "raw/abastecimiento/2021.xlsx",
+    "sha256": "8ff33af2ef1c7b7935f65138a61e041cfb7f41841ada6d36c509bae3cb691e76",
+    "bytes": 76636226
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2022,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2022.xlsx",
+    "local_path": "raw/abastecimiento/2022.xlsx",
+    "sha256": "127062bff3b7e00ca3a1fcfa7590842bb6f83c1c9a34cd58c88d26009e368bdf",
+    "bytes": 76981142
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2023,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/microdato-abastecimiento-2023.xlsx",
+    "local_path": "raw/abastecimiento/2023.xlsx",
+    "sha256": "98f42cd3cc618b9413e5485a180b1c85a8477d69b9657d613da2e499a9f24d1a",
+    "bytes": 84759159
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2024,
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-Microdato-abastecimiento-2024.xlsx",
+    "local_path": "raw/abastecimiento/2024.xlsx",
+    "sha256": "a498a8fd80c4b0e0305f95aac301983ef3b7e8dcbc2c24517f26f0c427ef4354",
+    "bytes": 109416241
+  },
+  {
+    "tipo": "abastecimiento",
+    "year": 2025,
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-Microdato-abastecimiento-2025.xlsx",
+    "local_path": "raw/abastecimiento/2025.xlsx",
+    "sha256": "b55b88d464939b846bb4aa6814019ac61bf6f59f624c946d34ccd273414fe0b4",
+    "bytes": 106163541
+  },
+  {
+    "tipo": "precios",
+    "year": 2018,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2018.xlsx",
+    "local_path": "raw/precios/2018.xlsx",
+    "sha256": "fb6d5349f80f42305261160bf6beb906d07af4f429b5f68c3247c69aaa162d12",
+    "bytes": 1665906
+  },
+  {
+    "tipo": "precios",
+    "year": 2019,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2019.xlsx",
+    "local_path": "raw/precios/2019.xlsx",
+    "sha256": "b6a22e980e7911f9ca741e2a1e7ba2f53ce6775085a293052ef89f532e70832d",
+    "bytes": 1902793
+  },
+  {
+    "tipo": "precios",
+    "year": 2020,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2020.xlsx",
+    "local_path": "raw/precios/2020.xlsx",
+    "sha256": "53e6de3b4c5308b2fc1bd135b39871531ff40a636e2f4c7fc5bcffcf57e65fbc",
+    "bytes": 1953147
+  },
+  {
+    "tipo": "precios",
+    "year": 2021,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2021.xlsx",
+    "local_path": "raw/precios/2021.xlsx",
+    "sha256": "4a460f246bacc4ffc86c235dbef0a043c9ee3b2a7e43ceb0ef3373cab7d2fa09",
+    "bytes": 1891107
+  },
+  {
+    "tipo": "precios",
+    "year": 2022,
+    "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2022.xlsx",
+    "local_path": "raw/precios/2022.xlsx",
+    "sha256": "1e299bc44280121eb79d0de4678a1888e92f1aaa1d6195027da69c3d55f47110",
+    "bytes": 1600719
+  },
+  {
+    "tipo": "precios",
+    "year": 2023,
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-SIPSA-SerieHistoricaMayorista-Dic2023.xlsx",
+    "local_path": "raw/precios/2023.xlsx",
+    "sha256": "15230ac8d4046644016770db4d885f49bc76a429673a5369bb014d4b4476c78e",
+    "bytes": 1755768
+  },
+  {
+    "tipo": "precios",
+    "year": 2024,
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-SIPSA-SerieHistoricaMayorista-2024.xlsx",
+    "local_path": "raw/precios/2024.xlsx",
+    "sha256": "081276b031fd517cf137c0c2e5ab1ff6364b7c5d40915dfccf0f4cb972087838",
+    "bytes": 1656271
+  },
+  {
+    "tipo": "precios",
+    "year": 2025,
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-SIPSA-SerieHistoricaMayorista-2025.xlsx",
+    "local_path": "raw/precios/2025.xlsx",
+    "sha256": "235a93317d9845fd6ce31c5060e9fabc478dd7686e5dd3a3833c674eef7c4c8a",
+    "bytes": 1778462
+  },
+  {
+    "tipo": "historico_agregado",
+    "year": null,
+    "url": "https://www.dane.gov.co/files/operaciones/SIPSA/Series-historicas-abastecimiento-2013-2026.xlsx",
+    "local_path": "raw/historico_abastecimiento.xlsx",
+    "sha256": "6893be7fcbd72780da92bda321c9a522f958c18c6de4989dc2ce38136649935e",
+    "bytes": 881635
+  }
+]

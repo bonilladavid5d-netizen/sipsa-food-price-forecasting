@@ -1,0 +1,17 @@
+{
+  "tipo": "precios",
+  "etiqueta": "Series históricas precios mayoristas (2019)",
+  "url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2019.xlsx",
+  "portal": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/mayoristas-boletin-mensual-1",
+  "portal_sha256": "d6fb3732f1cf52c1f104957a42e163dd77fa05fdcc98afada4a3fcadfbb18879",
+  "retrieved_at": "2026-11-11T15:02:04.953482+00:00",
+  "year": 2019,
+  "local_path": "raw/precios/2019.xlsx",
+  "resolved_url": "https://www.dane.gov.co/files/investigaciones/agropecuario/sipsa/series-historicas/series-historicas-precios-mayoristas-2019.xlsx",
+  "sha256": "b6a22e980e7911f9ca741e2a1e7ba2f53ce6775085a293052ef89f532e70832d",
+  "bytes": 1902793,
+  "http_last_modified": null,
+  "http_content_type": null,
+  "historical_release_at": null,
+  "vintage_status": "current_snapshot_not_historical_vintage"
+}
